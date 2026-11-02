@@ -1,0 +1,178 @@
+{
+ "block": "block3",
+ "track": "108 VOX1_01",
+ "source_lyric": "She said where I'm from, I told her I'm not around.",
+ "board_window_srt_s": [
+  30.14,
+  33.42
+ ],
+ "timing_source": "house whisper-large-v3 on the bounce (two overlapping segments, onsets cross-checked, +-~0.15s); bounce sings ahead of the SRT grid",
+ "landing_rule": "landing = onset - 2 frames @ 30fps",
+ "model": "muse-wonder-1.0",
+ "generated_ct": "2026-11-01T14:44:46-06:00",
+ "api_routes": [
+  "non-streaming"
+ ],
+ "receipt_request_ids": [
+  "resp_6ae7a4bd62beb94b5b2b46c7"
+ ],
+ "lines": [
+  {
+   "line_id": "block3-line1",
+   "display_groups": [
+    {
+     "words": [
+      "SHE",
+      "SAID"
+     ],
+     "motion": "punch_in"
+    },
+    {
+     "words": [
+      "WHERE"
+     ],
+     "motion": "punch_in"
+    },
+    {
+     "words": [
+      "I'M",
+      "FROM"
+     ],
+     "motion": "stack_build"
+    }
+   ],
+   "placement": "left",
+   "hero_word": "FROM",
+   "hero_color": {
+    "hero_word": "FROM",
+    "hero_fill": "#FF3B1F",
+    "others_fill": "#F2EDE4"
+   },
+   "effects": {
+    "scatter": false,
+    "hero_demoted": false
+   },
+   "size_tiers_px": [
+    150,
+    230,
+    400
+   ],
+   "redlight": false,
+   "reason": "Her question goes left and builds to FROM, which ends the phrase biggest.",
+   "landings": [
+    {
+     "word": "SHE",
+     "onset_s": 30.26,
+     "landing_s": 30.193,
+     "landing_frame": 906
+    },
+    {
+     "word": "SAID",
+     "onset_s": 30.45,
+     "landing_s": 30.383,
+     "landing_frame": 912
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 30.84,
+     "landing_s": 30.773,
+     "landing_frame": 923
+    },
+    {
+     "word": "I'M",
+     "onset_s": 31.05,
+     "landing_s": 30.983,
+     "landing_frame": 930
+    },
+    {
+     "word": "FROM",
+     "onset_s": 31.32,
+     "landing_s": 31.253,
+     "landing_frame": 938
+    }
+   ]
+  },
+  {
+   "line_id": "block3-line2",
+   "display_groups": [
+    {
+     "words": [
+      "I",
+      "TOLD",
+      "HER"
+     ],
+     "motion": "punch_in"
+    },
+    {
+     "words": [
+      "I'M",
+      "NOT"
+     ],
+     "motion": "punch_in"
+    },
+    {
+     "words": [
+      "AROUND"
+     ],
+     "motion": "punch_in"
+    }
+   ],
+   "placement": "right",
+   "hero_word": "AROUND",
+   "hero_color": {
+    "hero_word": "AROUND",
+    "hero_fill": "#FF3B1F",
+    "others_fill": "#F2EDE4"
+   },
+   "effects": {
+    "scatter": false,
+    "hero_demoted": false
+   },
+   "size_tiers_px": [
+    150,
+    230,
+    400
+   ],
+   "redlight": false,
+   "reason": "His reply goes right, opposite hers, and AROUND lands alone as the biggest word.",
+   "landings": [
+    {
+     "word": "I",
+     "onset_s": 31.77,
+     "landing_s": 31.703,
+     "landing_frame": 951
+    },
+    {
+     "word": "TOLD",
+     "onset_s": 31.9,
+     "landing_s": 31.833,
+     "landing_frame": 955
+    },
+    {
+     "word": "HER",
+     "onset_s": 32.16,
+     "landing_s": 32.093,
+     "landing_frame": 963
+    },
+    {
+     "word": "I'M",
+     "onset_s": 32.39,
+     "landing_s": 32.323,
+     "landing_frame": 970
+    },
+    {
+     "word": "NOT",
+     "onset_s": 32.67,
+     "landing_s": 32.603,
+     "landing_frame": 978
+    },
+    {
+     "word": "AROUND",
+     "onset_s": 32.96,
+     "landing_s": 32.893,
+     "landing_frame": 987
+    }
+   ]
+  }
+ ]
+}

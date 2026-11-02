@@ -1,0 +1,199 @@
+{
+  "block": "block3-cue4",
+  "track": "108 VOX1_01",
+  "source_lyric": "Then I asked where she from, she said no way.",
+  "board_window_srt_s": [
+    33.86,
+    36.88
+  ],
+  "timing_source": "house whisper-large-v3 on the bounce (two overlapping segments 31.0-38.5 / 32.5-39.5, onsets cross-checked <=0.02s on 8 of 10 words, +-~0.15s); bounce sings ahead of the SRT grid",
+  "landing_rule": "landing = onset - 2 frames @ 30fps",
+  "model": "muse-wonder-1.0",
+  "generated_ct": "2026-11-01T17:51:45-06:00",
+  "api_routes": [
+    "non-streaming",
+    "non-streaming",
+    "non-streaming"
+  ],
+  "receipt_request_ids": [
+    "resp_6ae7d0747d868349108a44e6",
+    "resp_6ae7d07bb119e4e3fce34f41",
+    "resp_6ae7d09128b3b756dbcb4d37"
+  ],
+  "lines": [
+    {
+      "line_id": "block3-line3",
+      "display_groups": [
+        {
+          "words": [
+            "THEN",
+            "I",
+            "ASKED"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "WHERE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SHE",
+            "FROM"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "FROM",
+      "hero_color": {
+        "hero_word": null,
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4",
+        "demoted_from": "FROM",
+        "reason": "repeat_hero_in_block"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": true
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "His question goes left like the earlier one and builds to FROM.",
+      "landings": [
+        {
+          "word": "THEN",
+          "onset_s": 33.28,
+          "landing_s": 33.213,
+          "landing_frame": 996
+        },
+        {
+          "word": "I",
+          "onset_s": 34.08,
+          "landing_s": 34.013,
+          "landing_frame": 1020
+        },
+        {
+          "word": "ASKED",
+          "onset_s": 34.24,
+          "landing_s": 34.173,
+          "landing_frame": 1025
+        },
+        {
+          "word": "WHERE",
+          "onset_s": 34.56,
+          "landing_s": 34.493,
+          "landing_frame": 1035
+        },
+        {
+          "word": "SHE",
+          "onset_s": 34.74,
+          "landing_s": 34.673,
+          "landing_frame": 1040
+        },
+        {
+          "word": "FROM",
+          "onset_s": 34.89,
+          "landing_s": 34.823,
+          "landing_frame": 1045
+        }
+      ]
+    },
+    {
+      "line_id": "block3-line4",
+      "display_groups": [
+        {
+          "words": [
+            "SHE",
+            "SAID"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "NO"
+          ],
+          "motion": "punch_in"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "NO",
+      "hero_color": {
+        "hero_word": "NO",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        400
+      ],
+      "redlight": false,
+      "reason": "Her reply goes right and builds to NO.",
+      "landings": [
+        {
+          "word": "SHE",
+          "onset_s": 35.14,
+          "landing_s": 35.073,
+          "landing_frame": 1052
+        },
+        {
+          "word": "SAID",
+          "onset_s": 35.63,
+          "landing_s": 35.563,
+          "landing_frame": 1067
+        },
+        {
+          "word": "NO",
+          "onset_s": 35.87,
+          "landing_s": 35.803,
+          "landing_frame": 1074
+        }
+      ]
+    },
+    {
+      "line_id": "block3-line5",
+      "display_groups": [
+        {
+          "words": [
+            "WAY"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "WAY",
+      "hero_color": {
+        "hero_word": "WAY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": true,
+      "reason": "WAY fills the frame alone over the black as the song pulls up before the bridge.",
+      "landings": [
+        {
+          "word": "WAY",
+          "onset_s": 36.12,
+          "landing_s": 36.053,
+          "landing_frame": 1082
+        }
+      ]
+    }
+  ]
+}
