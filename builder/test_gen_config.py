@@ -11,6 +11,7 @@ Covers the Nov 1 code-review fixes:
 Run from anywhere:  python3 builder/test_gen_config.py
 """
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -28,8 +29,17 @@ def t4(frame):
 
 
 def run_gen(input_path):
+    # gen_config resolves its save destination through
+    # builder/paths.workdir(), which requires BRICKHOUSE_WORKDIR at run
+    # time (no machine defaults). The suite must also pass in an
+    # environment where the var is unset, so hand the generator
+    # subprocess a hermetic scratch workdir; the save op's path is the
+    # only thing it is used for here, and it is never executed.
+    env = dict(os.environ)
+    env["BRICKHOUSE_WORKDIR"] = tempfile.mkdtemp(
+        prefix="gen-config-workdir-")
     r = subprocess.run([sys.executable, str(SCRIPT), str(input_path)],
-                       capture_output=True, text=True)
+                       capture_output=True, text=True, env=env)
     assert r.returncode == 0, f"gen_config failed: {r.stderr}"
     return json.loads(BUILD_OUT.read_text())["ops"]
 

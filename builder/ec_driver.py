@@ -4,12 +4,15 @@ Modes live in the config: a list of {tool, args} calls executed in order,
 each result emitted as an ECJ line. Soft errors are captured, not fatal,
 unless an op is marked "hard": true.
 """
-import json, os, subprocess, sys
+import json, subprocess, sys
+from pathlib import Path
 
-EC_BIN = os.environ.get("EFFECTCRAFT_CLI", "/Volumes/STICK/BrickHouse/build-2026-10-26/effectcraft-target/macos-package/bin/effectcraft-cli")
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import ec_cli  # noqa: E402
+
 CONFIG = json.load(open(sys.argv[1]))
 
-proc = subprocess.Popen([EC_BIN, "mcp"], stdin=subprocess.PIPE,
+proc = subprocess.Popen([ec_cli(), "mcp"], stdin=subprocess.PIPE,
                         stdout=subprocess.PIPE, text=True, bufsize=1)
 _id = [0]
 

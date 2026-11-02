@@ -61,8 +61,8 @@ No API key is needed — the tests never call the Meta APIs.
 | Variable | Used by | Meaning |
 |---|---|---|
 | `MODEL_API_KEY` | `sam_api.py` (`client()`) | Meta Model API key for live SAM/Wonder calls. Read from the environment at runtime; on macOS it falls back to the keychain entry the client was developed against. Never stored in this repo. |
-| `BRICKHOUSE_WORKDIR` | `builder/gen_config.py`, `builder/rollout/*.py` | Directory holding the EffectCraft lyric-type projects (`.ecproj`). Defaults to the original build machine's workdir. |
-| `EFFECTCRAFT_CLI` | `builder/ec_driver.py` | Path to the `effectcraft-cli` binary. Defaults to the original build machine's package path. |
+| `BRICKHOUSE_WORKDIR` | `builder/gen_config.py`, `builder/rollout/*.py` | Directory holding the EffectCraft lyric-type projects (`.ecproj`). Required, with no default: `builder/paths.py` raises a clear error naming the var when it is unset. The offline tests do not need it. |
+| `EFFECTCRAFT_CLI` | `builder/ec_driver.py` | Path to the `effectcraft-cli` binary. Required, with no default: `builder/paths.py` raises a clear error naming the var when it is unset. The offline tests do not need it. |
 
 ## Contributors
 

@@ -13,8 +13,11 @@ landings list), never by word text, so a repeated word keeps its own landing.
 """
 import argparse
 import json
-import os
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from paths import workdir  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_INPUT = REPO_ROOT / "director_out" / "block3.json"
@@ -28,7 +31,15 @@ _args = _parser.parse_args()
 D = json.load(open(_args.input or DEFAULT_INPUT))
 LINE = [l for l in D["lines"] if l["line_id"] == "block3-line1"][0]
 COMP = "block3_line1_she_said_where_im_from"
-OUT = str(Path(os.environ.get("BRICKHOUSE_WORKDIR", "/Volumes/STICK/BrickHouse/lyric-type-2026-10-31")) / "108-lyric-type-block3-director.ecproj")
+def _out_path():
+    """Save destination for the generated project (call-time only).
+
+    Resolved through builder/paths.workdir(), which requires
+    BRICKHOUSE_WORKDIR -- deliberately not a module-level constant,
+    so importing or test-driving this generator never touches
+    machine config."""
+    return str(workdir() / "108-lyric-type-block3-director.ecproj")
+
 BASELINES = [280, 500, 890]          # template tier baselines (line 1, read back)
 X0 = 120                             # template left margin (layer position x)
 SUB_RATIO = 0.8                      # 320 beside 400 (line-1 A/LIGHT precedent)
@@ -97,7 +108,7 @@ for gi, group in enumerate(LINE["display_groups"]):
         flat += 1
 
 op("comp_readback", "get_comp", {"comp": COMP})
-op("save", "save_project", {"path": OUT}, hard=True)
+op("save", "save_project", {"path": _out_path()}, hard=True)
 json.dump({"ops": ops}, open("/tmp/subc_build.json", "w"), indent=1)
 print(f"config written: {len(ops)} ops")
 print("sizes:", [(w, (tiers[gi] if w == hero or hero not in g['words'] else round(tiers[gi]*SUB_RATIO)))

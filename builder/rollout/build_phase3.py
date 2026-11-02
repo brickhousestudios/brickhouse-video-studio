@@ -17,11 +17,13 @@ Emits EC driver configs: build-b2-v3.json, build-b3-v3.json,
 render-b2-v3.json (comp A only — comp B reused), render-b3-v3.json.
 """
 import json
-import os
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from paths import workdir  # noqa: E402
+
 HERE = Path(__file__).parent
-M2 = os.environ.get("BRICKHOUSE_WORKDIR", "/Volumes/STICK/BrickHouse/lyric-type-2026-10-31")
 OW = "#F2EDE4"
 HDR = "DRIZZZ  \u2022  108  \u2022  BRICKHOUSE STUDIOS"
 
@@ -87,13 +89,13 @@ def build_b2():
     for w in ("I", "SAID"):
         white_treatment(cfg, w, 3, f"B-{w}")
     header(cfg, "B")
-    cfg.op("save", "save_project", {"path": f"{M2}/108-lyric-type-block2-v6.ecproj"}, hard=True)
+    cfg.op("save", "save_project", {"path": f"{workdir()}/108-lyric-type-block2-v6.ecproj"}, hard=True)
     json.dump({"ops": cfg.ops}, open(HERE / "build-b2-v3.json", "w"), indent=1)
     print("build-b2-v3:", len(cfg.ops), "ops")
 
 def render_b2():
     cfg = Cfg()
-    cfg.op("open", "open_project", {"path": f"{M2}/108-lyric-type-block2-v6.ecproj"}, hard=True)
+    cfg.op("open", "open_project", {"path": f"{workdir()}/108-lyric-type-block2-v6.ecproj"}, hard=True)
     for f in range(75):
         cfg.op(f"b2a3-r{f:03d}", "render_frame",
                {"comp": "block2_she_pulled_down_the_window", "time": t4(f),
@@ -121,13 +123,13 @@ def build_b3():
     # FROM_L0_1: DEMOTED (repeat-hero budget) -> off-white + G3.
     white_treatment(cfg, "FROM_L0_1", 3, "C4-FROM")
     header(cfg, "C4")
-    cfg.op("save", "save_project", {"path": f"{M2}/108-lyric-type-block3-take2-v5.ecproj"}, hard=True)
+    cfg.op("save", "save_project", {"path": f"{workdir()}/108-lyric-type-block3-take2-v5.ecproj"}, hard=True)
     json.dump({"ops": cfg.ops}, open(HERE / "build-b3-v3.json", "w"), indent=1)
     print("build-b3-v3:", len(cfg.ops), "ops")
 
 def render_b3():
     cfg = Cfg()
-    cfg.op("open", "open_project", {"path": f"{M2}/108-lyric-type-block3-take2-v5.ecproj"}, hard=True)
+    cfg.op("open", "open_project", {"path": f"{workdir()}/108-lyric-type-block3-take2-v5.ecproj"}, hard=True)
     for comp, n, tag in (("block3_line1_she_said_where_im_from", 60, "b3l13"),
                          ("block3_line2_i_told_her_im_not_around", 48, "b3l23"),
                          ("block3_cue4_no_way", 108, "b3c43")):

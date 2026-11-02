@@ -4,12 +4,15 @@ layers of a fresh copy of the concept-alt project, Save-As
 108-lyric-type-TEMPLATE-V2.ecproj, render comp frames f0..f70.
 Emits the EC driver config JSON on stdout."""
 import json
-import os
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from paths import workdir  # noqa: E402
 
 WHITE = ["AND", "I", "STOP", "AT", "A"]
 COMP = "line1_and_i_stop_at_a_light_REDLIGHT_V3"
 SRC = "/tmp/tv2-base.ecproj"
-OUT = os.environ.get("BRICKHOUSE_WORKDIR", "/Volumes/STICK/BrickHouse/lyric-type-2026-10-31") + "/108-lyric-type-TEMPLATE-V2.ecproj"
 
 def t4(f):
     return round(f / 30.0, 4)
@@ -32,7 +35,7 @@ for w in WHITE:
     op(f"{w}-ds2-dist", "set_property", {"layer": w, "path": "effects/#3/distance", "value": 0})
     op(f"{w}-ds2-soft", "set_property", {"layer": w, "path": "effects/#3/softness", "value": 180})
     op(f"{w}-ds2-dir", "set_property", {"layer": w, "path": "effects/#3/direction", "value": 135})
-op("save", "save_project", {"path": OUT}, hard=True)
+op("save", "save_project", {"path": str(workdir() / "108-lyric-type-TEMPLATE-V2.ecproj")}, hard=True)
 for f in range(71):
     op(f"r{f:03d}", "render_frame", {"comp": COMP, "time": t4(f), "path": f"/tmp/l1v2/f{f:03d}.png", "max_side": 1920})
 print(json.dumps({"ops": ops}))

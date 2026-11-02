@@ -4,9 +4,12 @@ layers of a COPY of the concept-alt project), base64 them, and emit the M2
 shell script that runs them. The caller relays the script via M4->M2 SSH."""
 import base64
 import json
-import os
+import sys
+from pathlib import Path
 
-WORKDIR = os.environ.get("BRICKHOUSE_WORKDIR", "/Volumes/STICK/BrickHouse/lyric-type-2026-10-31")
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from paths import workdir  # noqa: E402
+
 
 WHITE = ["AND", "I", "STOP", "AT", "A"]
 COMP = "line1_and_i_stop_at_a_light_REDLIGHT_V3"
@@ -52,8 +55,8 @@ for name, v in VARIANTS.items():
     cfg = json.dumps(build(name, v))
     b64 = base64.b64encode(cfg.encode()).decode()
     lines.append(f"echo {b64} | base64 -d > /tmp/grid-{name}.json")
-lines.append(f"cp '{WORKDIR}/108-lyric-type-line1-concept-alt.ecproj' /tmp/grid-base.ecproj")
-lines.append(f"cd '{WORKDIR}'")
+lines.append(f"cp '{workdir()}/108-lyric-type-line1-concept-alt.ecproj' /tmp/grid-base.ecproj")
+lines.append(f"cd '{workdir()}'")
 for name in VARIANTS:
     lines.append(f"echo '=== {name} ===' >> /tmp/grid.log")
     lines.append(f"python3 ec_driver.py /tmp/grid-{name}.json >> /tmp/grid.log 2>&1")

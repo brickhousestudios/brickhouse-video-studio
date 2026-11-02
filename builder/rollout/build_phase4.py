@@ -34,11 +34,13 @@ Emits: build-b2-v4.json, build-b3-v4.json, render-b2-v4.json (comp B
 only), render-b3-v4.json (cue 4 only)."""
 import json
 import math
-import os
+import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+from paths import workdir  # noqa: E402
+
 HERE = Path(__file__).parent
-M2 = os.environ.get("BRICKHOUSE_WORKDIR", "/Volumes/STICK/BrickHouse/lyric-type-2026-10-31")
 OW = "#F2EDE4"
 HDR = "DRIZZZ  \u2022  108  \u2022  BRICKHOUSE STUDIOS"
 
@@ -165,13 +167,13 @@ def build_b2():
     cfg.op("B-readback-comp", "get_comp", {"comp": "block2_hey"})
     cfg.op("B-readback-HEY", "get_layer", {"layer": "HEY"})
     cfg.op("B-readback-HDR", "get_layer", {"layer": "HEADER"})
-    cfg.op("save", "save_project", {"path": f"{M2}/108-lyric-type-block2-v7.ecproj"}, hard=True)
+    cfg.op("save", "save_project", {"path": f"{workdir()}/108-lyric-type-block2-v7.ecproj"}, hard=True)
     json.dump({"ops": cfg.ops}, open(HERE / "build-b2-v4.json", "w"), indent=1)
     print("build-b2-v4:", len(cfg.ops), "ops")
 
 def render_b2():
     cfg = Cfg()
-    cfg.op("open", "open_project", {"path": f"{M2}/108-lyric-type-block2-v7.ecproj"}, hard=True)
+    cfg.op("open", "open_project", {"path": f"{workdir()}/108-lyric-type-block2-v7.ecproj"}, hard=True)
     for f in range(41):
         cfg.op(f"b2b4-r{f:03d}", "render_frame",
                {"comp": "block2_hey", "time": t4(f),
@@ -196,7 +198,7 @@ def build_b3():
     cfg.open_comp("block3_cue4_no_way")
     cfg.cmd("C4-compdur", "comp.settings", {"comp": "block3_cue4_no_way", "duration": 3.8333}, hard=True)
     cfg.cmd("C4-bed-import", "mediaBrowser.import",
-            {"paths": [f"{M2}/bed72-c4v4.mp4"], "sequence": False}, hard=True)
+            {"paths": [f"{workdir()}/bed72-c4v4.mp4"], "sequence": False}, hard=True)
     cfg.cmd("C4-bed-swap", "layer.replaceSource",
             {"layer": "bed72-c4.mp4", "item": "bed72-c4v4.mp4"}, hard=True)
     for w in ("THEN_L0_1", "I_L0_1", "ASKED_L0_1", "WHERE_L0_1", "SHE_L0_1", "SHE_L1_2", "SAID_L1_1"):
@@ -221,13 +223,13 @@ def build_b3():
     cfg.op("C4-readback-WAY", "get_layer", {"layer": "WAY"})
     cfg.op("C4-readback-bednew", "get_layer", {"layer": "bed72-c4v4.mp4"})
     cfg.op("C4-readback-bedold", "get_layer", {"layer": "bed72-c4.mp4"})
-    cfg.op("save", "save_project", {"path": f"{M2}/108-lyric-type-block3-take2-v6.ecproj"}, hard=True)
+    cfg.op("save", "save_project", {"path": f"{workdir()}/108-lyric-type-block3-take2-v6.ecproj"}, hard=True)
     json.dump({"ops": cfg.ops}, open(HERE / "build-b3-v4.json", "w"), indent=1)
     print("build-b3-v4:", len(cfg.ops), "ops")
 
 def render_b3():
     cfg = Cfg()
-    cfg.op("open", "open_project", {"path": f"{M2}/108-lyric-type-block3-take2-v6.ecproj"}, hard=True)
+    cfg.op("open", "open_project", {"path": f"{workdir()}/108-lyric-type-block3-take2-v6.ecproj"}, hard=True)
     for f in range(111):
         cfg.op(f"b3c44-r{f:03d}", "render_frame",
                {"comp": "block3_cue4_no_way", "time": t4(f),
