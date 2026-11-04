@@ -1,0 +1,22 @@
+{
+ "ops": [
+  {
+   "label": "open",
+   "tool": "open_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/inkprobe3.ecproj"
+   },
+   "hard": true
+  },
+  {
+   "label": "r",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe3",
+    "time": 0.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/fdis300.png",
+    "max_side": 1920
+   }
+  }
+ ]
+}

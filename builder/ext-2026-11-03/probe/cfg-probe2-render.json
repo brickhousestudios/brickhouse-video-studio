@@ -1,0 +1,22 @@
+{
+ "ops": [
+  {
+   "label": "open",
+   "tool": "open_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/inkprobe2.ecproj"
+   },
+   "hard": true
+  },
+  {
+   "label": "r00",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe2",
+    "time": 0.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/fline.png",
+    "max_side": 1920
+   }
+  }
+ ]
+}

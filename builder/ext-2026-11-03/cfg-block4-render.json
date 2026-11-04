@@ -1,0 +1,4462 @@
+{
+ "ops": [
+  {
+   "label": "open",
+   "tool": "open_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/108-lyric-type-block4.ecproj"
+   },
+   "hard": true
+  },
+  {
+   "label": "r000",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f000.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r001",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f001.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r002",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f002.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r003",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f003.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r004",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f004.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r005",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f005.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r006",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f006.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r007",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f007.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r008",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f008.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r009",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f009.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r010",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f010.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r011",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f011.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r012",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f012.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r013",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f013.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r014",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f014.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r015",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f015.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r016",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f016.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r017",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f017.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r018",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f018.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r019",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f019.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r020",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f020.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r021",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f021.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r022",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f022.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r023",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f023.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r024",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f024.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r025",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f025.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r026",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f026.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r027",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f027.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r028",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f028.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r029",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 0.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f029.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r030",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f030.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r031",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f031.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r032",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f032.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r033",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f033.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r034",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f034.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r035",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f035.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r036",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f036.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r037",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f037.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r038",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f038.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r039",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f039.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r040",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f040.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r041",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f041.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r042",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f042.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r043",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f043.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r044",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f044.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r045",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f045.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r046",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f046.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r047",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f047.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r048",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f048.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r049",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f049.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r050",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f050.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r051",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f051.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r052",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f052.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r053",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f053.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r054",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f054.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r055",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f055.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r056",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f056.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r057",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f057.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r058",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f058.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r059",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 1.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f059.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r060",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f060.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r061",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f061.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r062",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f062.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r063",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f063.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r064",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f064.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r065",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f065.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r066",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f066.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r067",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f067.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r068",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f068.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r069",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f069.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r070",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f070.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r071",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f071.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r072",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f072.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r073",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f073.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r074",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f074.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r075",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f075.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r076",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f076.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r077",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f077.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r078",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f078.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r079",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f079.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r080",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f080.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r081",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f081.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r082",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f082.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r083",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f083.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r084",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f084.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r085",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f085.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r086",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f086.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r087",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f087.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r088",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f088.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r089",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 2.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f089.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r090",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f090.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r091",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f091.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r092",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f092.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r093",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f093.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r094",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f094.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r095",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f095.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r096",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f096.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r097",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f097.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r098",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f098.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r099",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f099.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r100",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f100.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r101",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f101.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r102",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f102.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r103",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f103.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r104",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f104.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r105",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f105.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r106",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f106.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r107",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f107.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r108",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f108.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r109",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f109.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r110",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f110.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r111",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f111.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r112",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f112.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r113",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f113.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r114",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f114.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r115",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f115.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r116",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f116.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r117",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f117.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r118",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f118.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r119",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 3.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f119.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r120",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f120.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r121",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f121.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r122",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f122.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r123",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f123.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r124",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f124.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r125",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f125.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r126",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f126.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r127",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f127.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r128",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f128.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r129",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f129.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r130",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f130.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r131",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f131.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r132",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f132.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r133",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f133.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r134",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f134.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r135",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f135.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r136",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f136.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r137",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f137.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r138",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f138.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r139",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f139.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r140",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f140.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r141",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f141.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r142",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f142.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r143",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f143.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r144",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f144.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r145",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f145.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r146",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f146.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r147",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f147.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r148",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f148.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r149",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 4.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f149.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r150",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f150.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r151",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f151.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r152",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f152.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r153",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f153.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r154",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f154.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r155",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f155.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r156",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f156.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r157",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f157.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r158",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f158.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r159",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f159.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r160",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f160.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r161",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f161.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r162",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f162.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r163",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f163.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r164",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f164.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r165",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f165.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r166",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f166.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r167",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f167.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r168",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f168.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r169",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f169.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r170",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f170.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r171",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f171.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r172",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f172.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r173",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f173.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r174",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f174.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r175",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f175.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r176",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f176.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r177",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f177.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r178",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f178.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r179",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 5.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f179.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r180",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f180.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r181",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f181.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r182",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f182.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r183",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f183.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r184",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f184.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r185",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f185.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r186",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f186.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r187",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f187.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r188",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f188.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r189",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f189.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r190",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f190.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r191",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f191.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r192",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f192.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r193",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f193.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r194",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f194.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r195",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f195.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r196",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f196.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r197",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f197.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r198",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f198.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r199",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f199.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r200",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f200.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r201",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f201.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r202",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f202.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r203",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f203.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r204",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f204.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r205",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f205.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r206",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f206.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r207",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f207.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r208",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f208.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r209",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 6.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f209.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r210",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f210.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r211",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f211.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r212",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f212.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r213",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f213.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r214",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f214.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r215",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f215.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r216",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f216.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r217",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f217.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r218",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f218.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r219",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f219.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r220",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f220.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r221",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f221.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r222",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f222.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r223",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f223.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r224",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f224.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r225",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f225.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r226",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f226.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r227",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f227.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r228",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f228.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r229",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f229.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r230",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f230.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r231",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f231.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r232",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f232.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r233",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f233.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r234",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f234.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r235",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f235.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r236",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f236.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r237",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f237.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r238",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f238.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r239",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 7.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f239.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r240",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f240.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r241",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f241.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r242",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f242.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r243",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f243.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r244",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f244.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r245",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f245.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r246",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f246.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r247",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f247.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r248",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f248.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r249",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f249.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r250",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f250.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r251",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f251.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r252",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f252.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r253",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f253.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r254",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f254.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r255",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f255.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r256",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f256.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r257",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f257.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r258",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f258.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r259",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f259.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r260",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f260.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r261",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f261.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r262",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f262.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r263",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f263.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r264",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f264.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r265",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f265.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r266",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f266.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r267",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f267.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r268",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f268.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r269",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 8.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f269.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r270",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f270.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r271",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f271.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r272",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f272.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r273",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f273.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r274",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f274.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r275",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f275.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r276",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f276.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r277",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f277.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r278",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f278.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r279",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f279.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r280",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f280.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r281",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f281.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r282",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f282.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r283",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f283.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r284",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f284.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r285",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f285.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r286",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f286.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r287",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f287.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r288",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f288.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r289",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f289.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r290",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f290.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r291",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f291.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r292",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f292.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r293",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f293.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r294",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f294.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r295",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f295.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r296",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f296.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r297",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f297.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r298",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f298.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r299",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 9.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f299.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r300",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f300.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r301",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f301.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r302",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f302.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r303",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f303.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r304",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f304.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r305",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f305.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r306",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f306.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r307",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f307.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r308",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f308.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r309",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f309.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r310",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f310.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r311",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f311.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r312",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f312.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r313",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f313.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r314",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f314.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r315",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f315.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r316",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f316.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r317",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f317.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r318",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f318.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r319",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f319.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r320",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f320.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r321",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f321.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r322",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f322.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r323",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f323.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r324",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f324.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r325",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f325.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r326",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f326.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r327",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f327.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r328",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f328.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r329",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 10.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f329.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r330",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f330.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r331",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f331.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r332",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f332.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r333",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f333.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r334",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f334.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r335",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f335.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r336",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f336.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r337",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f337.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r338",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f338.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r339",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f339.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r340",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f340.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r341",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f341.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r342",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f342.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r343",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f343.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r344",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f344.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r345",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f345.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r346",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f346.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r347",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f347.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r348",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f348.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r349",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f349.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r350",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f350.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r351",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f351.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r352",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f352.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r353",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f353.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r354",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f354.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r355",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f355.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r356",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f356.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r357",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f357.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r358",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f358.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r359",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 11.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f359.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r360",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f360.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r361",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f361.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r362",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f362.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r363",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f363.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r364",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f364.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r365",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f365.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r366",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f366.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r367",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f367.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r368",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f368.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r369",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f369.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r370",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f370.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r371",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f371.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r372",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f372.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r373",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f373.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r374",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f374.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r375",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f375.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r376",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f376.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r377",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f377.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r378",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f378.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r379",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f379.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r380",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f380.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r381",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f381.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r382",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f382.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r383",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f383.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r384",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f384.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r385",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f385.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r386",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f386.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r387",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f387.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r388",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f388.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r389",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 12.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f389.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r390",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f390.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r391",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f391.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r392",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f392.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r393",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f393.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r394",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f394.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r395",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f395.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r396",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f396.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r397",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f397.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r398",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f398.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r399",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f399.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r400",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f400.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r401",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f401.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r402",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f402.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r403",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f403.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r404",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f404.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r405",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f405.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r406",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f406.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r407",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f407.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r408",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f408.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r409",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f409.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r410",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f410.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r411",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f411.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r412",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f412.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r413",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f413.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r414",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f414.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r415",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.8333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f415.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r416",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.8667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f416.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r417",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.9,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f417.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r418",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.9333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f418.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r419",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 13.9667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f419.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r420",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.0,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f420.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r421",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.0333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f421.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r422",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.0667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f422.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r423",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.1,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f423.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r424",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.1333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f424.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r425",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.1667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f425.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r426",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.2,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f426.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r427",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.2333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f427.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r428",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.2667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f428.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r429",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.3,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f429.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r430",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.3333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f430.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r431",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.3667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f431.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r432",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.4,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f432.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r433",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.4333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f433.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r434",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.4667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f434.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r435",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f435.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r436",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.5333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f436.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r437",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.5667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f437.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r438",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.6,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f438.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r439",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.6333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f439.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r440",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.6667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f440.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r441",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.7,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f441.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r442",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.7333,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f442.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r443",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.7667,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f443.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r444",
+   "tool": "render_frame",
+   "args": {
+    "comp": "block4_cues5-8",
+    "time": 14.8,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/frames-b4/f444.png",
+    "max_side": 1920
+   }
+  }
+ ]
+}

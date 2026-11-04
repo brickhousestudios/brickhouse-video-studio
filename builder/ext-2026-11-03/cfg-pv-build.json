@@ -1,0 +1,11332 @@
+{
+ "ops": [
+  {
+   "label": "new_project",
+   "tool": "open_project",
+   "args": {
+    "new": true
+   },
+   "hard": true
+  },
+  {
+   "label": "comp_new",
+   "tool": "execute_command",
+   "args": {
+    "command": "comp.new",
+    "params": {
+     "name": "passage_verse_89-111",
+     "width": 1920,
+     "height": 1080,
+     "frameRate": 30,
+     "duration": 21.1333
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "import-beds",
+   "tool": "execute_command",
+   "args": {
+    "command": "mediaBrowser.import",
+    "params": {
+     "paths": [
+      "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/beds/b1a.mp4",
+      "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/beds/b2a.mp4",
+      "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/beds/b2b.mp4",
+      "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/beds/c4a.mp4"
+     ],
+     "sequence": false
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "bed0-add",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.addItem",
+    "params": {
+     "item": "b1a.mp4",
+     "position": [
+      960,
+      540
+     ],
+     "time": 0.0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "bed0-scale",
+   "tool": "set_property",
+   "args": {
+    "layer": "b1a.mp4",
+    "path": "transform/scale",
+    "value": [
+     150,
+     150,
+     0
+    ]
+   }
+  },
+  {
+   "label": "bed1-add",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.addItem",
+    "params": {
+     "item": "b2a.mp4",
+     "position": [
+      960,
+      540
+     ],
+     "time": 6.0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "bed1-scale",
+   "tool": "set_property",
+   "args": {
+    "layer": "b2a.mp4",
+    "path": "transform/scale",
+    "value": [
+     150,
+     150,
+     0
+    ]
+   }
+  },
+  {
+   "label": "bed2-add",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.addItem",
+    "params": {
+     "item": "c4a.mp4",
+     "position": [
+      960,
+      540
+     ],
+     "time": 12.0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "bed2-scale",
+   "tool": "set_property",
+   "args": {
+    "layer": "c4a.mp4",
+    "path": "transform/scale",
+    "value": [
+     150,
+     150,
+     0
+    ]
+   }
+  },
+  {
+   "label": "bed3-add",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.addItem",
+    "params": {
+     "item": "b2b.mp4",
+     "position": [
+      960,
+      540
+     ],
+     "time": 16.1
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "bed3-scale",
+   "tool": "set_property",
+   "args": {
+    "layer": "b2b.mp4",
+    "path": "transform/scale",
+    "value": [
+     150,
+     150,
+     0
+    ]
+   }
+  },
+  {
+   "label": "t-I_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "I",
+     "name": "I_L0_1",
+     "position": [
+      120,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "I_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I_L0_1"
+   }
+  },
+  {
+   "label": "I_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "I_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "I_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "I_L0_1"
+   }
+  },
+  {
+   "label": "I_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "I_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I_L0_1"
+   }
+  },
+  {
+   "label": "I_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "I_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "I_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "I_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 0.1333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-CALLED_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "CALLED",
+     "name": "CALLED_L0_1",
+     "position": [
+      195,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "CALLED_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "CALLED_L0_1"
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "CALLED_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "CALLED_L0_1"
+   }
+  },
+  {
+   "label": "CALLED_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "CALLED_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "CALLED_L0_1"
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "CALLED_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "CALLED_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 0.1667,
+      "value": 0
+     },
+     {
+      "time": 0.2,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "CALLED_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "CALLED_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 0.2,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 0.3333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-TEXTED_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "TEXTED",
+     "name": "TEXTED_L0_1",
+     "position": [
+      638,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "TEXTED_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "TEXTED_L0_1"
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "TEXTED_L0_1"
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "TEXTED_L0_1"
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "TEXTED_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 0.7667,
+      "value": 0
+     },
+     {
+      "time": 0.8,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "TEXTED_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "TEXTED_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 0.8,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 0.9333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-AND_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "AND",
+     "name": "AND_L0_1",
+     "position": [
+      120,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "AND_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "AND_L0_1"
+   }
+  },
+  {
+   "label": "AND_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "AND_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "AND_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "AND_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "AND_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "AND_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "AND_L0_1"
+   }
+  },
+  {
+   "label": "AND_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "AND_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "AND_L0_1"
+   }
+  },
+  {
+   "label": "AND_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "AND_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "AND_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "AND_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "AND_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "AND_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 1.3,
+      "value": 0
+     },
+     {
+      "time": 1.3333,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "AND_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "AND_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 1.3333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 1.4667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-THE_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "THE",
+     "name": "THE_L0_1",
+     "position": [
+      526,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "THE_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THE_L0_1"
+   }
+  },
+  {
+   "label": "THE_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THE_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "THE_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THE_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "THE_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THE_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "THE_L0_1"
+   }
+  },
+  {
+   "label": "THE_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "THE_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THE_L0_1"
+   }
+  },
+  {
+   "label": "THE_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THE_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "THE_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THE_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "THE_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THE_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 1.7667,
+      "value": 0
+     },
+     {
+      "time": 1.8,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "THE_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THE_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 1.8,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 1.9333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-PHONE_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "PHONE",
+     "name": "PHONE_L0_1",
+     "position": [
+      890,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "PHONE_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "PHONE_L0_1"
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "PHONE_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "PHONE_L0_1"
+   }
+  },
+  {
+   "label": "PHONE_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "PHONE_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "PHONE_L0_1"
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "PHONE_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "PHONE_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 1.8667,
+      "value": 0
+     },
+     {
+      "time": 1.9,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "PHONE_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "PHONE_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 1.9,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 2.0333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-WAS_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "WAS",
+     "name": "WAS_L0_1",
+     "position": [
+      120,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 320,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "WAS_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WAS_L0_1"
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WAS_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "WAS_L0_1"
+   }
+  },
+  {
+   "label": "WAS_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "WAS_L0_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WAS_L0_1"
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "WAS_L0_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WAS_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 2.1667,
+      "value": 0
+     },
+     {
+      "time": 2.2,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "WAS_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WAS_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 2.2,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 2.3333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-NIGHT_L0_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "NIGHT",
+     "name": "NIGHT_L0_1",
+     "position": [
+      757,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "NIGHT_L0_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "NIGHT_L0_1"
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "NIGHT_L0_1"
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "NIGHT_L0_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 2.5,
+      "value": 0
+     },
+     {
+      "time": 2.5333,
+      "value": 100
+     },
+     {
+      "time": 3.5,
+      "value": 100
+     },
+     {
+      "time": 3.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "NIGHT_L0_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "NIGHT_L0_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 2.5333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 2.6667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-HAD_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "HAD",
+     "name": "HAD_L1_1",
+     "position": [
+      835,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "HAD_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HAD_L1_1"
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HAD_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "HAD_L1_1"
+   }
+  },
+  {
+   "label": "HAD_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "HAD_L1_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HAD_L1_1"
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "HAD_L1_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HAD_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 3.5,
+      "value": 0
+     },
+     {
+      "time": 3.5333,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "HAD_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HAD_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 3.5333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 3.6667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-TO_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "TO",
+     "name": "TO_L1_1",
+     "position": [
+      1098,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "TO_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "TO_L1_1"
+   }
+  },
+  {
+   "label": "TO_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "TO_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "TO_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "TO_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "TO_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "TO_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "TO_L1_1"
+   }
+  },
+  {
+   "label": "TO_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "TO_L1_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "TO_L1_1"
+   }
+  },
+  {
+   "label": "TO_L1_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "TO_L1_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "TO_L1_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "TO_L1_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "TO_L1_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "TO_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 3.7667,
+      "value": 0
+     },
+     {
+      "time": 3.8,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "TO_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "TO_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 3.8,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 3.9333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-WAKE_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "WAKE",
+     "name": "WAKE_L1_1",
+     "position": [
+      1307,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "WAKE_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WAKE_L1_1"
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WAKE_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "WAKE_L1_1"
+   }
+  },
+  {
+   "label": "WAKE_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "WAKE_L1_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WAKE_L1_1"
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "WAKE_L1_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WAKE_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 3.9667,
+      "value": 0
+     },
+     {
+      "time": 4.0,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "WAKE_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WAKE_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.1333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-UP_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "UP",
+     "name": "UP_L1_1",
+     "position": [
+      1660,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "UP_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "UP_L1_1"
+   }
+  },
+  {
+   "label": "UP_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "UP_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "UP_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "UP_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "UP_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "UP_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "UP_L1_1"
+   }
+  },
+  {
+   "label": "UP_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "UP_L1_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "UP_L1_1"
+   }
+  },
+  {
+   "label": "UP_L1_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "UP_L1_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "UP_L1_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "UP_L1_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "UP_L1_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "UP_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 4.2,
+      "value": 0
+     },
+     {
+      "time": 4.2333,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "UP_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "UP_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.2333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.3667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-ONE_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "ONE",
+     "name": "ONE_L1_1",
+     "position": [
+      144,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "ONE_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "ONE_L1_1"
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "ONE_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "ONE_L1_1"
+   }
+  },
+  {
+   "label": "ONE_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "ONE_L1_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "ONE_L1_1"
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "ONE_L1_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "ONE_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 4.4667,
+      "value": 0
+     },
+     {
+      "time": 4.5,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "ONE_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "ONE_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.5,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.6333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-NIGHT_L1_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "NIGHT",
+     "name": "NIGHT_L1_2",
+     "position": [
+      528,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "NIGHT_L1_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "NIGHT_L1_2"
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "NIGHT_L1_2"
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "NIGHT_L1_2"
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "NIGHT_L1_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 4.6,
+      "value": 0
+     },
+     {
+      "time": 4.6333,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "NIGHT_L1_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "NIGHT_L1_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.6333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 4.7667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-AND_L1_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "AND",
+     "name": "AND_L1_2",
+     "position": [
+      1082,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "AND_L1_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "AND_L1_2"
+   }
+  },
+  {
+   "label": "AND_L1_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "AND_L1_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "AND_L1_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "AND_L1_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "AND_L1_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "AND_L1_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "AND_L1_2"
+   }
+  },
+  {
+   "label": "AND_L1_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "AND_L1_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "AND_L1_2"
+   }
+  },
+  {
+   "label": "AND_L1_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "AND_L1_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "AND_L1_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "AND_L1_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "AND_L1_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "AND_L1_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 5.0333,
+      "value": 0
+     },
+     {
+      "time": 5.0667,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "AND_L1_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "AND_L1_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 5.0667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 5.2,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-SAY_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "SAY",
+     "name": "SAY_L1_1",
+     "position": [
+      1486,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "SAY_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "SAY_L1_1"
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "SAY_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "SAY_L1_1"
+   }
+  },
+  {
+   "label": "SAY_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "SAY_L1_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "SAY_L1_1"
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "SAY_L1_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "SAY_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 5.3,
+      "value": 0
+     },
+     {
+      "time": 5.3333,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "SAY_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "SAY_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 5.3333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 5.4667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-BABY_L1_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "BABY",
+     "name": "BABY_L1_1",
+     "position": [
+      1047,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "BABY_L1_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "BABY_L1_1"
+   }
+  },
+  {
+   "label": "BABY_L1_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "BABY_L1_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "BABY_L1_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "BABY_L1_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "BABY_L1_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "BABY_L1_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "BABY_L1_1"
+   }
+  },
+  {
+   "label": "BABY_L1_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "BABY_L1_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 5.6,
+      "value": 0
+     },
+     {
+      "time": 5.6333,
+      "value": 100
+     },
+     {
+      "time": 6.3667,
+      "value": 100
+     },
+     {
+      "time": 6.4,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "BABY_L1_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BABY_L1_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 5.6333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 5.7667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-WHO_L2_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "WHO",
+     "name": "WHO_L2_1",
+     "position": [
+      120,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "WHO_L2_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WHO_L2_1"
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WHO_L2_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "WHO_L2_1"
+   }
+  },
+  {
+   "label": "WHO_L2_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "WHO_L2_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WHO_L2_1"
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "WHO_L2_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WHO_L2_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 6.3667,
+      "value": 0
+     },
+     {
+      "time": 6.4,
+      "value": 100
+     },
+     {
+      "time": 8.4,
+      "value": 100
+     },
+     {
+      "time": 8.4333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "WHO_L2_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WHO_L2_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 6.4,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 6.5333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-ARE_L2_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "ARE",
+     "name": "ARE_L2_1",
+     "position": [
+      575,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "ARE_L2_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "ARE_L2_1"
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "ARE_L2_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "ARE_L2_1"
+   }
+  },
+  {
+   "label": "ARE_L2_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "ARE_L2_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "ARE_L2_1"
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "ARE_L2_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "ARE_L2_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 6.9,
+      "value": 0
+     },
+     {
+      "time": 6.9333,
+      "value": 100
+     },
+     {
+      "time": 8.4,
+      "value": 100
+     },
+     {
+      "time": 8.4333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "ARE_L2_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "ARE_L2_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 6.9333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 7.0667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-YOU_L2_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "YOU",
+     "name": "YOU_L2_1",
+     "position": [
+      1022,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "YOU_L2_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "YOU_L2_1"
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "YOU_L2_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "YOU_L2_1"
+   }
+  },
+  {
+   "label": "YOU_L2_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "YOU_L2_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "YOU_L2_1"
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "YOU_L2_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "YOU_L2_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 7.4,
+      "value": 0
+     },
+     {
+      "time": 7.4333,
+      "value": 100
+     },
+     {
+      "time": 8.4,
+      "value": 100
+     },
+     {
+      "time": 8.4333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "YOU_L2_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "YOU_L2_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 7.4333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 7.5667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-TEXTING_L2_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "TEXTING",
+     "name": "TEXTING_L2_1",
+     "position": [
+      120,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "TEXTING_L2_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "TEXTING_L2_1"
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "TEXTING_L2_1"
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "TEXTING_L2_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 7.6667,
+      "value": 0
+     },
+     {
+      "time": 7.7,
+      "value": 100
+     },
+     {
+      "time": 8.4,
+      "value": 100
+     },
+     {
+      "time": 8.4333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "TEXTING_L2_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "TEXTING_L2_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 7.7,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 7.8333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-WHERE_L3_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "WHERE",
+     "name": "WHERE_L3_1",
+     "position": [
+      749,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "WHERE_L3_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WHERE_L3_1"
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WHERE_L3_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "WHERE_L3_1"
+   }
+  },
+  {
+   "label": "WHERE_L3_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "WHERE_L3_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "WHERE_L3_1"
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "WHERE_L3_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "WHERE_L3_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 8.4,
+      "value": 0
+     },
+     {
+      "time": 8.4333,
+      "value": 100
+     },
+     {
+      "time": 9.1,
+      "value": 100
+     },
+     {
+      "time": 9.1333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "WHERE_L3_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "WHERE_L3_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 8.4333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 8.5667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-ARE_L3_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "ARE",
+     "name": "ARE_L3_2",
+     "position": [
+      1427,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "ARE_L3_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "ARE_L3_2"
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "ARE_L3_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "ARE_L3_2"
+   }
+  },
+  {
+   "label": "ARE_L3_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "ARE_L3_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "ARE_L3_2"
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "ARE_L3_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "ARE_L3_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 8.5667,
+      "value": 0
+     },
+     {
+      "time": 8.6,
+      "value": 100
+     },
+     {
+      "time": 9.1,
+      "value": 100
+     },
+     {
+      "time": 9.1333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "ARE_L3_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "ARE_L3_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 8.6,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 8.7333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-YOU_L3_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "YOU",
+     "name": "YOU_L3_2",
+     "position": [
+      1248,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "YOU_L3_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "YOU_L3_2"
+   }
+  },
+  {
+   "label": "YOU_L3_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "YOU_L3_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "YOU_L3_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "YOU_L3_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "YOU_L3_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "YOU_L3_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "YOU_L3_2"
+   }
+  },
+  {
+   "label": "YOU_L3_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "YOU_L3_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 8.8667,
+      "value": 0
+     },
+     {
+      "time": 8.9,
+      "value": 100
+     },
+     {
+      "time": 9.1,
+      "value": 100
+     },
+     {
+      "time": 9.1333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "YOU_L3_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "YOU_L3_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 8.9,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 9.0333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-FROM_L4_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "FROM",
+     "name": "FROM_L4_1",
+     "position": [
+      6,
+      928
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 905,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "FROM_L4_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "FROM_L4_1"
+   }
+  },
+  {
+   "label": "FROM_L4_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "FROM_L4_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "FROM_L4_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "FROM_L4_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "FROM_L4_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "FROM_L4_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "FROM_L4_1"
+   }
+  },
+  {
+   "label": "FROM_L4_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "FROM_L4_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 9.1,
+      "value": 0
+     },
+     {
+      "time": 9.1333,
+      "value": 100
+     },
+     {
+      "time": 9.7667,
+      "value": 100
+     },
+     {
+      "time": 9.8,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "FROM_L4_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "FROM_L4_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 9.1333,
+      "value": [
+       108,
+       108,
+       0
+      ]
+     },
+     {
+      "time": 9.3,
+      "value": [
+       104.4,
+       104.4,
+       0
+      ]
+     },
+     {
+      "time": 9.4667,
+      "value": [
+       101.6,
+       101.6,
+       0
+      ]
+     },
+     {
+      "time": 9.6333,
+      "value": [
+       100.3,
+       100.3,
+       0
+      ]
+     },
+     {
+      "time": 9.7667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-I_L5_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "I",
+     "name": "I_L5_2",
+     "position": [
+      120,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "I_L5_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I_L5_2"
+   }
+  },
+  {
+   "label": "I_L5_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I_L5_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "I_L5_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I_L5_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "I_L5_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I_L5_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "I_L5_2"
+   }
+  },
+  {
+   "label": "I_L5_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "I_L5_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I_L5_2"
+   }
+  },
+  {
+   "label": "I_L5_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I_L5_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "I_L5_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I_L5_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "I_L5_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I_L5_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 9.7667,
+      "value": 0
+     },
+     {
+      "time": 9.8,
+      "value": 100
+     },
+     {
+      "time": 11.9,
+      "value": 100
+     },
+     {
+      "time": 11.9333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "I_L5_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I_L5_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 9.8,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 9.9333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-HAVE_L5_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "HAVE",
+     "name": "HAVE_L5_1",
+     "position": [
+      233,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "HAVE_L5_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HAVE_L5_1"
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HAVE_L5_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "HAVE_L5_1"
+   }
+  },
+  {
+   "label": "HAVE_L5_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "HAVE_L5_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HAVE_L5_1"
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "HAVE_L5_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HAVE_L5_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 10.1667,
+      "value": 0
+     },
+     {
+      "time": 10.2,
+      "value": 100
+     },
+     {
+      "time": 11.9,
+      "value": 100
+     },
+     {
+      "time": 11.9333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "HAVE_L5_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HAVE_L5_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 10.2,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 10.3333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-BUILT_L5_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "BUILT",
+     "name": "BUILT_L5_1",
+     "position": [
+      720,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "BUILT_L5_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "BUILT_L5_1"
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "BUILT_L5_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "BUILT_L5_1"
+   }
+  },
+  {
+   "label": "BUILT_L5_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "BUILT_L5_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "BUILT_L5_1"
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "BUILT_L5_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "BUILT_L5_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 10.4333,
+      "value": 0
+     },
+     {
+      "time": 10.4667,
+      "value": 100
+     },
+     {
+      "time": 11.9,
+      "value": 100
+     },
+     {
+      "time": 11.9333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "BUILT_L5_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BUILT_L5_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 10.4667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 10.6,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-THIS_L5_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "THIS",
+     "name": "THIS_L5_1",
+     "position": [
+      120,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 320,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "THIS_L5_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THIS_L5_1"
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THIS_L5_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "THIS_L5_1"
+   }
+  },
+  {
+   "label": "THIS_L5_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "THIS_L5_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THIS_L5_1"
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "THIS_L5_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THIS_L5_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 10.7667,
+      "value": 0
+     },
+     {
+      "time": 10.8,
+      "value": 100
+     },
+     {
+      "time": 11.9,
+      "value": 100
+     },
+     {
+      "time": 11.9333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "THIS_L5_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THIS_L5_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 10.8,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 10.9333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-HOUSE_L5_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "HOUSE",
+     "name": "HOUSE_L5_1",
+     "position": [
+      738,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "HOUSE_L5_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HOUSE_L5_1"
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "HOUSE_L5_1"
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "HOUSE_L5_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 11.2333,
+      "value": 0
+     },
+     {
+      "time": 11.2667,
+      "value": 100
+     },
+     {
+      "time": 11.9,
+      "value": 100
+     },
+     {
+      "time": 11.9333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "HOUSE_L5_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HOUSE_L5_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 11.2667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 11.4,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-FROM_L6_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "FROM",
+     "name": "FROM_L6_2",
+     "position": [
+      954,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "FROM_L6_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "FROM_L6_2"
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "FROM_L6_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "FROM_L6_2"
+   }
+  },
+  {
+   "label": "FROM_L6_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "FROM_L6_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "FROM_L6_2"
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "FROM_L6_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "FROM_L6_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 11.9,
+      "value": 0
+     },
+     {
+      "time": 11.9333,
+      "value": 100
+     },
+     {
+      "time": 13.5667,
+      "value": 100
+     },
+     {
+      "time": 13.6,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "FROM_L6_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "FROM_L6_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 11.9333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 12.0667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-THE_L6_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "THE",
+     "name": "THE_L6_2",
+     "position": [
+      1504,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "THE_L6_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THE_L6_2"
+   }
+  },
+  {
+   "label": "THE_L6_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THE_L6_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "THE_L6_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THE_L6_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "THE_L6_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THE_L6_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "THE_L6_2"
+   }
+  },
+  {
+   "label": "THE_L6_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "THE_L6_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THE_L6_2"
+   }
+  },
+  {
+   "label": "THE_L6_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THE_L6_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "THE_L6_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THE_L6_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "THE_L6_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THE_L6_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 12.2667,
+      "value": 0
+     },
+     {
+      "time": 12.3,
+      "value": 100
+     },
+     {
+      "time": 13.5667,
+      "value": 100
+     },
+     {
+      "time": 13.6,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "THE_L6_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THE_L6_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 12.3,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 12.4333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-GROUND_L6_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "GROUND",
+     "name": "GROUND_L6_1",
+     "position": [
+      385,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 320,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "GROUND_L6_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "GROUND_L6_1"
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "GROUND_L6_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "GROUND_L6_1"
+   }
+  },
+  {
+   "label": "GROUND_L6_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "GROUND_L6_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "GROUND_L6_1"
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "GROUND_L6_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "GROUND_L6_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 12.5667,
+      "value": 0
+     },
+     {
+      "time": 12.6,
+      "value": 100
+     },
+     {
+      "time": 13.5667,
+      "value": 100
+     },
+     {
+      "time": 13.6,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "GROUND_L6_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "GROUND_L6_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 12.6,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 12.7333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-UP_L6_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "UP",
+     "name": "UP_L6_2",
+     "position": [
+      1428,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "UP_L6_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "UP_L6_2"
+   }
+  },
+  {
+   "label": "UP_L6_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "UP_L6_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "UP_L6_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "UP_L6_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "UP_L6_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "UP_L6_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "UP_L6_2"
+   }
+  },
+  {
+   "label": "UP_L6_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "UP_L6_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 12.9,
+      "value": 0
+     },
+     {
+      "time": 12.9333,
+      "value": 100
+     },
+     {
+      "time": 13.5667,
+      "value": 100
+     },
+     {
+      "time": 13.6,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "UP_L6_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "UP_L6_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 12.9333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 13.0667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-YOU_L7_3",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "YOU",
+     "name": "YOU_L7_3",
+     "position": [
+      120,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "YOU_L7_3-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "YOU_L7_3"
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "YOU_L7_3-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "YOU_L7_3"
+   }
+  },
+  {
+   "label": "YOU_L7_3-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "YOU_L7_3-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "YOU_L7_3"
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "YOU_L7_3-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "YOU_L7_3-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 13.5667,
+      "value": 0
+     },
+     {
+      "time": 13.6,
+      "value": 100
+     },
+     {
+      "time": 15.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6667,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "YOU_L7_3-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "YOU_L7_3",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 13.6,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 13.7333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-GON'_L7_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "GON'",
+     "name": "GON'_L7_1",
+     "position": [
+      372,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "GON'_L7_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "GON'_L7_1"
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "GON'_L7_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "GON'_L7_1"
+   }
+  },
+  {
+   "label": "GON'_L7_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "GON'_L7_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "GON'_L7_1"
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "GON'_L7_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "GON'_L7_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 13.9,
+      "value": 0
+     },
+     {
+      "time": 13.9333,
+      "value": 100
+     },
+     {
+      "time": 15.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6667,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "GON'_L7_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "GON'_L7_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 13.9333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.0667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-BREAK_L7_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "BREAK",
+     "name": "BREAK_L7_1",
+     "position": [
+      120,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "BREAK_L7_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "BREAK_L7_1"
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "BREAK_L7_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "BREAK_L7_1"
+   }
+  },
+  {
+   "label": "BREAK_L7_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "BREAK_L7_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "BREAK_L7_1"
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "BREAK_L7_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "BREAK_L7_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 14.1667,
+      "value": 0
+     },
+     {
+      "time": 14.2,
+      "value": 100
+     },
+     {
+      "time": 15.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6667,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "BREAK_L7_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BREAK_L7_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.2,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.3333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-A_L7_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "A",
+     "name": "A_L7_1",
+     "position": [
+      728,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "A_L7_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "A_L7_1"
+   }
+  },
+  {
+   "label": "A_L7_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "A_L7_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "A_L7_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "A_L7_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "A_L7_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "A_L7_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "A_L7_1"
+   }
+  },
+  {
+   "label": "A_L7_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "A_L7_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "A_L7_1"
+   }
+  },
+  {
+   "label": "A_L7_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "A_L7_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "A_L7_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "A_L7_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "A_L7_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "A_L7_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 14.4333,
+      "value": 0
+     },
+     {
+      "time": 14.4667,
+      "value": 100
+     },
+     {
+      "time": 15.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6667,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "A_L7_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "A_L7_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.4667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.6,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-HAPPY_L7_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "HAPPY",
+     "name": "HAPPY_L7_1",
+     "position": [
+      944,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "HAPPY_L7_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HAPPY_L7_1"
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "HAPPY_L7_1"
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HAPPY_L7_1"
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HAPPY_L7_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 14.6,
+      "value": 0
+     },
+     {
+      "time": 14.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6667,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "HAPPY_L7_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HAPPY_L7_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.6333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 14.7667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-HOME_L7_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "HOME",
+     "name": "HOME_L7_1",
+     "position": [
+      120,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "HOME_L7_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "HOME_L7_1"
+   }
+  },
+  {
+   "label": "HOME_L7_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "HOME_L7_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "HOME_L7_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "HOME_L7_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "HOME_L7_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "HOME_L7_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "HOME_L7_1"
+   }
+  },
+  {
+   "label": "HOME_L7_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "HOME_L7_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 14.9667,
+      "value": 0
+     },
+     {
+      "time": 15.0,
+      "value": 100
+     },
+     {
+      "time": 15.6333,
+      "value": 100
+     },
+     {
+      "time": 15.6667,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "HOME_L7_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "HOME_L7_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 15.0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 15.1333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-UP_L8_3",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "UP",
+     "name": "UP_L8_3",
+     "position": [
+      -58,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 320,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "UP_L8_3-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "UP_L8_3"
+   }
+  },
+  {
+   "label": "UP_L8_3-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "UP_L8_3-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "UP_L8_3-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "UP_L8_3-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "UP_L8_3-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "UP_L8_3-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "UP_L8_3"
+   }
+  },
+  {
+   "label": "UP_L8_3-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "UP_L8_3-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "UP_L8_3"
+   }
+  },
+  {
+   "label": "UP_L8_3-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "UP_L8_3-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "UP_L8_3-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "UP_L8_3-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "UP_L8_3-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "UP_L8_3-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 15.6333,
+      "value": 0
+     },
+     {
+      "time": 15.6667,
+      "value": 100
+     },
+     {
+      "time": 17.2667,
+      "value": 100
+     },
+     {
+      "time": 17.3,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "UP_L8_3-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "UP_L8_3",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 15.6667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 15.8,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-AND_L8_3",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "AND",
+     "name": "AND_L8_3",
+     "position": [
+      367,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 320,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "AND_L8_3-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "AND_L8_3"
+   }
+  },
+  {
+   "label": "AND_L8_3-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "AND_L8_3-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "AND_L8_3-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "AND_L8_3-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "AND_L8_3-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "AND_L8_3-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "AND_L8_3"
+   }
+  },
+  {
+   "label": "AND_L8_3-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "AND_L8_3-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "AND_L8_3"
+   }
+  },
+  {
+   "label": "AND_L8_3-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "AND_L8_3-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "AND_L8_3-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "AND_L8_3-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "AND_L8_3-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "AND_L8_3-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 16.1667,
+      "value": 0
+     },
+     {
+      "time": 16.2,
+      "value": 100
+     },
+     {
+      "time": 17.2667,
+      "value": 100
+     },
+     {
+      "time": 17.3,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "AND_L8_3-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "AND_L8_3",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 16.2,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 16.3333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-LEAVE_L8_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "LEAVE",
+     "name": "LEAVE_L8_1",
+     "position": [
+      946,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "LEAVE_L8_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "LEAVE_L8_1"
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "LEAVE_L8_1"
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "LEAVE_L8_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 16.5,
+      "value": 0
+     },
+     {
+      "time": 16.5333,
+      "value": 100
+     },
+     {
+      "time": 17.2667,
+      "value": 100
+     },
+     {
+      "time": 17.3,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "LEAVE_L8_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "LEAVE_L8_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 16.5333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 16.6667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-SO_L9_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "SO",
+     "name": "SO_L9_1",
+     "position": [
+      120,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "SO_L9_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "SO_L9_1"
+   }
+  },
+  {
+   "label": "SO_L9_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "SO_L9_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "SO_L9_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "SO_L9_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "SO_L9_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "SO_L9_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "SO_L9_1"
+   }
+  },
+  {
+   "label": "SO_L9_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "SO_L9_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "SO_L9_1"
+   }
+  },
+  {
+   "label": "SO_L9_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "SO_L9_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "SO_L9_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "SO_L9_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "SO_L9_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "SO_L9_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 17.2667,
+      "value": 0
+     },
+     {
+      "time": 17.3,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "SO_L9_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "SO_L9_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 17.3,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 17.4333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-I_L9_3",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "I",
+     "name": "I_L9_3",
+     "position": [
+      303,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "I_L9_3-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I_L9_3"
+   }
+  },
+  {
+   "label": "I_L9_3-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I_L9_3-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "I_L9_3-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I_L9_3-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "I_L9_3-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I_L9_3-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "I_L9_3"
+   }
+  },
+  {
+   "label": "I_L9_3-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "I_L9_3-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I_L9_3"
+   }
+  },
+  {
+   "label": "I_L9_3-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I_L9_3-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "I_L9_3-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I_L9_3-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "I_L9_3-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I_L9_3-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 17.5667,
+      "value": 0
+     },
+     {
+      "time": 17.6,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "I_L9_3-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I_L9_3",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 17.6,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 17.7333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-THOUGHT_L9_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "THOUGHT",
+     "name": "THOUGHT_L9_1",
+     "position": [
+      381,
+      280
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 150,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "THOUGHT_L9_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THOUGHT_L9_1"
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "THOUGHT_L9_1"
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "THOUGHT_L9_1"
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "THOUGHT_L9_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 17.8333,
+      "value": 0
+     },
+     {
+      "time": 17.8667,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "THOUGHT_L9_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "THOUGHT_L9_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 17.8667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.0,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-I'D_L9_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "I'D",
+     "name": "I'D_L9_1",
+     "position": [
+      120,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "I'D_L9_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I'D_L9_1"
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I'D_L9_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "I'D_L9_1"
+   }
+  },
+  {
+   "label": "I'D_L9_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "I'D_L9_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I'D_L9_1"
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "I'D_L9_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I'D_L9_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 18.1,
+      "value": 0
+     },
+     {
+      "time": 18.1333,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "I'D_L9_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I'D_L9_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.1333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.2667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-PACK_L9_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "PACK",
+     "name": "PACK_L9_1",
+     "position": [
+      397,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "PACK_L9_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "PACK_L9_1"
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "PACK_L9_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "PACK_L9_1"
+   }
+  },
+  {
+   "label": "PACK_L9_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "PACK_L9_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "PACK_L9_1"
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "PACK_L9_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "PACK_L9_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 18.4333,
+      "value": 0
+     },
+     {
+      "time": 18.4667,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "PACK_L9_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "PACK_L9_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.4667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.6,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-A_L9_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "A",
+     "name": "A_L9_2",
+     "position": [
+      923,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "A_L9_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "A_L9_2"
+   }
+  },
+  {
+   "label": "A_L9_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "A_L9_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "A_L9_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "A_L9_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "A_L9_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "A_L9_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "A_L9_2"
+   }
+  },
+  {
+   "label": "A_L9_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "A_L9_2-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "A_L9_2"
+   }
+  },
+  {
+   "label": "A_L9_2-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "A_L9_2-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "A_L9_2-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "A_L9_2-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "A_L9_2-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "A_L9_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 18.7333,
+      "value": 0
+     },
+     {
+      "time": 18.7667,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "A_L9_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "A_L9_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.7667,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.9,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-BASKET_L9_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "BASKET",
+     "name": "BASKET_L9_1",
+     "position": [
+      120,
+      890
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 400,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "BASKET_L9_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "BASKET_L9_1"
+   }
+  },
+  {
+   "label": "BASKET_L9_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "BASKET_L9_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "BASKET_L9_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "BASKET_L9_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "BASKET_L9_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "BASKET_L9_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "BASKET_L9_1"
+   }
+  },
+  {
+   "label": "BASKET_L9_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "BASKET_L9_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 18.7667,
+      "value": 0
+     },
+     {
+      "time": 18.8,
+      "value": 100
+     },
+     {
+      "time": 19.5,
+      "value": 100
+     },
+     {
+      "time": 19.5333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "BASKET_L9_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "BASKET_L9_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.8,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 18.9333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-I'LL_L10_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "I'LL",
+     "name": "I'LL_L10_1",
+     "position": [
+      1116,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 230,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "I'LL_L10_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "I'LL_L10_1"
+   }
+  },
+  {
+   "label": "I'LL_L10_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "I'LL_L10_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "I'LL_L10_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "I'LL_L10_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "I'LL_L10_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "I'LL_L10_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "I'LL_L10_1"
+   }
+  },
+  {
+   "label": "I'LL_L10_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "I'LL_L10_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 19.5,
+      "value": 0
+     },
+     {
+      "time": 19.5333,
+      "value": 100
+     },
+     {
+      "time": 20.1,
+      "value": 100
+     },
+     {
+      "time": 20.1333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "I'LL_L10_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "I'LL_L10_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 19.5333,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 19.6667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-JUST_L10_1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "JUST",
+     "name": "JUST_L10_1",
+     "position": [
+      1471,
+      500
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 184,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "JUST_L10_1-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "JUST_L10_1"
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#1/opacity",
+    "value": 100
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "JUST_L10_1-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "JUST_L10_1"
+   }
+  },
+  {
+   "label": "JUST_L10_1-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "JUST_L10_1-addds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "JUST_L10_1"
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds2-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#3/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds2-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#3/opacity",
+    "value": 85
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds2-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#3/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds2-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#3/softness",
+    "value": 180
+   }
+  },
+  {
+   "label": "JUST_L10_1-ds2-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "effects/#3/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "JUST_L10_1-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 19.8667,
+      "value": 0
+     },
+     {
+      "time": 19.9,
+      "value": 100
+     },
+     {
+      "time": 20.1,
+      "value": 100
+     },
+     {
+      "time": 20.1333,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "JUST_L10_1-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "JUST_L10_1",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 0,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 19.9,
+      "value": [
+       115,
+       115,
+       0
+      ]
+     },
+     {
+      "time": 20.0333,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t-LEAVE_L11_2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "LEAVE",
+     "name": "LEAVE_L11_2",
+     "position": [
+      7,
+      915
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 877,
+     "fill": "#FF3B1F",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "LEAVE_L11_2-ds",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Drop Shadow",
+    "layer": "LEAVE_L11_2"
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-ds-color",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "effects/#1/color",
+    "value": [
+     0.02,
+     0,
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-ds-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "effects/#1/opacity",
+    "value": 88
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-ds-dist",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "effects/#1/distance",
+    "value": 0
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-ds-soft",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "effects/#1/softness",
+    "value": 75
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-ds-dir",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "effects/#1/direction",
+    "value": 135
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-grain",
+   "tool": "add_effect",
+   "args": {
+    "effect": "Add Grain",
+    "layer": "LEAVE_L11_2"
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-grain-vm",
+   "tool": "set_property",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "effects/#2/viewingMode",
+    "value": 2
+   }
+  },
+  {
+   "label": "LEAVE_L11_2-op",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 20.1,
+      "value": 0
+     },
+     {
+      "time": 20.1333,
+      "value": 100
+     },
+     {
+      "time": 20.8667,
+      "value": 100
+     },
+     {
+      "time": 20.9,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "LEAVE_L11_2-scale",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "LEAVE_L11_2",
+    "path": "transform/scale",
+    "keys": [
+     {
+      "time": 20.1333,
+      "value": [
+       108,
+       108,
+       0
+      ]
+     },
+     {
+      "time": 20.3333,
+      "value": [
+       104.4,
+       104.4,
+       0
+      ]
+     },
+     {
+      "time": 20.5333,
+      "value": [
+       101.6,
+       101.6,
+       0
+      ]
+     },
+     {
+      "time": 20.7,
+      "value": [
+       100.3,
+       100.3,
+       0
+      ]
+     },
+     {
+      "time": 20.8667,
+      "value": [
+       100,
+       100,
+       0
+      ]
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "pv-header",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "text": "DRIZZZ  \u2022  108  \u2022  BRICKHOUSE STUDIOS",
+     "name": "HEADER",
+     "position": [
+      122,
+      54
+     ],
+     "font": "Anton",
+     "style": "Regular",
+     "size": 30,
+     "fill": "#F2EDE4",
+     "allCaps": true,
+     "justify": "left",
+     "tracking": 200
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "pv-header-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HEADER",
+    "path": "transform/opacity",
+    "value": 55
+   },
+   "hard": true
+  },
+  {
+   "label": "pv-rule",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newSolid",
+    "params": {
+     "name": "HEADER-RULE",
+     "color": "#F2EDE4",
+     "width": 1676,
+     "height": 2
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "pv-rule-pos",
+   "tool": "set_property",
+   "args": {
+    "layer": "HEADER-RULE",
+    "path": "transform/position",
+    "value": [
+     960,
+     67,
+     0
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "pv-rule-op",
+   "tool": "set_property",
+   "args": {
+    "layer": "HEADER-RULE",
+    "path": "transform/opacity",
+    "value": 55
+   },
+   "hard": true
+  },
+  {
+   "label": "comp_readback",
+   "tool": "get_comp",
+   "args": {
+    "comp": "passage_verse_89-111"
+   }
+  },
+  {
+   "label": "save",
+   "tool": "save_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/108-lyric-type-passageverse.ecproj"
+   },
+   "hard": true
+  }
+ ]
+}

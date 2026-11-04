@@ -1,0 +1,741 @@
+{
+  "block": "block4",
+  "track": "108 VOX1_01",
+  "source_lyric": "Girl, what you doing, how you get here? She told me she was in town, but I disappeared. I told her, let me take you around, I won't show you now. She told me that she got me and had no doubt.",
+  "board_window_srt_s": [
+    37.08,
+    51.16
+  ],
+  "timing_source": "house whisper-large-v3 on the bounce, per-cue slices (rest-of-song TIMINGS 2026-11-02, bounce-true onsets; SRT grid not used -- the bounce lead decays from ~-0.36s at cue 5 to ~0 by cues 9-10). Cue 7 first-word onset 43.50 is the TIMINGS-corrected estimate (raw chunk 43.18 absorbs the tail of 'disappeared', +-0.3)",
+  "landing_rule": "landing = onset - 2 frames @ 30fps",
+  "model": "muse-wonder-1.0",
+  "generated_ct": "2026-11-02T12:04:06-06:00",
+  "api_routes": [
+    "non-streaming",
+    "non-streaming",
+    "non-streaming",
+    "non-streaming"
+  ],
+  "receipt_request_ids": [
+    "resp_6ae8cfaf7a04facd008f4118",
+    "resp_6ae8d00e953adb0eedb74db5",
+    "resp_6ae8d03a84d8e6461fde4277",
+    "resp_6ae8d096a1271908418248fc"
+  ],
+  "lines": [
+    {
+      "line_id": "block4-line1",
+      "display_groups": [
+        {
+          "words": [
+            "GIRL"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "WHAT",
+            "YOU"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "DOING"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "DOING",
+      "hero_color": {
+        "hero_word": "DOING",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "Her question opens left and builds to DOING.",
+      "landings": [
+        {
+          "word": "GIRL",
+          "onset_s": 36.72,
+          "landing_s": 36.653,
+          "landing_frame": 1100
+        },
+        {
+          "word": "WHAT",
+          "onset_s": 37.46,
+          "landing_s": 37.393,
+          "landing_frame": 1122
+        },
+        {
+          "word": "YOU",
+          "onset_s": 37.74,
+          "landing_s": 37.673,
+          "landing_frame": 1130
+        },
+        {
+          "word": "DOING",
+          "onset_s": 37.94,
+          "landing_s": 37.873,
+          "landing_frame": 1136
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line2",
+      "display_groups": [
+        {
+          "words": [
+            "HOW",
+            "YOU"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "GET"
+          ],
+          "motion": "punch_in"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "GET",
+      "hero_color": {
+        "hero_word": "GET",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "Her second question goes right, opposite the first, and lands on GET.",
+      "landings": [
+        {
+          "word": "HOW",
+          "onset_s": 38.54,
+          "landing_s": 38.473,
+          "landing_frame": 1154
+        },
+        {
+          "word": "YOU",
+          "onset_s": 38.8,
+          "landing_s": 38.733,
+          "landing_frame": 1162
+        },
+        {
+          "word": "GET",
+          "onset_s": 39.18,
+          "landing_s": 39.113,
+          "landing_frame": 1173
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line3",
+      "display_groups": [
+        {
+          "words": [
+            "HERE"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "HERE",
+      "hero_color": {
+        "hero_word": "HERE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "HERE fills the frame alone at the end of her question.",
+      "landings": [
+        {
+          "word": "HERE",
+          "onset_s": 39.44,
+          "landing_s": 39.373,
+          "landing_frame": 1181
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line4",
+      "display_groups": [
+        {
+          "words": [
+            "SHE",
+            "TOLD",
+            "ME"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SHE",
+            "WAS",
+            "IN"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "TOWN"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "TOWN",
+      "hero_color": {
+        "hero_word": "TOWN",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "Her news opens left and builds to TOWN.",
+      "landings": [
+        {
+          "word": "SHE",
+          "onset_s": 39.98,
+          "landing_s": 39.913,
+          "landing_frame": 1197
+        },
+        {
+          "word": "TOLD",
+          "onset_s": 40.22,
+          "landing_s": 40.153,
+          "landing_frame": 1205
+        },
+        {
+          "word": "ME",
+          "onset_s": 40.48,
+          "landing_s": 40.413,
+          "landing_frame": 1212
+        },
+        {
+          "word": "SHE",
+          "onset_s": 40.72,
+          "landing_s": 40.653,
+          "landing_frame": 1220
+        },
+        {
+          "word": "WAS",
+          "onset_s": 40.94,
+          "landing_s": 40.873,
+          "landing_frame": 1226
+        },
+        {
+          "word": "IN",
+          "onset_s": 41.5,
+          "landing_s": 41.433,
+          "landing_frame": 1243
+        },
+        {
+          "word": "TOWN",
+          "onset_s": 41.7,
+          "landing_s": 41.633,
+          "landing_frame": 1249
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line5",
+      "display_groups": [
+        {
+          "words": [
+            "BUT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "I"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "I",
+      "hero_color": {
+        "hero_word": "I",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The contrast goes right and lands on I.",
+      "landings": [
+        {
+          "word": "BUT",
+          "onset_s": 42.06,
+          "landing_s": 41.993,
+          "landing_frame": 1260
+        },
+        {
+          "word": "I",
+          "onset_s": 42.18,
+          "landing_s": 42.113,
+          "landing_frame": 1263
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line6",
+      "display_groups": [
+        {
+          "words": [
+            "DISAPPEARED"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "DISAPPEARED",
+      "hero_color": {
+        "hero_word": "DISAPPEARED",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "DISAPPEARED fills the frame alone.",
+      "landings": [
+        {
+          "word": "DISAPPEARED",
+          "onset_s": 42.44,
+          "landing_s": 42.373,
+          "landing_frame": 1271
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line7",
+      "display_groups": [
+        {
+          "words": [
+            "I"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "TOLD"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "HER"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "HER",
+      "hero_color": {
+        "hero_word": "HER",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "His reply opens left and builds to HER.",
+      "landings": [
+        {
+          "word": "I",
+          "onset_s": 43.5,
+          "landing_s": 43.433,
+          "landing_frame": 1303
+        },
+        {
+          "word": "TOLD",
+          "onset_s": 43.98,
+          "landing_s": 43.913,
+          "landing_frame": 1317
+        },
+        {
+          "word": "HER",
+          "onset_s": 44.3,
+          "landing_s": 44.233,
+          "landing_frame": 1327
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line8",
+      "display_groups": [
+        {
+          "words": [
+            "LET",
+            "ME"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "TAKE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "YOU"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "YOU",
+      "hero_color": {
+        "hero_word": "YOU",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "His offer shifts right and lands on YOU.",
+      "landings": [
+        {
+          "word": "LET",
+          "onset_s": 44.5,
+          "landing_s": 44.433,
+          "landing_frame": 1333
+        },
+        {
+          "word": "ME",
+          "onset_s": 44.68,
+          "landing_s": 44.613,
+          "landing_frame": 1338
+        },
+        {
+          "word": "TAKE",
+          "onset_s": 44.92,
+          "landing_s": 44.853,
+          "landing_frame": 1346
+        },
+        {
+          "word": "YOU",
+          "onset_s": 45.2,
+          "landing_s": 45.133,
+          "landing_frame": 1354
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line9",
+      "display_groups": [
+        {
+          "words": [
+            "AROUND"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "AROUND",
+      "hero_color": {
+        "hero_word": "AROUND",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "AROUND fills the frame alone.",
+      "landings": [
+        {
+          "word": "AROUND",
+          "onset_s": 45.44,
+          "landing_s": 45.373,
+          "landing_frame": 1361
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line10",
+      "display_groups": [
+        {
+          "words": [
+            "I",
+            "WON'T"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SHOW",
+            "YOU"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "NOW"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "NOW",
+      "hero_color": {
+        "hero_word": "NOW",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line returns left and builds to NOW.",
+      "landings": [
+        {
+          "word": "I",
+          "onset_s": 45.88,
+          "landing_s": 45.813,
+          "landing_frame": 1374
+        },
+        {
+          "word": "WON'T",
+          "onset_s": 45.98,
+          "landing_s": 45.913,
+          "landing_frame": 1377
+        },
+        {
+          "word": "SHOW",
+          "onset_s": 46.06,
+          "landing_s": 45.993,
+          "landing_frame": 1380
+        },
+        {
+          "word": "YOU",
+          "onset_s": 46.38,
+          "landing_s": 46.313,
+          "landing_frame": 1389
+        },
+        {
+          "word": "NOW",
+          "onset_s": 46.82,
+          "landing_s": 46.753,
+          "landing_frame": 1403
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line11",
+      "display_groups": [
+        {
+          "words": [
+            "SHE",
+            "TOLD",
+            "ME",
+            "THAT",
+            "SHE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "GOT",
+            "ME",
+            "AND",
+            "HAD"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "NO"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "NO",
+      "hero_color": {
+        "hero_word": "NO",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        150,
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "Her assurance goes right and builds to NO.",
+      "landings": [
+        {
+          "word": "SHE",
+          "onset_s": 47.44,
+          "landing_s": 47.373,
+          "landing_frame": 1421
+        },
+        {
+          "word": "TOLD",
+          "onset_s": 47.96,
+          "landing_s": 47.893,
+          "landing_frame": 1437
+        },
+        {
+          "word": "ME",
+          "onset_s": 48.42,
+          "landing_s": 48.353,
+          "landing_frame": 1451
+        },
+        {
+          "word": "THAT",
+          "onset_s": 48.7,
+          "landing_s": 48.633,
+          "landing_frame": 1459
+        },
+        {
+          "word": "SHE",
+          "onset_s": 48.88,
+          "landing_s": 48.813,
+          "landing_frame": 1464
+        },
+        {
+          "word": "GOT",
+          "onset_s": 49.1,
+          "landing_s": 49.033,
+          "landing_frame": 1471
+        },
+        {
+          "word": "ME",
+          "onset_s": 49.4,
+          "landing_s": 49.333,
+          "landing_frame": 1480
+        },
+        {
+          "word": "AND",
+          "onset_s": 49.62,
+          "landing_s": 49.553,
+          "landing_frame": 1487
+        },
+        {
+          "word": "HAD",
+          "onset_s": 49.8,
+          "landing_s": 49.733,
+          "landing_frame": 1492
+        },
+        {
+          "word": "NO",
+          "onset_s": 50.2,
+          "landing_s": 50.133,
+          "landing_frame": 1504
+        }
+      ]
+    },
+    {
+      "line_id": "block4-line12",
+      "display_groups": [
+        {
+          "words": [
+            "DOUBT"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "DOUBT",
+      "hero_color": {
+        "hero_word": "DOUBT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "DOUBT fills the frame alone to close the line.",
+      "landings": [
+        {
+          "word": "DOUBT",
+          "onset_s": 50.64,
+          "landing_s": 50.573,
+          "landing_frame": 1517
+        }
+      ]
+    }
+  ]
+}

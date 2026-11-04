@@ -128,6 +128,60 @@ check("hero repeating a PRIOR line of the block rejected",
 errs = validate({"lines": single}, SYNTH, prior_heroes=["BLUE"])
 check("same candidate clean with unrelated prior heroes", errs == [], str(errs))
 
+# --------------------------------------------- placement rotation rule
+def rot_lines(placements):
+    """One display line per placement over synthetic word pairs; a
+    'full' line takes a single word in a full_frame_punch group."""
+    words = ["AA", "BB", "CC", "DD", "EE", "FF", "GG", "HH", "II"]
+    lines, pos = [], 0
+    for i, placement in enumerate(placements):
+        if placement == "full":
+            lines.append(line(f"r-line{i + 1}",
+                              [([words[pos]], "full_frame_punch")],
+                              [1250], words[pos], "full"))
+            pos += 1
+        else:
+            pair = words[pos:pos + 2]
+            lines.append(line(f"r-line{i + 1}",
+                              [(pair[:1], "punch_in"), (pair[1:], "punch_in")],
+                              [400, 150], pair[0], placement))
+            pos += 2
+    return lines
+
+
+def rot_target(lines):
+    words = [w for l in lines for g in l["display_groups"] for w in g["words"]]
+    return {"block_id": "rot",
+            "words": [{"word": w, "onset_s": float(i + 1)}
+                      for i, w in enumerate(words)]}
+
+
+ROT_MSG = "more than 2 consecutive lines without a full-frame placement"
+ls = rot_lines(["left", "right", "left"])
+errs = validate({"lines": ls}, rot_target(ls))
+check("rotation: 3 stacks in a row rejected",
+      any(ROT_MSG in e for e in errs) and len(errs) == 1, str(errs))
+check("rotation: error tagged at the 3rd stack line",
+      any(e.startswith("line 2 (r-line3):") for e in errs), str(errs))
+ls = rot_lines(["left", "right", "full"])
+errs = validate({"lines": ls}, rot_target(ls))
+check("rotation: full-frame at line 3 is clean", errs == [], str(errs))
+ls = rot_lines(["left", "right", "full", "left", "right"])
+errs = validate({"lines": ls}, rot_target(ls))
+check("rotation: stack stack full stack stack is clean",
+      errs == [], str(errs))
+one_stack = [line("r-only", [(["AA"], "punch_in"), (["BB"], "punch_in")],
+                  [400, 150], "AA", "left")]
+errs = validate({"lines": one_stack}, rot_target(one_stack),
+                prior_stack_streak=2)
+check("rotation: prior stack streak chains into the candidate",
+      any(ROT_MSG in e for e in errs) and len(errs) == 1, str(errs))
+one_full = [line("r-only", [(["AA"], "full_frame_punch")], [1250], "AA", "full")]
+errs = validate({"lines": one_full}, rot_target(one_full),
+                prior_stack_streak=2)
+check("rotation: full-frame line clears a prior streak",
+      errs == [], str(errs))
+
 # ------------------------------------------------- cue4 prior-block wiring
 cue4_cand = {"lines": [
     line("block3-line3",

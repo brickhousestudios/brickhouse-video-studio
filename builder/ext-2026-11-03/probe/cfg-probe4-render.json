@@ -1,0 +1,422 @@
+{
+ "ops": [
+  {
+   "label": "open",
+   "tool": "open_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/inkprobe4.ecproj"
+   },
+   "hard": true
+  },
+  {
+   "label": "r00",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 0.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q00.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r01",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 1.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q01.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r02",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 2.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q02.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r03",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 3.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q03.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r04",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 4.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q04.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r05",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 5.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q05.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r06",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 6.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q06.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r07",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 7.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q07.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r08",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 8.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q08.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r09",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 9.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q09.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r10",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 10.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q10.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r11",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 11.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q11.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r12",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 12.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q12.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r13",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 13.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q13.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r14",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 14.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q14.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r15",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 15.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q15.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r16",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 16.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q16.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r17",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 17.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q17.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r18",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 18.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q18.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r19",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 19.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q19.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r20",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 20.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q20.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r21",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 21.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q21.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r22",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 22.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q22.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r23",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 23.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q23.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r24",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 24.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q24.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r25",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 25.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q25.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r26",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 26.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q26.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r27",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 27.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q27.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r28",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 28.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q28.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r29",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 29.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q29.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r30",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 30.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q30.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r31",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 31.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q31.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r32",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 32.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q32.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r33",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 33.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q33.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r34",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 34.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q34.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r35",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 35.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q35.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r36",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 36.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q36.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r37",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 37.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q37.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r38",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 38.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q38.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r39",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 39.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q39.png",
+    "max_side": 1920
+   }
+  },
+  {
+   "label": "r40",
+   "tool": "render_frame",
+   "args": {
+    "comp": "inkprobe4",
+    "time": 40.5,
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/q40.png",
+    "max_side": 1920
+   }
+  }
+ ]
+}

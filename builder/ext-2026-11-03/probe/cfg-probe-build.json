@@ -1,0 +1,2200 @@
+{
+ "ops": [
+  {
+   "label": "new_project",
+   "tool": "open_project",
+   "args": {
+    "new": true
+   },
+   "hard": true
+  },
+  {
+   "label": "comp_new",
+   "tool": "execute_command",
+   "args": {
+    "command": "comp.new",
+    "params": {
+     "name": "inkprobe",
+     "width": 1920,
+     "height": 1080,
+     "frameRate": 30,
+     "duration": 41.0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "t0",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P00",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "GIRL"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op0",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P00",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 100
+     },
+     {
+      "time": 0.9667,
+      "value": 100
+     },
+     {
+      "time": 1.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t1",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P01",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "WHAT"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op1",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P01",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 0.9667,
+      "value": 0
+     },
+     {
+      "time": 1,
+      "value": 100
+     },
+     {
+      "time": 1.9667,
+      "value": 100
+     },
+     {
+      "time": 2.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t2",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P02",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "YOU"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op2",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P02",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 1.9667,
+      "value": 0
+     },
+     {
+      "time": 2,
+      "value": 100
+     },
+     {
+      "time": 2.9667,
+      "value": 100
+     },
+     {
+      "time": 3.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t3",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P03",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "DOING"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op3",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P03",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 2.9667,
+      "value": 0
+     },
+     {
+      "time": 3,
+      "value": 100
+     },
+     {
+      "time": 3.9667,
+      "value": 100
+     },
+     {
+      "time": 4.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t4",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P04",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "HOW"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op4",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P04",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 3.9667,
+      "value": 0
+     },
+     {
+      "time": 4,
+      "value": 100
+     },
+     {
+      "time": 4.9667,
+      "value": 100
+     },
+     {
+      "time": 5.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t5",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P05",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "GET"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op5",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P05",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 4.9667,
+      "value": 0
+     },
+     {
+      "time": 5,
+      "value": 100
+     },
+     {
+      "time": 5.9667,
+      "value": 100
+     },
+     {
+      "time": 6.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t6",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P06",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "HERE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op6",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P06",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 5.9667,
+      "value": 0
+     },
+     {
+      "time": 6,
+      "value": 100
+     },
+     {
+      "time": 6.9667,
+      "value": 100
+     },
+     {
+      "time": 7.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t7",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P07",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "SHE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op7",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P07",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 6.9667,
+      "value": 0
+     },
+     {
+      "time": 7,
+      "value": 100
+     },
+     {
+      "time": 7.9667,
+      "value": 100
+     },
+     {
+      "time": 8.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t8",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P08",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "TOLD"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op8",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P08",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 7.9667,
+      "value": 0
+     },
+     {
+      "time": 8,
+      "value": 100
+     },
+     {
+      "time": 8.9667,
+      "value": 100
+     },
+     {
+      "time": 9.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t9",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P09",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "ME"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op9",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P09",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 8.9667,
+      "value": 0
+     },
+     {
+      "time": 9,
+      "value": 100
+     },
+     {
+      "time": 9.9667,
+      "value": 100
+     },
+     {
+      "time": 10.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t10",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P10",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "WAS"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op10",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P10",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 9.9667,
+      "value": 0
+     },
+     {
+      "time": 10,
+      "value": 100
+     },
+     {
+      "time": 10.9667,
+      "value": 100
+     },
+     {
+      "time": 11.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t11",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P11",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "IN"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op11",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P11",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 10.9667,
+      "value": 0
+     },
+     {
+      "time": 11,
+      "value": 100
+     },
+     {
+      "time": 11.9667,
+      "value": 100
+     },
+     {
+      "time": 12.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t12",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P12",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "TOWN"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op12",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P12",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 11.9667,
+      "value": 0
+     },
+     {
+      "time": 12,
+      "value": 100
+     },
+     {
+      "time": 12.9667,
+      "value": 100
+     },
+     {
+      "time": 13.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t13",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P13",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "BUT"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op13",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P13",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 12.9667,
+      "value": 0
+     },
+     {
+      "time": 13,
+      "value": 100
+     },
+     {
+      "time": 13.9667,
+      "value": 100
+     },
+     {
+      "time": 14.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t14",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P14",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "I"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op14",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P14",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 13.9667,
+      "value": 0
+     },
+     {
+      "time": 14,
+      "value": 100
+     },
+     {
+      "time": 14.9667,
+      "value": 100
+     },
+     {
+      "time": 15.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t15",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P15",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "DISAPPEARED"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op15",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P15",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 14.9667,
+      "value": 0
+     },
+     {
+      "time": 15,
+      "value": 100
+     },
+     {
+      "time": 15.9667,
+      "value": 100
+     },
+     {
+      "time": 16.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t16",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P16",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "LET"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op16",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P16",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 15.9667,
+      "value": 0
+     },
+     {
+      "time": 16,
+      "value": 100
+     },
+     {
+      "time": 16.9667,
+      "value": 100
+     },
+     {
+      "time": 17.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t17",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P17",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "TAKE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op17",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P17",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 16.9667,
+      "value": 0
+     },
+     {
+      "time": 17,
+      "value": 100
+     },
+     {
+      "time": 17.9667,
+      "value": 100
+     },
+     {
+      "time": 18.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t18",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P18",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "AROUND"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op18",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P18",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 17.9667,
+      "value": 0
+     },
+     {
+      "time": 18,
+      "value": 100
+     },
+     {
+      "time": 18.9667,
+      "value": 100
+     },
+     {
+      "time": 19.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t19",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P19",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "WON'T"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op19",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P19",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 18.9667,
+      "value": 0
+     },
+     {
+      "time": 19,
+      "value": 100
+     },
+     {
+      "time": 19.9667,
+      "value": 100
+     },
+     {
+      "time": 20.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t20",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P20",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "SHOW"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op20",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P20",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 19.9667,
+      "value": 0
+     },
+     {
+      "time": 20,
+      "value": 100
+     },
+     {
+      "time": 20.9667,
+      "value": 100
+     },
+     {
+      "time": 21.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t21",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P21",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "THAT"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op21",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P21",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 20.9667,
+      "value": 0
+     },
+     {
+      "time": 21,
+      "value": 100
+     },
+     {
+      "time": 21.9667,
+      "value": 100
+     },
+     {
+      "time": 22.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t22",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P22",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "GOT"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op22",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P22",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 21.9667,
+      "value": 0
+     },
+     {
+      "time": 22,
+      "value": 100
+     },
+     {
+      "time": 22.9667,
+      "value": 100
+     },
+     {
+      "time": 23.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t23",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P23",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "AND"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op23",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P23",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 22.9667,
+      "value": 0
+     },
+     {
+      "time": 23,
+      "value": 100
+     },
+     {
+      "time": 23.9667,
+      "value": 100
+     },
+     {
+      "time": 24.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t24",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P24",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "HAD"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op24",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P24",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 23.9667,
+      "value": 0
+     },
+     {
+      "time": 24,
+      "value": 100
+     },
+     {
+      "time": 24.9667,
+      "value": 100
+     },
+     {
+      "time": 25.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t25",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P25",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "NO"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op25",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P25",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 24.9667,
+      "value": 0
+     },
+     {
+      "time": 25,
+      "value": 100
+     },
+     {
+      "time": 25.9667,
+      "value": 100
+     },
+     {
+      "time": 26.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t26",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P26",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "DOUBT"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op26",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P26",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 25.9667,
+      "value": 0
+     },
+     {
+      "time": 26,
+      "value": 100
+     },
+     {
+      "time": 26.9667,
+      "value": 100
+     },
+     {
+      "time": 27.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t27",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P27",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "KNOW"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op27",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P27",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 26.9667,
+      "value": 0
+     },
+     {
+      "time": 27,
+      "value": 100
+     },
+     {
+      "time": 27.9667,
+      "value": 100
+     },
+     {
+      "time": 28.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t28",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P28",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "WHAT'S"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op28",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P28",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 27.9667,
+      "value": 0
+     },
+     {
+      "time": 28,
+      "value": 100
+     },
+     {
+      "time": 28.9667,
+      "value": 100
+     },
+     {
+      "time": 29.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t29",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P29",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "GOING"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op29",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P29",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 28.9667,
+      "value": 0
+     },
+     {
+      "time": 29,
+      "value": 100
+     },
+     {
+      "time": 29.9667,
+      "value": 100
+     },
+     {
+      "time": 30.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t30",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P30",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "ON"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op30",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P30",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 29.9667,
+      "value": 0
+     },
+     {
+      "time": 30,
+      "value": 100
+     },
+     {
+      "time": 30.9667,
+      "value": 100
+     },
+     {
+      "time": 31.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t31",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P31",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "YEARS"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op31",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P31",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 30.9667,
+      "value": 0
+     },
+     {
+      "time": 31,
+      "value": 100
+     },
+     {
+      "time": 31.9667,
+      "value": 100
+     },
+     {
+      "time": 32.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t32",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P32",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "WE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op32",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P32",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 31.9667,
+      "value": 0
+     },
+     {
+      "time": 32,
+      "value": 100
+     },
+     {
+      "time": 32.9667,
+      "value": 100
+     },
+     {
+      "time": 33.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t33",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P33",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "HAVE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op33",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P33",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 32.9667,
+      "value": 0
+     },
+     {
+      "time": 33,
+      "value": 100
+     },
+     {
+      "time": 33.9667,
+      "value": 100
+     },
+     {
+      "time": 34.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t34",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P34",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "BEEN"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op34",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P34",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 33.9667,
+      "value": 0
+     },
+     {
+      "time": 34,
+      "value": 100
+     },
+     {
+      "time": 34.9667,
+      "value": 100
+     },
+     {
+      "time": 35.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t35",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P35",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "DOWN"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op35",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P35",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 34.9667,
+      "value": 0
+     },
+     {
+      "time": 35,
+      "value": 100
+     },
+     {
+      "time": 35.9667,
+      "value": 100
+     },
+     {
+      "time": 36.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t36",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P36",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "THE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op36",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P36",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 35.9667,
+      "value": 0
+     },
+     {
+      "time": 36,
+      "value": 100
+     },
+     {
+      "time": 36.9667,
+      "value": 100
+     },
+     {
+      "time": 37.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t37",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P37",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "MARRIED"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op37",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P37",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 36.9667,
+      "value": 0
+     },
+     {
+      "time": 37,
+      "value": 100
+     },
+     {
+      "time": 37.9667,
+      "value": 100
+     },
+     {
+      "time": 38.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t38",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P38",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "KIDS"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op38",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P38",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 37.9667,
+      "value": 0
+     },
+     {
+      "time": 38,
+      "value": 100
+     },
+     {
+      "time": 38.9667,
+      "value": 100
+     },
+     {
+      "time": 39.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t39",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P39",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "IT'S"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op39",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P39",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 38.9667,
+      "value": 0
+     },
+     {
+      "time": 39,
+      "value": 100
+     },
+     {
+      "time": 39.9667,
+      "value": 100
+     },
+     {
+      "time": 40.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "t40",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P40",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "CRAZY"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "op40",
+   "tool": "add_keyframe",
+   "args": {
+    "layer": "P40",
+    "path": "transform/opacity",
+    "keys": [
+     {
+      "time": 0,
+      "value": 0
+     },
+     {
+      "time": 39.9667,
+      "value": 0
+     },
+     {
+      "time": 40,
+      "value": 100
+     },
+     {
+      "time": 40.9667,
+      "value": 100
+     },
+     {
+      "time": 41.0,
+      "value": 0
+     }
+    ]
+   },
+   "hard": true
+  },
+  {
+   "label": "save",
+   "tool": "save_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/inkprobe.ecproj"
+   },
+   "hard": true
+  }
+ ]
+}

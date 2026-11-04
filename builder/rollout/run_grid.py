@@ -10,7 +10,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from paths import workdir  # noqa: E402
 
-
 WHITE = ["AND", "I", "STOP", "AT", "A"]
 COMP = "line1_and_i_stop_at_a_light_REDLIGHT_V3"
 BASE = "/tmp/grid-base.ecproj"

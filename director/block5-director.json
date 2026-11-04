@@ -1,0 +1,438 @@
+{
+  "block": "block5",
+  "track": "108 VOX1_01",
+  "source_lyric": "You know what's going on, years we have been down the line. Got married, have kids, and it's crazy.",
+  "board_window_srt_s": [
+    82.24,
+    88.32
+  ],
+  "timing_source": "house whisper-large-v3 on the bounce (rest-of-song TIMINGS 2026-11-02) + cue-9 repair slice 76-90s: 'You know' phrase onset pinned 81.66 (one merged chunk; You/know split at 81.99 estimated +-0.2), what's onset corrected to 82.32, remaining cue-9 onsets re-based on the repair pass (anchors agree <=0.04s)",
+  "landing_rule": "landing = onset - 2 frames @ 30fps",
+  "model": "muse-wonder-1.0",
+  "generated_ct": "2026-11-02T12:06:55-06:00",
+  "api_routes": [
+    "non-streaming",
+    "non-streaming"
+  ],
+  "receipt_request_ids": [
+    "resp_6ae8d0fa6a7d690230b94578",
+    "resp_6ae8d13fdeec58b604d24d63"
+  ],
+  "lines": [
+    {
+      "line_id": "block5-line1",
+      "display_groups": [
+        {
+          "words": [
+            "YOU",
+            "KNOW"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "WHAT'S"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "WHAT'S",
+      "hero_color": {
+        "hero_word": "WHAT'S",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The coda opens left and builds to WHAT'S.",
+      "landings": [
+        {
+          "word": "YOU",
+          "onset_s": 81.66,
+          "landing_s": 81.593,
+          "landing_frame": 2448
+        },
+        {
+          "word": "KNOW",
+          "onset_s": 81.99,
+          "landing_s": 81.923,
+          "landing_frame": 2458
+        },
+        {
+          "word": "WHAT'S",
+          "onset_s": 82.32,
+          "landing_s": 82.253,
+          "landing_frame": 2468
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line2",
+      "display_groups": [
+        {
+          "words": [
+            "GOING"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "ON"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "ON",
+      "hero_color": {
+        "hero_word": "ON",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The question shifts right and lands on ON.",
+      "landings": [
+        {
+          "word": "GOING",
+          "onset_s": 82.68,
+          "landing_s": 82.613,
+          "landing_frame": 2478
+        },
+        {
+          "word": "ON",
+          "onset_s": 82.96,
+          "landing_s": 82.893,
+          "landing_frame": 2487
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line3",
+      "display_groups": [
+        {
+          "words": [
+            "YEARS"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "YEARS",
+      "hero_color": {
+        "hero_word": "YEARS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "YEARS fills the frame to mark the time passed.",
+      "landings": [
+        {
+          "word": "YEARS",
+          "onset_s": 83.42,
+          "landing_s": 83.353,
+          "landing_frame": 2501
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line4",
+      "display_groups": [
+        {
+          "words": [
+            "WE",
+            "HAVE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "BEEN"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "BEEN",
+      "hero_color": {
+        "hero_word": "BEEN",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line returns left and builds to BEEN.",
+      "landings": [
+        {
+          "word": "WE",
+          "onset_s": 83.74,
+          "landing_s": 83.673,
+          "landing_frame": 2510
+        },
+        {
+          "word": "HAVE",
+          "onset_s": 83.96,
+          "landing_s": 83.893,
+          "landing_frame": 2517
+        },
+        {
+          "word": "BEEN",
+          "onset_s": 84.22,
+          "landing_s": 84.153,
+          "landing_frame": 2525
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line5",
+      "display_groups": [
+        {
+          "words": [
+            "DOWN",
+            "THE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "DOWN",
+      "hero_color": {
+        "hero_word": "DOWN",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        400
+      ],
+      "redlight": false,
+      "reason": "The phrase shifts right toward its final word.",
+      "landings": [
+        {
+          "word": "DOWN",
+          "onset_s": 84.58,
+          "landing_s": 84.513,
+          "landing_frame": 2535
+        },
+        {
+          "word": "THE",
+          "onset_s": 85.02,
+          "landing_s": 84.953,
+          "landing_frame": 2549
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line6",
+      "display_groups": [
+        {
+          "words": [
+            "LINE"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "LINE",
+      "hero_color": {
+        "hero_word": "LINE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "LINE fills the frame to close the phrase.",
+      "landings": [
+        {
+          "word": "LINE",
+          "onset_s": 85.22,
+          "landing_s": 85.153,
+          "landing_frame": 2555
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line7",
+      "display_groups": [
+        {
+          "words": [
+            "GOT",
+            "MARRIED"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "HAVE",
+            "KIDS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "KIDS",
+      "hero_color": {
+        "hero_word": "KIDS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The payoff starts left and builds to KIDS.",
+      "landings": [
+        {
+          "word": "GOT",
+          "onset_s": 86.0,
+          "landing_s": 85.933,
+          "landing_frame": 2578
+        },
+        {
+          "word": "MARRIED",
+          "onset_s": 86.3,
+          "landing_s": 86.233,
+          "landing_frame": 2587
+        },
+        {
+          "word": "HAVE",
+          "onset_s": 86.68,
+          "landing_s": 86.613,
+          "landing_frame": 2598
+        },
+        {
+          "word": "KIDS",
+          "onset_s": 87.04,
+          "landing_s": 86.973,
+          "landing_frame": 2609
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line8",
+      "display_groups": [
+        {
+          "words": [
+            "AND"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "IT'S"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "IT'S",
+      "hero_color": {
+        "hero_word": "IT'S",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The aside shifts right and lands on IT'S.",
+      "landings": [
+        {
+          "word": "AND",
+          "onset_s": 87.62,
+          "landing_s": 87.553,
+          "landing_frame": 2627
+        },
+        {
+          "word": "IT'S",
+          "onset_s": 87.86,
+          "landing_s": 87.793,
+          "landing_frame": 2634
+        }
+      ]
+    },
+    {
+      "line_id": "block5-line9",
+      "display_groups": [
+        {
+          "words": [
+            "CRAZY"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "CRAZY",
+      "hero_color": {
+        "hero_word": "CRAZY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "CRAZY fills the frame as the final payoff.",
+      "landings": [
+        {
+          "word": "CRAZY",
+          "onset_s": 88.06,
+          "landing_s": 87.993,
+          "landing_frame": 2640
+        }
+      ]
+    }
+  ]
+}

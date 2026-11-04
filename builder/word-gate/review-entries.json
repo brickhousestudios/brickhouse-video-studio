@@ -1,0 +1,270 @@
+[
+ {
+  "t": 24.133,
+  "label": "0:24 \u00b7 B1 \u00b7 L1 \u00b7 I'M DRIVING DOWN THE ROAD AND I STOP AT A LIGHT"
+ },
+ {
+  "t": 26.47,
+  "label": "0:26 \u00b7 B2 \u00b7 L2 \u00b7 SHE PUT ON A WINDOW I SAY HEY"
+ },
+ {
+  "t": 30.2,
+  "label": "0:30 \u00b7 B3 \u00b7 L3 \u00b7 SHE SAID WHERE I'M FROM I TELL HER I'M NOT AROUND"
+ },
+ {
+  "t": 33.2,
+  "label": "0:33 \u00b7 B3 \u00b7 L4 \u00b7 THEN I ASK WHERE SHE FROM SHE SAID NO WAY"
+ },
+ {
+  "t": 37.067,
+  "label": "0:37 \u00b7 B4 \u00b7 L5 \u00b7 GIRL WHAT YOU DOING HOW YOU GET HERE"
+ },
+ {
+  "t": 40.3,
+  "label": "0:40 \u00b7 B4 \u00b7 L6 \u00b7 SHE TOLD ME SHE WAS IN TOWN BY THE DISAPPEAR"
+ },
+ {
+  "t": 43.833,
+  "label": "0:43 \u00b7 B4 \u00b7 L7 \u00b7 I TOLD HER LET ME TAKE YOU RIGHT I WANT TO SHOW YOU NOW"
+ },
+ {
+  "t": 47.767,
+  "label": "0:47 \u00b7 B4 \u00b7 L8 \u00b7 SHE TOLD ME THAT SHE GOT ME AND HAD NO DOUBT"
+ },
+ {
+  "t": 51.23,
+  "label": "0:51 \u00b7 CH1 \u00b7 L1 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 54.03,
+  "label": "0:54 \u00b7 CH1 \u00b7 L2 \u00b7 YOU BETTER RUN YOU BETTER"
+ },
+ {
+  "t": 55.663,
+  "label": "0:55 \u00b7 CH1 \u00b7 L3 \u00b7 YOU BETTER DO WHAT YOU'RE GONNA"
+ },
+ {
+  "t": 57.83,
+  "label": "0:57 \u00b7 CH1 \u00b7 L4 \u00b7 'CAUSE SHE"
+ },
+ {
+  "t": 58.163,
+  "label": "0:58 \u00b7 CH1 \u00b7 L5 \u00b7 GONE"
+ },
+ {
+  "t": 58.763,
+  "label": "0:58 \u00b7 CH1 \u00b7 L6 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 60.73,
+  "label": "1:00 \u00b7 CH1 \u00b7 L7 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 61.497,
+  "label": "1:01 \u00b7 CH1 \u00b7 L8 \u00b7 YOU BETTER RUN YOU BETTER"
+ },
+ {
+  "t": 63.097,
+  "label": "1:03 \u00b7 CH1 \u00b7 L9 \u00b7 YOU BETTER DO WHAT YOU'RE GONNA"
+ },
+ {
+  "t": 65.23,
+  "label": "1:05 \u00b7 CH1 \u00b7 L10 \u00b7 'CAUSE SHE GONE"
+ },
+ {
+  "t": 66.163,
+  "label": "1:06 \u00b7 CH1 \u00b7 L11 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 68.197,
+  "label": "1:08 \u00b7 CH1 \u00b7 L12 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 69.697,
+  "label": "1:09 \u00b7 CH1 \u00b7 L13 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 72.763,
+  "label": "1:12 \u00b7 CH1 \u00b7 L14 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 75.663,
+  "label": "1:15 \u00b7 CH1 \u00b7 L15 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 76.363,
+  "label": "1:16 \u00b7 CH1 \u00b7 L16 \u00b7 YOU BETTER RUN YOU BETTER"
+ },
+ {
+  "t": 78.063,
+  "label": "1:18 \u00b7 CH1 \u00b7 L17 \u00b7 YOU BETTER DO WHAT YOU'RE GONNA"
+ },
+ {
+  "t": 79.997,
+  "label": "1:19 \u00b7 CH1 \u00b7 L18 \u00b7 'CAUSE SHE"
+ },
+ {
+  "t": 80.497,
+  "label": "1:20 \u00b7 CH1 \u00b7 L19 \u00b7 GONE"
+ },
+ {
+  "t": 81.603,
+  "label": "1:21 \u00b7 B5 \u00b7 L1 \u00b7 YOU KNOW WHAT'S"
+ },
+ {
+  "t": 82.603,
+  "label": "1:22 \u00b7 B5 \u00b7 L2 \u00b7 GOING ON"
+ },
+ {
+  "t": 83.37,
+  "label": "1:23 \u00b7 B5 \u00b7 L3 \u00b7 YEARS"
+ },
+ {
+  "t": 83.67,
+  "label": "1:23 \u00b7 B5 \u00b7 L4 \u00b7 WE HAVE BEEN"
+ },
+ {
+  "t": 84.503,
+  "label": "1:24 \u00b7 B5 \u00b7 L5 \u00b7 DOWN THE"
+ },
+ {
+  "t": 85.17,
+  "label": "1:25 \u00b7 B5 \u00b7 L6 \u00b7 LINE"
+ },
+ {
+  "t": 85.937,
+  "label": "1:25 \u00b7 B5 \u00b7 L7 \u00b7 GOT MARRIED HAVE KIDS"
+ },
+ {
+  "t": 87.57,
+  "label": "1:27 \u00b7 B5 \u00b7 L8 \u00b7 AND IT'S"
+ },
+ {
+  "t": 88.003,
+  "label": "1:28 \u00b7 B5 \u00b7 L9 \u00b7 CRAZY"
+ },
+ {
+  "t": 89.77,
+  "label": "1:29 \u00b7 PV \u00b7 L1 \u00b7 I CALLED TEXTED AND THE PHONE WAS NIGHT"
+ },
+ {
+  "t": 93.303,
+  "label": "1:33 \u00b7 PV \u00b7 L2 \u00b7 HAD TO WAKE UP ONE NIGHT AND SAY BABY"
+ },
+ {
+  "t": 96.17,
+  "label": "1:36 \u00b7 PV \u00b7 L3 \u00b7 WHO ARE YOU TEXTING"
+ },
+ {
+  "t": 98.203,
+  "label": "1:38 \u00b7 PV \u00b7 L4 \u00b7 WHERE ARE YOU"
+ },
+ {
+  "t": 98.903,
+  "label": "1:38 \u00b7 PV \u00b7 L5 \u00b7 FROM"
+ },
+ {
+  "t": 99.57,
+  "label": "1:39 \u00b7 PV \u00b7 L6 \u00b7 I HAVE BUILT THIS HOUSE"
+ },
+ {
+  "t": 101.703,
+  "label": "1:41 \u00b7 PV \u00b7 L7 \u00b7 FROM THE GROUND UP"
+ },
+ {
+  "t": 103.37,
+  "label": "1:43 \u00b7 PV \u00b7 L8 \u00b7 YOU GON' BREAK A HAPPY HOME"
+ },
+ {
+  "t": 105.437,
+  "label": "1:45 \u00b7 PV \u00b7 L9 \u00b7 UP AND LEAVE"
+ },
+ {
+  "t": 107.07,
+  "label": "1:47 \u00b7 PV \u00b7 L10 \u00b7 SO I THOUGHT I'D PACK A BASKET"
+ },
+ {
+  "t": 109.303,
+  "label": "1:49 \u00b7 PV \u00b7 L11 \u00b7 I'LL JUST"
+ },
+ {
+  "t": 109.903,
+  "label": "1:49 \u00b7 PV \u00b7 L12 \u00b7 LEAVE"
+ },
+ {
+  "t": 110.833,
+  "label": "1:50 \u00b7 CH2 \u00b7 L1 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 112.933,
+  "label": "1:52 \u00b7 CH2 \u00b7 L2 \u00b7 YOU BETTER RUN YOU BETTER"
+ },
+ {
+  "t": 115.2,
+  "label": "1:55 \u00b7 CH2 \u00b7 L3 \u00b7 YOU BETTER DO WHAT YOU GON'"
+ },
+ {
+  "t": 117.333,
+  "label": "1:57 \u00b7 CH2 \u00b7 L4 \u00b7 'CAUSE SHE GONE"
+ },
+ {
+  "t": 118.267,
+  "label": "1:58 \u00b7 CH2 \u00b7 L5 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 120.233,
+  "label": "2:00 \u00b7 CH2 \u00b7 L6 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 121.0,
+  "label": "2:01 \u00b7 CH2 \u00b7 L7 \u00b7 YOU BETTER RUN YOU BETTER"
+ },
+ {
+  "t": 122.633,
+  "label": "2:02 \u00b7 CH2 \u00b7 L8 \u00b7 YOU BETTER DO WHAT YOU'RE GONNA"
+ },
+ {
+  "t": 124.7,
+  "label": "2:04 \u00b7 CH2 \u00b7 L9 \u00b7 'CAUSE YOU'RE GONE"
+ },
+ {
+  "t": 125.767,
+  "label": "2:05 \u00b7 CH2 \u00b7 L10 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 127.7,
+  "label": "2:07 \u00b7 CH2 \u00b7 L11 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 128.867,
+  "label": "2:08 \u00b7 CH2 \u00b7 L12 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 131.433,
+  "label": "2:11 \u00b7 CH2 \u00b7 L13 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 132.367,
+  "label": "2:12 \u00b7 CH2 \u00b7 L14 \u00b7 YEAH SHE'S A WALK AWAY WALK AWAY"
+ },
+ {
+  "t": 135.167,
+  "label": "2:15 \u00b7 CH2 \u00b7 L15 \u00b7 WALK AWAY"
+ },
+ {
+  "t": 135.967,
+  "label": "2:15 \u00b7 CH2 \u00b7 L16 \u00b7 YOU BETTER RUN YOU BETTER"
+ },
+ {
+  "t": 137.567,
+  "label": "2:17 \u00b7 CH2 \u00b7 L17 \u00b7 YOU BETTER DO WHAT YOU'RE GONNA"
+ },
+ {
+  "t": 139.533,
+  "label": "2:19 \u00b7 CH2 \u00b7 L18 \u00b7 'CAUSE YOU'RE GONE"
+ },
+ {
+  "t": 140.633,
+  "label": "2:20 \u00b7 CH2 \u00b7 L19 \u00b7 OW"
+ }
+]

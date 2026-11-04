@@ -100,8 +100,15 @@ Two lines in one block never share a hero word.
 
 FULL-FRAME PUNCH HOLD (locked): a full-frame punch holds for its whole sung word — its out-point is the word's measured end on the bounce + 2 frames, never a fixed frame count — and pushes 108% -> 100% (ease-out) across the hold.
 
-PLACEMENT rotates line to line: left stack -> right stack -> full frame.
-Never use the same placement for two display lines in a row.
+PLACEMENT ROTATION (locked): placements rotate line to line through
+the block -- left stack -> right stack -> full frame, then around
+again. Never use the same placement for two display lines in a row,
+and NEVER let more than 2 stack lines run back-to-back without a
+full-frame line: at least every third line is a full-frame punch
+(one word -- the line's hero -- filling the whole frame; see
+FULL-FRAME PUNCH HOLD). A plan of only stacks is a broken plan; the
+full-frame lines are the block's exclamation points, so put them on
+the lines that hit hardest.
 
 MOTION: words land ONE AT A TIME, about 2 frames before each consonant onset
 (timed to the bounce; landings are computed by the caller, not by you). Use
@@ -343,6 +350,7 @@ def validate(
     target: dict,
     prior_heroes: list[str] | None = None,
     prior_scatter_used: bool = False,
+    prior_stack_streak: int = 0,
 ) -> list[str]:
     errors: list[str] = []
     if not isinstance(candidate, dict) or not isinstance(candidate.get("lines"), list):
@@ -361,6 +369,11 @@ def validate(
     target_seq = [normalize(w["word"]) for w in target["words"]]
     got_seq: list[str] = []
     prev_placement: str | None = None
+    # Placement rotation (BO's locked rule): the run of consecutive
+    # lines placed anywhere but "full"; prior_stack_streak carries
+    # the run at the end of the same block that precedes this
+    # candidate (per-cue callers chain it, like prior_heroes).
+    stack_streak = prior_stack_streak
     for i, line in enumerate(lines):
         tag = f"line {i} ({line.get('line_id', '?')})"
         if not isinstance(line, dict):
@@ -391,6 +404,15 @@ def validate(
         if placement is not None and placement == prev_placement:
             errors.append(f"{tag}: placement repeats the previous line ('{placement}')")
         prev_placement = placement
+        if placement == "full":
+            stack_streak = 0
+        else:
+            stack_streak += 1
+            if stack_streak == 3:
+                errors.append(
+                    f"{tag}: more than 2 consecutive lines without a "
+                    "full-frame placement (rotation rule)"
+                )
         if placement == "full":
             if len(groups) != 1 or (groups and groups[0].get("motion") != "full_frame_punch"):
                 errors.append(f"{tag}: full placement needs exactly one full_frame_punch group")

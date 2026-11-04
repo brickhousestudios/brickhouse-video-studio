@@ -1,0 +1,57 @@
+{
+ "ops": [
+  {
+   "label": "new_project",
+   "tool": "open_project",
+   "args": {
+    "new": true
+   },
+   "hard": true
+  },
+  {
+   "label": "comp_new",
+   "tool": "execute_command",
+   "args": {
+    "command": "comp.new",
+    "params": {
+     "name": "inkprobe2",
+     "width": 1920,
+     "height": 1080,
+     "frameRate": 30,
+     "duration": 1.0
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "t0",
+   "tool": "execute_command",
+   "args": {
+    "command": "layer.newText",
+    "params": {
+     "allCaps": true,
+     "fill": "#FF3B1F",
+     "font": "Anton",
+     "justify": "left",
+     "name": "P00",
+     "position": [
+      60,
+      950
+     ],
+     "size": 400,
+     "style": "Regular",
+     "text": "LINE"
+    }
+   },
+   "hard": true
+  },
+  {
+   "label": "save",
+   "tool": "save_project",
+   "args": {
+    "path": "${BRICKHOUSE_WORKDIR}/ext-2026-11-03/probe/inkprobe2.ecproj"
+   },
+   "hard": true
+  }
+ ]
+}
