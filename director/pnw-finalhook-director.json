@@ -1,0 +1,1430 @@
+{
+  "block": "pnw-finalhook",
+  "track": "PUT N WORK (DRIXX)",
+  "section": "FINAL_HOOK",
+  "source_lyric": "Nigga where I'm from, you can't get no sleep You cannot get no peace Nigga where I'm from the bay, we do not fucking weep All we know is crack cars, we had no OG I went outside with the bars, hit a car for no reason We smooth with it, true with it Creepin' through the night, them niggas round me I'm blowin', I bust my own pipe Got the money, the power, bitch is alright Bitch we put in work, bitch we put in work We grinding hard, ahh yeah",
+  "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+  "landing_rule": "landing = onset - 2 frames @ 30fps",
+  "model": "muse-wonder-1.0",
+  "generated_ct": "2026-11-04T12:18:51-06:00",
+  "api_routes": [
+    "non-streaming"
+  ],
+  "receipt_request_ids": [
+    "resp_6aeb770ad08e15c63baa47b7"
+  ],
+  "lines": [
+    {
+      "line_id": "pnw-finalhook-line1",
+      "display_groups": [
+        {
+          "words": [
+            "NIGGA",
+            "WHERE",
+            "I'M"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "FROM"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "FROM",
+      "hero_color": {
+        "hero_word": "FROM",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on FROM as the origin.",
+      "landings": [
+        {
+          "word": "NIGGA",
+          "onset_s": 128.06,
+          "landing_s": 127.993,
+          "landing_frame": 3840
+        },
+        {
+          "word": "WHERE",
+          "onset_s": 128.26,
+          "landing_s": 128.193,
+          "landing_frame": 3846
+        },
+        {
+          "word": "I'M",
+          "onset_s": 128.44,
+          "landing_s": 128.373,
+          "landing_frame": 3851
+        },
+        {
+          "word": "FROM",
+          "onset_s": 128.66,
+          "landing_s": 128.593,
+          "landing_frame": 3858
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line2",
+      "display_groups": [
+        {
+          "words": [
+            "YOU",
+            "CAN'T"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "GET",
+            "NO"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "GET",
+      "hero_color": {
+        "hero_word": "GET",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on GET as the attempt to rest.",
+      "landings": [
+        {
+          "word": "YOU",
+          "onset_s": 129.0,
+          "landing_s": 128.933,
+          "landing_frame": 3868
+        },
+        {
+          "word": "CAN'T",
+          "onset_s": 129.18,
+          "landing_s": 129.113,
+          "landing_frame": 3873
+        },
+        {
+          "word": "GET",
+          "onset_s": 129.44,
+          "landing_s": 129.373,
+          "landing_frame": 3881
+        },
+        {
+          "word": "NO",
+          "onset_s": 129.54,
+          "landing_s": 129.473,
+          "landing_frame": 3884
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line3",
+      "display_groups": [
+        {
+          "words": [
+            "SLEEP"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "SLEEP",
+      "hero_color": {
+        "hero_word": "SLEEP",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "SLEEP fills the frame as the rest that is missing.",
+      "landings": [
+        {
+          "word": "SLEEP",
+          "onset_s": 129.74,
+          "landing_s": 129.673,
+          "landing_frame": 3890
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line4",
+      "display_groups": [
+        {
+          "words": [
+            "YOU",
+            "CANNOT",
+            "GET",
+            "NO"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "PEACE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "PEACE",
+      "hero_color": {
+        "hero_word": "PEACE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on PEACE as the calm that is missing.",
+      "landings": [
+        {
+          "word": "YOU",
+          "onset_s": 130.1,
+          "landing_s": 130.033,
+          "landing_frame": 3901
+        },
+        {
+          "word": "CANNOT",
+          "onset_s": 130.42,
+          "landing_s": 130.353,
+          "landing_frame": 3911
+        },
+        {
+          "word": "GET",
+          "onset_s": 130.74,
+          "landing_s": 130.673,
+          "landing_frame": 3920
+        },
+        {
+          "word": "NO",
+          "onset_s": 130.98,
+          "landing_s": 130.913,
+          "landing_frame": 3927
+        },
+        {
+          "word": "PEACE",
+          "onset_s": 131.18,
+          "landing_s": 131.113,
+          "landing_frame": 3933
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line5",
+      "display_groups": [
+        {
+          "words": [
+            "NIGGA"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "WHERE",
+            "I'M",
+            "FROM",
+            "THE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "WHERE",
+      "hero_color": {
+        "hero_word": "WHERE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on WHERE as the place recalled.",
+      "landings": [
+        {
+          "word": "NIGGA",
+          "onset_s": 131.58,
+          "landing_s": 131.513,
+          "landing_frame": 3945
+        },
+        {
+          "word": "WHERE",
+          "onset_s": 131.94,
+          "landing_s": 131.873,
+          "landing_frame": 3956
+        },
+        {
+          "word": "I'M",
+          "onset_s": 132.12,
+          "landing_s": 132.053,
+          "landing_frame": 3962
+        },
+        {
+          "word": "FROM",
+          "onset_s": 132.32,
+          "landing_s": 132.253,
+          "landing_frame": 3968
+        },
+        {
+          "word": "THE",
+          "onset_s": 132.52,
+          "landing_s": 132.453,
+          "landing_frame": 3974
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line6",
+      "display_groups": [
+        {
+          "words": [
+            "BAY"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "BAY",
+      "hero_color": {
+        "hero_word": "BAY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "BAY fills the frame as the home place.",
+      "landings": [
+        {
+          "word": "BAY",
+          "onset_s": 132.7,
+          "landing_s": 132.633,
+          "landing_frame": 3979
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line7",
+      "display_groups": [
+        {
+          "words": [
+            "WE",
+            "DO",
+            "NOT",
+            "FUCKING"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "WEEP",
+            "ALL",
+            "WE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "WEEP",
+      "hero_color": {
+        "hero_word": "WEEP",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on WEEP as the grief denied.",
+      "landings": [
+        {
+          "word": "WE",
+          "onset_s": 133.04,
+          "landing_s": 132.973,
+          "landing_frame": 3989
+        },
+        {
+          "word": "DO",
+          "onset_s": 133.38,
+          "landing_s": 133.313,
+          "landing_frame": 3999
+        },
+        {
+          "word": "NOT",
+          "onset_s": 133.54,
+          "landing_s": 133.473,
+          "landing_frame": 4004
+        },
+        {
+          "word": "FUCKING",
+          "onset_s": 133.7,
+          "landing_s": 133.633,
+          "landing_frame": 4009
+        },
+        {
+          "word": "WEEP",
+          "onset_s": 134.14,
+          "landing_s": 134.073,
+          "landing_frame": 4022
+        },
+        {
+          "word": "ALL",
+          "onset_s": 134.46,
+          "landing_s": 134.393,
+          "landing_frame": 4032
+        },
+        {
+          "word": "WE",
+          "onset_s": 134.7,
+          "landing_s": 134.633,
+          "landing_frame": 4039
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line8",
+      "display_groups": [
+        {
+          "words": [
+            "KNOW",
+            "IS"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "CRACK",
+            "CARS",
+            "WE",
+            "HAD",
+            "NO"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "CRACK",
+      "hero_color": {
+        "hero_word": "CRACK",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on CRACK as what is known.",
+      "landings": [
+        {
+          "word": "KNOW",
+          "onset_s": 134.84,
+          "landing_s": 134.773,
+          "landing_frame": 4043
+        },
+        {
+          "word": "IS",
+          "onset_s": 135.06,
+          "landing_s": 134.993,
+          "landing_frame": 4050
+        },
+        {
+          "word": "CRACK",
+          "onset_s": 135.22,
+          "landing_s": 135.153,
+          "landing_frame": 4055
+        },
+        {
+          "word": "CARS",
+          "onset_s": 135.42,
+          "landing_s": 135.353,
+          "landing_frame": 4061
+        },
+        {
+          "word": "WE",
+          "onset_s": 136.04,
+          "landing_s": 135.973,
+          "landing_frame": 4079
+        },
+        {
+          "word": "HAD",
+          "onset_s": 136.28,
+          "landing_s": 136.213,
+          "landing_frame": 4086
+        },
+        {
+          "word": "NO",
+          "onset_s": 136.48,
+          "landing_s": 136.413,
+          "landing_frame": 4092
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line9",
+      "display_groups": [
+        {
+          "words": [
+            "OG"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "OG",
+      "hero_color": {
+        "hero_word": "OG",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "OG fills the frame as the guide that was missing.",
+      "landings": [
+        {
+          "word": "OG",
+          "onset_s": 136.66,
+          "landing_s": 136.593,
+          "landing_frame": 4098
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line10",
+      "display_groups": [
+        {
+          "words": [
+            "I",
+            "WENT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "OUTSIDE",
+            "WITH",
+            "THE",
+            "BARS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "OUTSIDE",
+      "hero_color": {
+        "hero_word": "OUTSIDE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on OUTSIDE as the move out.",
+      "landings": [
+        {
+          "word": "I",
+          "onset_s": 137.03,
+          "landing_s": 136.963,
+          "landing_frame": 4109
+        },
+        {
+          "word": "WENT",
+          "onset_s": 137.41,
+          "landing_s": 137.343,
+          "landing_frame": 4120
+        },
+        {
+          "word": "OUTSIDE",
+          "onset_s": 137.78,
+          "landing_s": 137.713,
+          "landing_frame": 4131
+        },
+        {
+          "word": "WITH",
+          "onset_s": 138.12,
+          "landing_s": 138.053,
+          "landing_frame": 4142
+        },
+        {
+          "word": "THE",
+          "onset_s": 138.38,
+          "landing_s": 138.313,
+          "landing_frame": 4149
+        },
+        {
+          "word": "BARS",
+          "onset_s": 138.56,
+          "landing_s": 138.493,
+          "landing_frame": 4155
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line11",
+      "display_groups": [
+        {
+          "words": [
+            "HIT",
+            "A"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "CAR",
+            "FOR",
+            "NO"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "CAR",
+      "hero_color": {
+        "hero_word": "CAR",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on CAR as the target hit.",
+      "landings": [
+        {
+          "word": "HIT",
+          "onset_s": 138.84,
+          "landing_s": 138.773,
+          "landing_frame": 4163
+        },
+        {
+          "word": "A",
+          "onset_s": 139.3,
+          "landing_s": 139.233,
+          "landing_frame": 4177
+        },
+        {
+          "word": "CAR",
+          "onset_s": 139.42,
+          "landing_s": 139.353,
+          "landing_frame": 4181
+        },
+        {
+          "word": "FOR",
+          "onset_s": 139.62,
+          "landing_s": 139.553,
+          "landing_frame": 4187
+        },
+        {
+          "word": "NO",
+          "onset_s": 139.8,
+          "landing_s": 139.733,
+          "landing_frame": 4192
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line12",
+      "display_groups": [
+        {
+          "words": [
+            "REASON"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "REASON",
+      "hero_color": {
+        "hero_word": "REASON",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "REASON fills the frame as the missing cause.",
+      "landings": [
+        {
+          "word": "REASON",
+          "onset_s": 139.98,
+          "landing_s": 139.913,
+          "landing_frame": 4197
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line13",
+      "display_groups": [
+        {
+          "words": [
+            "WE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SMOOTH",
+            "WITH",
+            "IT",
+            "TRUE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "SMOOTH",
+      "hero_color": {
+        "hero_word": "SMOOTH",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on SMOOTH as the manner.",
+      "landings": [
+        {
+          "word": "WE",
+          "onset_s": 140.13,
+          "landing_s": 140.063,
+          "landing_frame": 4202
+        },
+        {
+          "word": "SMOOTH",
+          "onset_s": 140.29,
+          "landing_s": 140.223,
+          "landing_frame": 4207
+        },
+        {
+          "word": "WITH",
+          "onset_s": 140.44,
+          "landing_s": 140.373,
+          "landing_frame": 4211
+        },
+        {
+          "word": "IT",
+          "onset_s": 140.82,
+          "landing_s": 140.753,
+          "landing_frame": 4223
+        },
+        {
+          "word": "TRUE",
+          "onset_s": 141.06,
+          "landing_s": 140.993,
+          "landing_frame": 4230
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line14",
+      "display_groups": [
+        {
+          "words": [
+            "WITH",
+            "IT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "CREEPIN'",
+            "THROUGH",
+            "THE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "CREEPIN'",
+      "hero_color": {
+        "hero_word": "CREEPIN'",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on CREEPIN' as the movement.",
+      "landings": [
+        {
+          "word": "WITH",
+          "onset_s": 141.3,
+          "landing_s": 141.233,
+          "landing_frame": 4237
+        },
+        {
+          "word": "IT",
+          "onset_s": 141.7,
+          "landing_s": 141.633,
+          "landing_frame": 4249
+        },
+        {
+          "word": "CREEPIN'",
+          "onset_s": 141.82,
+          "landing_s": 141.753,
+          "landing_frame": 4253
+        },
+        {
+          "word": "THROUGH",
+          "onset_s": 142.14,
+          "landing_s": 142.073,
+          "landing_frame": 4262
+        },
+        {
+          "word": "THE",
+          "onset_s": 142.42,
+          "landing_s": 142.353,
+          "landing_frame": 4271
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line15",
+      "display_groups": [
+        {
+          "words": [
+            "NIGHT"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "NIGHT",
+      "hero_color": {
+        "hero_word": "NIGHT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "NIGHT fills the frame as the time of movement.",
+      "landings": [
+        {
+          "word": "NIGHT",
+          "onset_s": 142.56,
+          "landing_s": 142.493,
+          "landing_frame": 4275
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line16",
+      "display_groups": [
+        {
+          "words": [
+            "THEM"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "NIGGAS",
+            "ROUND",
+            "ME",
+            "I'M"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "NIGGAS",
+      "hero_color": {
+        "hero_word": "NIGGAS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on NIGGAS as the people nearby.",
+      "landings": [
+        {
+          "word": "THEM",
+          "onset_s": 142.78,
+          "landing_s": 142.713,
+          "landing_frame": 4281
+        },
+        {
+          "word": "NIGGAS",
+          "onset_s": 142.96,
+          "landing_s": 142.893,
+          "landing_frame": 4287
+        },
+        {
+          "word": "ROUND",
+          "onset_s": 143.32,
+          "landing_s": 143.253,
+          "landing_frame": 4298
+        },
+        {
+          "word": "ME",
+          "onset_s": 143.58,
+          "landing_s": 143.513,
+          "landing_frame": 4305
+        },
+        {
+          "word": "I'M",
+          "onset_s": 143.86,
+          "landing_s": 143.793,
+          "landing_frame": 4314
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line17",
+      "display_groups": [
+        {
+          "words": [
+            "BLOWIN'",
+            "I"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "BUST",
+            "MY",
+            "OWN"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "BUST",
+      "hero_color": {
+        "hero_word": "BUST",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on BUST as the action taken.",
+      "landings": [
+        {
+          "word": "BLOWIN'",
+          "onset_s": 144.06,
+          "landing_s": 143.993,
+          "landing_frame": 4320
+        },
+        {
+          "word": "I",
+          "onset_s": 144.62,
+          "landing_s": 144.553,
+          "landing_frame": 4337
+        },
+        {
+          "word": "BUST",
+          "onset_s": 144.78,
+          "landing_s": 144.713,
+          "landing_frame": 4341
+        },
+        {
+          "word": "MY",
+          "onset_s": 144.98,
+          "landing_s": 144.913,
+          "landing_frame": 4347
+        },
+        {
+          "word": "OWN",
+          "onset_s": 145.24,
+          "landing_s": 145.173,
+          "landing_frame": 4355
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line18",
+      "display_groups": [
+        {
+          "words": [
+            "PIPE"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "PIPE",
+      "hero_color": {
+        "hero_word": "PIPE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "PIPE fills the frame as the object used.",
+      "landings": [
+        {
+          "word": "PIPE",
+          "onset_s": 145.38,
+          "landing_s": 145.313,
+          "landing_frame": 4359
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line19",
+      "display_groups": [
+        {
+          "words": [
+            "GOT",
+            "THE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "MONEY",
+            "THE",
+            "POWER"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "MONEY",
+      "hero_color": {
+        "hero_word": "MONEY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on MONEY as the gain.",
+      "landings": [
+        {
+          "word": "GOT",
+          "onset_s": 145.66,
+          "landing_s": 145.593,
+          "landing_frame": 4368
+        },
+        {
+          "word": "THE",
+          "onset_s": 146.0,
+          "landing_s": 145.933,
+          "landing_frame": 4378
+        },
+        {
+          "word": "MONEY",
+          "onset_s": 146.18,
+          "landing_s": 146.113,
+          "landing_frame": 4383
+        },
+        {
+          "word": "THE",
+          "onset_s": 146.6,
+          "landing_s": 146.533,
+          "landing_frame": 4396
+        },
+        {
+          "word": "POWER",
+          "onset_s": 146.98,
+          "landing_s": 146.913,
+          "landing_frame": 4407
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line20",
+      "display_groups": [
+        {
+          "words": [
+            "BITCH",
+            "IS"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "ALRIGHT",
+            "BITCH",
+            "WE",
+            "PUT",
+            "IN"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "ALRIGHT",
+      "hero_color": {
+        "hero_word": "ALRIGHT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on ALRIGHT as the claimed state.",
+      "landings": [
+        {
+          "word": "BITCH",
+          "onset_s": 147.3,
+          "landing_s": 147.233,
+          "landing_frame": 4417
+        },
+        {
+          "word": "IS",
+          "onset_s": 147.9,
+          "landing_s": 147.833,
+          "landing_frame": 4435
+        },
+        {
+          "word": "ALRIGHT",
+          "onset_s": 148.32,
+          "landing_s": 148.253,
+          "landing_frame": 4448
+        },
+        {
+          "word": "BITCH",
+          "onset_s": 148.56,
+          "landing_s": 148.493,
+          "landing_frame": 4455
+        },
+        {
+          "word": "WE",
+          "onset_s": 148.8,
+          "landing_s": 148.733,
+          "landing_frame": 4462
+        },
+        {
+          "word": "PUT",
+          "onset_s": 149.04,
+          "landing_s": 148.973,
+          "landing_frame": 4469
+        },
+        {
+          "word": "IN",
+          "onset_s": 149.31,
+          "landing_s": 149.243,
+          "landing_frame": 4477
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line21",
+      "display_groups": [
+        {
+          "words": [
+            "WORK"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "WORK",
+      "hero_color": {
+        "hero_word": "WORK",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "WORK fills the frame as the labor claimed.",
+      "landings": [
+        {
+          "word": "WORK",
+          "onset_s": 149.59,
+          "landing_s": 149.523,
+          "landing_frame": 4486
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line22",
+      "display_groups": [
+        {
+          "words": [
+            "BITCH",
+            "WE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "PUT",
+            "IN",
+            "WORK"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "PUT",
+      "hero_color": {
+        "hero_word": "PUT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on PUT as the repeated effort.",
+      "landings": [
+        {
+          "word": "BITCH",
+          "onset_s": 149.86,
+          "landing_s": 149.793,
+          "landing_frame": 4494
+        },
+        {
+          "word": "WE",
+          "onset_s": 150.14,
+          "landing_s": 150.073,
+          "landing_frame": 4502
+        },
+        {
+          "word": "PUT",
+          "onset_s": 150.24,
+          "landing_s": 150.173,
+          "landing_frame": 4505
+        },
+        {
+          "word": "IN",
+          "onset_s": 150.48,
+          "landing_s": 150.413,
+          "landing_frame": 4512
+        },
+        {
+          "word": "WORK",
+          "onset_s": 150.58,
+          "landing_s": 150.513,
+          "landing_frame": 4515
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line23",
+      "display_groups": [
+        {
+          "words": [
+            "WE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "GRINDING",
+            "HARD",
+            "AHH"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "GRINDING",
+      "hero_color": {
+        "hero_word": "GRINDING",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on GRINDING as the ongoing work.",
+      "landings": [
+        {
+          "word": "WE",
+          "onset_s": 150.81,
+          "landing_s": 150.743,
+          "landing_frame": 4522
+        },
+        {
+          "word": "GRINDING",
+          "onset_s": 151.05,
+          "landing_s": 150.983,
+          "landing_frame": 4530
+        },
+        {
+          "word": "HARD",
+          "onset_s": 151.28,
+          "landing_s": 151.213,
+          "landing_frame": 4536
+        },
+        {
+          "word": "AHH",
+          "onset_s": 151.45,
+          "landing_s": 151.383,
+          "landing_frame": 4542
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-finalhook-line24",
+      "display_groups": [
+        {
+          "words": [
+            "YEAH"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "YEAH",
+      "hero_color": {
+        "hero_word": "YEAH",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "YEAH fills the frame as the final affirmation.",
+      "landings": [
+        {
+          "word": "YEAH",
+          "onset_s": 151.63,
+          "landing_s": 151.563,
+          "landing_frame": 4547
+        }
+      ]
+    }
+  ]
+}

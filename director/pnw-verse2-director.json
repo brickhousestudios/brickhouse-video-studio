@@ -1,0 +1,2005 @@
+{
+  "block": "pnw-verse2",
+  "track": "PUT N WORK (DRIXX)",
+  "section": "VERSE2",
+  "source_lyric": "Bitch I put in work, okay, never take no days off I'ma get this cake, okay, I'ma make sure, we gon' ball When we get the package, nigga then we gon' set it off When they coming, our way, nigga, then we gonna play it raw I be turnin' for real, nigga, turnt up off these pills Give a damn, I got no chill, little bitches I got no feel Aye, free lih blast for real, when he get out bitches it drilled We be gettin' to that money, no cap real spill No cap real spillllllllll Northwood Drive, you come around this bitch You will get your ass shot You look around the way, you might see, yo opps But you see them cops, you better run and hide it, and hop",
+  "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+  "landing_rule": "landing = onset - 2 frames @ 30fps",
+  "model": "muse-wonder-1.0",
+  "generated_ct": "2026-11-04T12:17:38-06:00",
+  "api_routes": [
+    "non-streaming"
+  ],
+  "receipt_request_ids": [
+    "resp_6aeb76c22254287dbdfa4785"
+  ],
+  "lines": [
+    {
+      "line_id": "pnw-verse2-line1",
+      "display_groups": [
+        {
+          "words": [
+            "BITCH",
+            "I",
+            "PUT",
+            "IN"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "WORK",
+            "OKAY",
+            "NEVER"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "WORK",
+      "hero_color": {
+        "hero_word": "WORK",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The opening stack lands on WORK as the labor.",
+      "landings": [
+        {
+          "word": "BITCH",
+          "onset_s": 93.49,
+          "landing_s": 93.423,
+          "landing_frame": 2803
+        },
+        {
+          "word": "I",
+          "onset_s": 93.75,
+          "landing_s": 93.683,
+          "landing_frame": 2810
+        },
+        {
+          "word": "PUT",
+          "onset_s": 94.01,
+          "landing_s": 93.943,
+          "landing_frame": 2818
+        },
+        {
+          "word": "IN",
+          "onset_s": 94.27,
+          "landing_s": 94.203,
+          "landing_frame": 2826
+        },
+        {
+          "word": "WORK",
+          "onset_s": 94.53,
+          "landing_s": 94.463,
+          "landing_frame": 2834
+        },
+        {
+          "word": "OKAY",
+          "onset_s": 94.79,
+          "landing_s": 94.723,
+          "landing_frame": 2842
+        },
+        {
+          "word": "NEVER",
+          "onset_s": 95.05,
+          "landing_s": 94.983,
+          "landing_frame": 2850
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line2",
+      "display_groups": [
+        {
+          "words": [
+            "TAKE",
+            "NO",
+            "DAYS",
+            "OFF",
+            "I'MA"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "GET",
+            "THIS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "GET",
+      "hero_color": {
+        "hero_word": "GET",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on GET as the drive.",
+      "landings": [
+        {
+          "word": "TAKE",
+          "onset_s": 95.31,
+          "landing_s": 95.243,
+          "landing_frame": 2857
+        },
+        {
+          "word": "NO",
+          "onset_s": 95.57,
+          "landing_s": 95.503,
+          "landing_frame": 2865
+        },
+        {
+          "word": "DAYS",
+          "onset_s": 95.83,
+          "landing_s": 95.763,
+          "landing_frame": 2873
+        },
+        {
+          "word": "OFF",
+          "onset_s": 96.09,
+          "landing_s": 96.023,
+          "landing_frame": 2881
+        },
+        {
+          "word": "I'MA",
+          "onset_s": 96.35,
+          "landing_s": 96.283,
+          "landing_frame": 2888
+        },
+        {
+          "word": "GET",
+          "onset_s": 96.61,
+          "landing_s": 96.543,
+          "landing_frame": 2896
+        },
+        {
+          "word": "THIS",
+          "onset_s": 96.87,
+          "landing_s": 96.803,
+          "landing_frame": 2904
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line3",
+      "display_groups": [
+        {
+          "words": [
+            "CAKE"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "CAKE",
+      "hero_color": {
+        "hero_word": "CAKE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "CAKE fills the frame as the prize.",
+      "landings": [
+        {
+          "word": "CAKE",
+          "onset_s": 97.12,
+          "landing_s": 97.053,
+          "landing_frame": 2912
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line4",
+      "display_groups": [
+        {
+          "words": [
+            "OKAY",
+            "I'MA",
+            "MAKE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SURE",
+            "WE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "SURE",
+      "hero_color": {
+        "hero_word": "SURE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on SURE as the certainty.",
+      "landings": [
+        {
+          "word": "OKAY",
+          "onset_s": 97.38,
+          "landing_s": 97.313,
+          "landing_frame": 2919
+        },
+        {
+          "word": "I'MA",
+          "onset_s": 97.64,
+          "landing_s": 97.573,
+          "landing_frame": 2927
+        },
+        {
+          "word": "MAKE",
+          "onset_s": 97.9,
+          "landing_s": 97.833,
+          "landing_frame": 2935
+        },
+        {
+          "word": "SURE",
+          "onset_s": 98.16,
+          "landing_s": 98.093,
+          "landing_frame": 2943
+        },
+        {
+          "word": "WE",
+          "onset_s": 98.42,
+          "landing_s": 98.353,
+          "landing_frame": 2951
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line5",
+      "display_groups": [
+        {
+          "words": [
+            "GON'"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "BALL",
+            "WHEN",
+            "WE",
+            "GET",
+            "THE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "BALL",
+      "hero_color": {
+        "hero_word": "BALL",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on BALL as the play ahead.",
+      "landings": [
+        {
+          "word": "GON'",
+          "onset_s": 98.68,
+          "landing_s": 98.613,
+          "landing_frame": 2958
+        },
+        {
+          "word": "BALL",
+          "onset_s": 98.94,
+          "landing_s": 98.873,
+          "landing_frame": 2966
+        },
+        {
+          "word": "WHEN",
+          "onset_s": 99.2,
+          "landing_s": 99.133,
+          "landing_frame": 2974
+        },
+        {
+          "word": "WE",
+          "onset_s": 99.47,
+          "landing_s": 99.403,
+          "landing_frame": 2982
+        },
+        {
+          "word": "GET",
+          "onset_s": 99.73,
+          "landing_s": 99.663,
+          "landing_frame": 2990
+        },
+        {
+          "word": "THE",
+          "onset_s": 100.0,
+          "landing_s": 99.933,
+          "landing_frame": 2998
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line6",
+      "display_groups": [
+        {
+          "words": [
+            "PACKAGE"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "PACKAGE",
+      "hero_color": {
+        "hero_word": "PACKAGE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "PACKAGE fills the frame as the thing awaited.",
+      "landings": [
+        {
+          "word": "PACKAGE",
+          "onset_s": 100.14,
+          "landing_s": 100.073,
+          "landing_frame": 3002
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line7",
+      "display_groups": [
+        {
+          "words": [
+            "NIGGA",
+            "THEN",
+            "WE",
+            "GON'"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SET",
+            "IT"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "SET",
+      "hero_color": {
+        "hero_word": "SET",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on SET as the trigger.",
+      "landings": [
+        {
+          "word": "NIGGA",
+          "onset_s": 100.44,
+          "landing_s": 100.373,
+          "landing_frame": 3011
+        },
+        {
+          "word": "THEN",
+          "onset_s": 100.8,
+          "landing_s": 100.733,
+          "landing_frame": 3022
+        },
+        {
+          "word": "WE",
+          "onset_s": 101.0,
+          "landing_s": 100.933,
+          "landing_frame": 3028
+        },
+        {
+          "word": "GON'",
+          "onset_s": 101.14,
+          "landing_s": 101.073,
+          "landing_frame": 3032
+        },
+        {
+          "word": "SET",
+          "onset_s": 101.4,
+          "landing_s": 101.333,
+          "landing_frame": 3040
+        },
+        {
+          "word": "IT",
+          "onset_s": 101.76,
+          "landing_s": 101.693,
+          "landing_frame": 3051
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line8",
+      "display_groups": [
+        {
+          "words": [
+            "OFF",
+            "WHEN",
+            "THEY"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "COMING",
+            "OUR"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "COMING",
+      "hero_color": {
+        "hero_word": "COMING",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on COMING as the approach.",
+      "landings": [
+        {
+          "word": "OFF",
+          "onset_s": 102.03,
+          "landing_s": 101.963,
+          "landing_frame": 3059
+        },
+        {
+          "word": "WHEN",
+          "onset_s": 102.3,
+          "landing_s": 102.233,
+          "landing_frame": 3067
+        },
+        {
+          "word": "THEY",
+          "onset_s": 102.5,
+          "landing_s": 102.433,
+          "landing_frame": 3073
+        },
+        {
+          "word": "COMING",
+          "onset_s": 102.62,
+          "landing_s": 102.553,
+          "landing_frame": 3077
+        },
+        {
+          "word": "OUR",
+          "onset_s": 102.9,
+          "landing_s": 102.833,
+          "landing_frame": 3085
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line9",
+      "display_groups": [
+        {
+          "words": [
+            "WAY"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "WAY",
+      "hero_color": {
+        "hero_word": "WAY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "WAY fills the frame as the route they take.",
+      "landings": [
+        {
+          "word": "WAY",
+          "onset_s": 103.24,
+          "landing_s": 103.173,
+          "landing_frame": 3095
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line10",
+      "display_groups": [
+        {
+          "words": [
+            "NIGGA",
+            "THEN",
+            "WE",
+            "GONNA"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "PLAY",
+            "IT"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "PLAY",
+      "hero_color": {
+        "hero_word": "PLAY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on PLAY as the action.",
+      "landings": [
+        {
+          "word": "NIGGA",
+          "onset_s": 103.42,
+          "landing_s": 103.353,
+          "landing_frame": 3101
+        },
+        {
+          "word": "THEN",
+          "onset_s": 103.74,
+          "landing_s": 103.673,
+          "landing_frame": 3110
+        },
+        {
+          "word": "WE",
+          "onset_s": 103.94,
+          "landing_s": 103.873,
+          "landing_frame": 3116
+        },
+        {
+          "word": "GONNA",
+          "onset_s": 104.1,
+          "landing_s": 104.033,
+          "landing_frame": 3121
+        },
+        {
+          "word": "PLAY",
+          "onset_s": 104.34,
+          "landing_s": 104.273,
+          "landing_frame": 3128
+        },
+        {
+          "word": "IT",
+          "onset_s": 104.56,
+          "landing_s": 104.493,
+          "landing_frame": 3135
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line11",
+      "display_groups": [
+        {
+          "words": [
+            "RAW",
+            "I",
+            "BE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "TURNIN'",
+            "FOR"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "TURNIN'",
+      "hero_color": {
+        "hero_word": "TURNIN'",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on TURNIN' as the movement.",
+      "landings": [
+        {
+          "word": "RAW",
+          "onset_s": 104.79,
+          "landing_s": 104.723,
+          "landing_frame": 3142
+        },
+        {
+          "word": "I",
+          "onset_s": 104.87,
+          "landing_s": 104.803,
+          "landing_frame": 3144
+        },
+        {
+          "word": "BE",
+          "onset_s": 104.95,
+          "landing_s": 104.883,
+          "landing_frame": 3146
+        },
+        {
+          "word": "TURNIN'",
+          "onset_s": 105.03,
+          "landing_s": 104.963,
+          "landing_frame": 3149
+        },
+        {
+          "word": "FOR",
+          "onset_s": 105.1,
+          "landing_s": 105.033,
+          "landing_frame": 3151
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line12",
+      "display_groups": [
+        {
+          "words": [
+            "REAL"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "REAL",
+      "hero_color": {
+        "hero_word": "REAL",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "REAL fills the frame as the truth claim.",
+      "landings": [
+        {
+          "word": "REAL",
+          "onset_s": 105.18,
+          "landing_s": 105.113,
+          "landing_frame": 3153
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line13",
+      "display_groups": [
+        {
+          "words": [
+            "NIGGA",
+            "TURNT",
+            "UP",
+            "OFF",
+            "THESE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "PILLS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "PILLS",
+      "hero_color": {
+        "hero_word": "PILLS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on PILLS as the cause.",
+      "landings": [
+        {
+          "word": "NIGGA",
+          "onset_s": 105.26,
+          "landing_s": 105.193,
+          "landing_frame": 3156
+        },
+        {
+          "word": "TURNT",
+          "onset_s": 106.04,
+          "landing_s": 105.973,
+          "landing_frame": 3179
+        },
+        {
+          "word": "UP",
+          "onset_s": 106.22,
+          "landing_s": 106.153,
+          "landing_frame": 3185
+        },
+        {
+          "word": "OFF",
+          "onset_s": 106.38,
+          "landing_s": 106.313,
+          "landing_frame": 3189
+        },
+        {
+          "word": "THESE",
+          "onset_s": 106.54,
+          "landing_s": 106.473,
+          "landing_frame": 3194
+        },
+        {
+          "word": "PILLS",
+          "onset_s": 106.72,
+          "landing_s": 106.653,
+          "landing_frame": 3200
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line14",
+      "display_groups": [
+        {
+          "words": [
+            "GIVE",
+            "A"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "DAMN",
+            "I",
+            "GOT",
+            "NO"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "DAMN",
+      "hero_color": {
+        "hero_word": "DAMN",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on DAMN as the disregard.",
+      "landings": [
+        {
+          "word": "GIVE",
+          "onset_s": 107.14,
+          "landing_s": 107.073,
+          "landing_frame": 3212
+        },
+        {
+          "word": "A",
+          "onset_s": 107.31,
+          "landing_s": 107.243,
+          "landing_frame": 3217
+        },
+        {
+          "word": "DAMN",
+          "onset_s": 107.49,
+          "landing_s": 107.423,
+          "landing_frame": 3223
+        },
+        {
+          "word": "I",
+          "onset_s": 107.66,
+          "landing_s": 107.593,
+          "landing_frame": 3228
+        },
+        {
+          "word": "GOT",
+          "onset_s": 107.78,
+          "landing_s": 107.713,
+          "landing_frame": 3231
+        },
+        {
+          "word": "NO",
+          "onset_s": 107.94,
+          "landing_s": 107.873,
+          "landing_frame": 3236
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line15",
+      "display_groups": [
+        {
+          "words": [
+            "CHILL"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "CHILL",
+      "hero_color": {
+        "hero_word": "CHILL",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "CHILL fills the frame as the calm that is missing.",
+      "landings": [
+        {
+          "word": "CHILL",
+          "onset_s": 108.12,
+          "landing_s": 108.053,
+          "landing_frame": 3242
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line16",
+      "display_groups": [
+        {
+          "words": [
+            "LITTLE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "BITCHES",
+            "I",
+            "GOT"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "BITCHES",
+      "hero_color": {
+        "hero_word": "BITCHES",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on BITCHES as the people addressed.",
+      "landings": [
+        {
+          "word": "LITTLE",
+          "onset_s": 108.52,
+          "landing_s": 108.453,
+          "landing_frame": 3254
+        },
+        {
+          "word": "BITCHES",
+          "onset_s": 108.68,
+          "landing_s": 108.613,
+          "landing_frame": 3258
+        },
+        {
+          "word": "I",
+          "onset_s": 109.12,
+          "landing_s": 109.053,
+          "landing_frame": 3272
+        },
+        {
+          "word": "GOT",
+          "onset_s": 109.24,
+          "landing_s": 109.173,
+          "landing_frame": 3275
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line17",
+      "display_groups": [
+        {
+          "words": [
+            "NO"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "FEEL",
+            "AYE",
+            "FREE",
+            "LIH"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "FEEL",
+      "hero_color": {
+        "hero_word": "FEEL",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on FEEL as the feeling that is missing.",
+      "landings": [
+        {
+          "word": "NO",
+          "onset_s": 109.34,
+          "landing_s": 109.273,
+          "landing_frame": 3278
+        },
+        {
+          "word": "FEEL",
+          "onset_s": 109.6,
+          "landing_s": 109.533,
+          "landing_frame": 3286
+        },
+        {
+          "word": "AYE",
+          "onset_s": 109.94,
+          "landing_s": 109.873,
+          "landing_frame": 3296
+        },
+        {
+          "word": "FREE",
+          "onset_s": 110.28,
+          "landing_s": 110.213,
+          "landing_frame": 3306
+        },
+        {
+          "word": "LIH",
+          "onset_s": 110.5,
+          "landing_s": 110.433,
+          "landing_frame": 3313
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line18",
+      "display_groups": [
+        {
+          "words": [
+            "BLAST"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "BLAST",
+      "hero_color": {
+        "hero_word": "BLAST",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "BLAST fills the frame as the name called out.",
+      "landings": [
+        {
+          "word": "BLAST",
+          "onset_s": 110.72,
+          "landing_s": 110.653,
+          "landing_frame": 3320
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line19",
+      "display_groups": [
+        {
+          "words": [
+            "FOR",
+            "REAL",
+            "WHEN",
+            "HE",
+            "GET"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "OUT",
+            "BITCHES"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "OUT",
+      "hero_color": {
+        "hero_word": "OUT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on OUT as the release ahead.",
+      "landings": [
+        {
+          "word": "FOR",
+          "onset_s": 110.84,
+          "landing_s": 110.773,
+          "landing_frame": 3323
+        },
+        {
+          "word": "REAL",
+          "onset_s": 111.02,
+          "landing_s": 110.953,
+          "landing_frame": 3329
+        },
+        {
+          "word": "WHEN",
+          "onset_s": 111.5,
+          "landing_s": 111.433,
+          "landing_frame": 3343
+        },
+        {
+          "word": "HE",
+          "onset_s": 111.64,
+          "landing_s": 111.573,
+          "landing_frame": 3347
+        },
+        {
+          "word": "GET",
+          "onset_s": 111.76,
+          "landing_s": 111.693,
+          "landing_frame": 3351
+        },
+        {
+          "word": "OUT",
+          "onset_s": 112.0,
+          "landing_s": 111.933,
+          "landing_frame": 3358
+        },
+        {
+          "word": "BITCHES",
+          "onset_s": 112.22,
+          "landing_s": 112.153,
+          "landing_frame": 3365
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line20",
+      "display_groups": [
+        {
+          "words": [
+            "IT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "DRILLED",
+            "WE",
+            "BE",
+            "GETTIN'",
+            "TO",
+            "THAT"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "DRILLED",
+      "hero_color": {
+        "hero_word": "DRILLED",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on DRILLED as the consequence.",
+      "landings": [
+        {
+          "word": "IT",
+          "onset_s": 112.42,
+          "landing_s": 112.353,
+          "landing_frame": 3371
+        },
+        {
+          "word": "DRILLED",
+          "onset_s": 112.58,
+          "landing_s": 112.513,
+          "landing_frame": 3375
+        },
+        {
+          "word": "WE",
+          "onset_s": 112.88,
+          "landing_s": 112.813,
+          "landing_frame": 3384
+        },
+        {
+          "word": "BE",
+          "onset_s": 113.06,
+          "landing_s": 112.993,
+          "landing_frame": 3390
+        },
+        {
+          "word": "GETTIN'",
+          "onset_s": 113.22,
+          "landing_s": 113.153,
+          "landing_frame": 3395
+        },
+        {
+          "word": "TO",
+          "onset_s": 113.56,
+          "landing_s": 113.493,
+          "landing_frame": 3405
+        },
+        {
+          "word": "THAT",
+          "onset_s": 113.8,
+          "landing_s": 113.733,
+          "landing_frame": 3412
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line21",
+      "display_groups": [
+        {
+          "words": [
+            "MONEY"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "MONEY",
+      "hero_color": {
+        "hero_word": "MONEY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "MONEY fills the frame as the gain.",
+      "landings": [
+        {
+          "word": "MONEY",
+          "onset_s": 113.98,
+          "landing_s": 113.913,
+          "landing_frame": 3417
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line22",
+      "display_groups": [
+        {
+          "words": [
+            "NO"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "CAP",
+            "REAL"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "CAP",
+      "hero_color": {
+        "hero_word": "CAP",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on CAP as the truth marker.",
+      "landings": [
+        {
+          "word": "NO",
+          "onset_s": 114.38,
+          "landing_s": 114.313,
+          "landing_frame": 3429
+        },
+        {
+          "word": "CAP",
+          "onset_s": 114.6,
+          "landing_s": 114.533,
+          "landing_frame": 3436
+        },
+        {
+          "word": "REAL",
+          "onset_s": 115.08,
+          "landing_s": 115.013,
+          "landing_frame": 3450
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line23",
+      "display_groups": [
+        {
+          "words": [
+            "SPILL"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "NO",
+            "CAP",
+            "REAL"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "NO",
+      "hero_color": {
+        "hero_word": "NO",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on NO as the denial repeated.",
+      "landings": [
+        {
+          "word": "SPILL",
+          "onset_s": 115.32,
+          "landing_s": 115.253,
+          "landing_frame": 3458
+        },
+        {
+          "word": "NO",
+          "onset_s": 115.84,
+          "landing_s": 115.773,
+          "landing_frame": 3473
+        },
+        {
+          "word": "CAP",
+          "onset_s": 116.02,
+          "landing_s": 115.953,
+          "landing_frame": 3479
+        },
+        {
+          "word": "REAL",
+          "onset_s": 116.54,
+          "landing_s": 116.473,
+          "landing_frame": 3494
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line24",
+      "display_groups": [
+        {
+          "words": [
+            "SPILLLLLLLLLL"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "SPILLLLLLLLLL",
+      "hero_color": {
+        "hero_word": "SPILLLLLLLLLL",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "The long spill fills the frame as the claim stretches out.",
+      "landings": [
+        {
+          "word": "SPILLLLLLLLLL",
+          "onset_s": 116.82,
+          "landing_s": 116.753,
+          "landing_frame": 3503
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line25",
+      "display_groups": [
+        {
+          "words": [
+            "NORTHWOOD"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "DRIVE",
+            "YOU",
+            "COME",
+            "AROUND",
+            "THIS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "DRIVE",
+      "hero_color": {
+        "hero_word": "DRIVE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The tail opens left and lands on DRIVE as the place named.",
+      "landings": [
+        {
+          "word": "NORTHWOOD",
+          "onset_s": 118.12,
+          "landing_s": 118.053,
+          "landing_frame": 3542
+        },
+        {
+          "word": "DRIVE",
+          "onset_s": 118.88,
+          "landing_s": 118.813,
+          "landing_frame": 3564
+        },
+        {
+          "word": "YOU",
+          "onset_s": 119.6,
+          "landing_s": 119.533,
+          "landing_frame": 3586
+        },
+        {
+          "word": "COME",
+          "onset_s": 119.84,
+          "landing_s": 119.773,
+          "landing_frame": 3593
+        },
+        {
+          "word": "AROUND",
+          "onset_s": 120.08,
+          "landing_s": 120.013,
+          "landing_frame": 3600
+        },
+        {
+          "word": "THIS",
+          "onset_s": 120.32,
+          "landing_s": 120.253,
+          "landing_frame": 3608
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line26",
+      "display_groups": [
+        {
+          "words": [
+            "BITCH",
+            "YOU",
+            "WILL",
+            "GET",
+            "YOUR"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "ASS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "ASS",
+      "hero_color": {
+        "hero_word": "ASS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on ASS as the target.",
+      "landings": [
+        {
+          "word": "BITCH",
+          "onset_s": 120.56,
+          "landing_s": 120.493,
+          "landing_frame": 3615
+        },
+        {
+          "word": "YOU",
+          "onset_s": 121.02,
+          "landing_s": 120.953,
+          "landing_frame": 3629
+        },
+        {
+          "word": "WILL",
+          "onset_s": 121.13,
+          "landing_s": 121.063,
+          "landing_frame": 3632
+        },
+        {
+          "word": "GET",
+          "onset_s": 121.24,
+          "landing_s": 121.173,
+          "landing_frame": 3635
+        },
+        {
+          "word": "YOUR",
+          "onset_s": 121.48,
+          "landing_s": 121.413,
+          "landing_frame": 3642
+        },
+        {
+          "word": "ASS",
+          "onset_s": 121.72,
+          "landing_s": 121.653,
+          "landing_frame": 3650
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line27",
+      "display_groups": [
+        {
+          "words": [
+            "SHOT"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "SHOT",
+      "hero_color": {
+        "hero_word": "SHOT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "SHOT fills the frame as the threat.",
+      "landings": [
+        {
+          "word": "SHOT",
+          "onset_s": 121.96,
+          "landing_s": 121.893,
+          "landing_frame": 3657
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line28",
+      "display_groups": [
+        {
+          "words": [
+            "YOU"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "LOOK",
+            "AROUND",
+            "THE",
+            "WAY"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "LOOK",
+      "hero_color": {
+        "hero_word": "LOOK",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on LOOK as the scan.",
+      "landings": [
+        {
+          "word": "YOU",
+          "onset_s": 122.48,
+          "landing_s": 122.413,
+          "landing_frame": 3672
+        },
+        {
+          "word": "LOOK",
+          "onset_s": 122.76,
+          "landing_s": 122.693,
+          "landing_frame": 3681
+        },
+        {
+          "word": "AROUND",
+          "onset_s": 123.06,
+          "landing_s": 122.993,
+          "landing_frame": 3690
+        },
+        {
+          "word": "THE",
+          "onset_s": 123.34,
+          "landing_s": 123.273,
+          "landing_frame": 3698
+        },
+        {
+          "word": "WAY",
+          "onset_s": 123.56,
+          "landing_s": 123.493,
+          "landing_frame": 3705
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line29",
+      "display_groups": [
+        {
+          "words": [
+            "YOU",
+            "MIGHT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "SEE",
+            "YO"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "SEE",
+      "hero_color": {
+        "hero_word": "SEE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on SEE as the spotting.",
+      "landings": [
+        {
+          "word": "YOU",
+          "onset_s": 123.81,
+          "landing_s": 123.743,
+          "landing_frame": 3712
+        },
+        {
+          "word": "MIGHT",
+          "onset_s": 124.07,
+          "landing_s": 124.003,
+          "landing_frame": 3720
+        },
+        {
+          "word": "SEE",
+          "onset_s": 124.32,
+          "landing_s": 124.253,
+          "landing_frame": 3728
+        },
+        {
+          "word": "YO",
+          "onset_s": 124.6,
+          "landing_s": 124.533,
+          "landing_frame": 3736
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line30",
+      "display_groups": [
+        {
+          "words": [
+            "OPPS"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "OPPS",
+      "hero_color": {
+        "hero_word": "OPPS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "OPPS fills the frame as the rivals spotted.",
+      "landings": [
+        {
+          "word": "OPPS",
+          "onset_s": 124.91,
+          "landing_s": 124.843,
+          "landing_frame": 3745
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line31",
+      "display_groups": [
+        {
+          "words": [
+            "BUT",
+            "YOU",
+            "SEE",
+            "THEM"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "COPS"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "COPS",
+      "hero_color": {
+        "hero_word": "COPS",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line opens left and lands on COPS as the authority spotted.",
+      "landings": [
+        {
+          "word": "BUT",
+          "onset_s": 125.44,
+          "landing_s": 125.373,
+          "landing_frame": 3761
+        },
+        {
+          "word": "YOU",
+          "onset_s": 125.68,
+          "landing_s": 125.613,
+          "landing_frame": 3768
+        },
+        {
+          "word": "SEE",
+          "onset_s": 125.82,
+          "landing_s": 125.753,
+          "landing_frame": 3773
+        },
+        {
+          "word": "THEM",
+          "onset_s": 126.16,
+          "landing_s": 126.093,
+          "landing_frame": 3783
+        },
+        {
+          "word": "COPS",
+          "onset_s": 126.5,
+          "landing_s": 126.433,
+          "landing_frame": 3793
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line32",
+      "display_groups": [
+        {
+          "words": [
+            "YOU",
+            "BETTER"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "RUN",
+            "AND",
+            "HIDE",
+            "IT",
+            "AND"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "RUN",
+      "hero_color": {
+        "hero_word": "RUN",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on RUN as the flight.",
+      "landings": [
+        {
+          "word": "YOU",
+          "onset_s": 126.72,
+          "landing_s": 126.653,
+          "landing_frame": 3800
+        },
+        {
+          "word": "BETTER",
+          "onset_s": 127.05,
+          "landing_s": 126.983,
+          "landing_frame": 3810
+        },
+        {
+          "word": "RUN",
+          "onset_s": 127.38,
+          "landing_s": 127.313,
+          "landing_frame": 3819
+        },
+        {
+          "word": "AND",
+          "onset_s": 127.43,
+          "landing_s": 127.363,
+          "landing_frame": 3821
+        },
+        {
+          "word": "HIDE",
+          "onset_s": 127.48,
+          "landing_s": 127.413,
+          "landing_frame": 3822
+        },
+        {
+          "word": "IT",
+          "onset_s": 127.82,
+          "landing_s": 127.753,
+          "landing_frame": 3833
+        },
+        {
+          "word": "AND",
+          "onset_s": 127.9,
+          "landing_s": 127.833,
+          "landing_frame": 3835
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-verse2-line33",
+      "display_groups": [
+        {
+          "words": [
+            "HOP"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "HOP",
+      "hero_color": {
+        "hero_word": "HOP",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "HOP fills the frame as the final jump.",
+      "landings": [
+        {
+          "word": "HOP",
+          "onset_s": 127.98,
+          "landing_s": 127.913,
+          "landing_frame": 3837
+        }
+      ]
+    }
+  ]
+}

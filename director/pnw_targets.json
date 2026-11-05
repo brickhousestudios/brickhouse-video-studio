@@ -1,0 +1,5457 @@
+{
+ "track": "PUT N WORK (DRIXX)",
+ "sections": [
+  {
+   "block_id": "pnw-hook1",
+   "section": "HOOK1",
+   "staging": "STAGING CONTEXT: the OPENING HOOK of the song 'Put N Work'. The hook states the song's world -- no sleep, no peace, work as survival. This exact 11-line hook returns twice more later in the song (each return is its own fresh block). IMPORTANT, read carefully: there is NO redlight-motif line anywhere in this song -- no line brakes, stops, or pulls up at a light (the one cops line, much later in the song, runs FROM them). So redlight is false on every line, no line may claim the motif scatter, and every hero lands plain.",
+   "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+   "sheet_lines": [
+    {
+     "sheet_line": 1,
+     "raw": "Nigga where I'm from, you can't get no sleep",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 11.02,
+     "out_s": 13.02,
+     "words": [
+      {
+       "word": "NIGGA",
+       "onset_s": 11.02,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WHERE",
+       "onset_s": 11.2,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 11.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FROM",
+       "onset_s": 11.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 11.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAN'T",
+       "onset_s": 12.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 12.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 12.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SLEEP",
+       "onset_s": 12.66,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "You cannot get no peace",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 13.02,
+     "out_s": 14.52,
+     "words": [
+      {
+       "word": "YOU",
+       "onset_s": 13.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CANNOT",
+       "onset_s": 13.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 13.68,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 13.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PEACE",
+       "onset_s": 14.12,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "Nigga where I'm from the bay, we do not fucking weep",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 14.52,
+     "out_s": 17.38,
+     "words": [
+      {
+       "word": "NIGGA",
+       "onset_s": 14.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WHERE",
+       "onset_s": 14.86,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 15.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FROM",
+       "onset_s": 15.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 15.46,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BAY",
+       "onset_s": 15.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 16.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DO",
+       "onset_s": 16.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NOT",
+       "onset_s": 16.4,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FUCKING",
+       "onset_s": 16.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WEEP",
+       "onset_s": 17.06,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "All we know is crack cars, we had no OG",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 17.38,
+     "out_s": 20.34,
+     "words": [
+      {
+       "word": "ALL",
+       "onset_s": 17.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 17.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "KNOW",
+       "onset_s": 17.76,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IS",
+       "onset_s": 17.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CRACK",
+       "onset_s": 18.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CARS",
+       "onset_s": 18.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 18.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HAD",
+       "onset_s": 19.18,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 19.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OG",
+       "onset_s": 19.58,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 5,
+     "raw": "I went outside with the bars, hit a car for no reason",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 20.34,
+     "out_s": 23.26,
+     "words": [
+      {
+       "word": "I",
+       "onset_s": 20.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WENT",
+       "onset_s": 20.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OUTSIDE",
+       "onset_s": 20.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 21.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 21.28,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BARS",
+       "onset_s": 21.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HIT",
+       "onset_s": 21.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "A",
+       "onset_s": 22.2,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAR",
+       "onset_s": 22.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FOR",
+       "onset_s": 22.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 22.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REASON",
+       "onset_s": 22.88,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 6,
+     "raw": "We smooth with it, true with it",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 23.26,
+     "out_s": 24.8,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 23.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SMOOTH",
+       "onset_s": 23.4,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 23.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 23.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TRUE",
+       "onset_s": 24.09,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 24.28,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 24.64,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 7,
+     "raw": "Creepin' through the night, them niggas round me",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 24.8,
+     "out_s": 26.82,
+     "words": [
+      {
+       "word": "CREEPIN'",
+       "onset_s": 24.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THROUGH",
+       "onset_s": 25.2,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 25.28,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NIGHT",
+       "onset_s": 25.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEM",
+       "onset_s": 25.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NIGGAS",
+       "onset_s": 25.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ROUND",
+       "onset_s": 26.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ME",
+       "onset_s": 26.52,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 8,
+     "raw": "I'm blowin', I bust my own pipe",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 26.82,
+     "out_s": 28.78,
+     "words": [
+      {
+       "word": "I'M",
+       "onset_s": 26.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BLOWIN'",
+       "onset_s": 26.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I",
+       "onset_s": 27.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BUST",
+       "onset_s": 27.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MY",
+       "onset_s": 27.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OWN",
+       "onset_s": 28.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PIPE",
+       "onset_s": 28.3,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 9,
+     "raw": "Got the money, the power, bitch is alright",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 28.78,
+     "out_s": 31.44,
+     "words": [
+      {
+       "word": "GOT",
+       "onset_s": 28.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 28.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MONEY",
+       "onset_s": 29.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 29.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "POWER",
+       "onset_s": 29.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 30.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IS",
+       "onset_s": 30.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ALRIGHT",
+       "onset_s": 31.12,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 10,
+     "raw": "Bitch we put in work, bitch we put in work",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 31.44,
+     "out_s": 33.72,
+     "words": [
+      {
+       "word": "BITCH",
+       "onset_s": 31.44,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 31.76,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 32.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 32.26,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 32.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 32.65,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 32.85,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 33.06,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 33.29,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 33.52,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 11,
+     "raw": "We grinding hard, ahh yeah",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 33.72,
+     "out_s": 35.26,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 33.72,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "GRINDING",
+       "onset_s": 33.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HARD",
+       "onset_s": 34.32,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AHH",
+       "onset_s": 34.56,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "YEAH",
+       "onset_s": 34.81,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    }
+   ],
+   "lyric": "Nigga where I'm from, you can't get no sleep You cannot get no peace Nigga where I'm from the bay, we do not fucking weep All we know is crack cars, we had no OG I went outside with the bars, hit a car for no reason We smooth with it, true with it Creepin' through the night, them niggas round me I'm blowin', I bust my own pipe Got the money, the power, bitch is alright Bitch we put in work, bitch we put in work We grinding hard, ahh yeah",
+   "words": [
+    {
+     "word": "NIGGA",
+     "onset_s": 11.02
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 11.2
+    },
+    {
+     "word": "I'M",
+     "onset_s": 11.34
+    },
+    {
+     "word": "FROM",
+     "onset_s": 11.6
+    },
+    {
+     "word": "YOU",
+     "onset_s": 11.92
+    },
+    {
+     "word": "CAN'T",
+     "onset_s": 12.1
+    },
+    {
+     "word": "GET",
+     "onset_s": 12.38
+    },
+    {
+     "word": "NO",
+     "onset_s": 12.48
+    },
+    {
+     "word": "SLEEP",
+     "onset_s": 12.66
+    },
+    {
+     "word": "YOU",
+     "onset_s": 13.02
+    },
+    {
+     "word": "CANNOT",
+     "onset_s": 13.34
+    },
+    {
+     "word": "GET",
+     "onset_s": 13.68
+    },
+    {
+     "word": "NO",
+     "onset_s": 13.92
+    },
+    {
+     "word": "PEACE",
+     "onset_s": 14.12
+    },
+    {
+     "word": "NIGGA",
+     "onset_s": 14.52
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 14.86
+    },
+    {
+     "word": "I'M",
+     "onset_s": 15.08
+    },
+    {
+     "word": "FROM",
+     "onset_s": 15.24
+    },
+    {
+     "word": "THE",
+     "onset_s": 15.46
+    },
+    {
+     "word": "BAY",
+     "onset_s": 15.62
+    },
+    {
+     "word": "WE",
+     "onset_s": 16.0
+    },
+    {
+     "word": "DO",
+     "onset_s": 16.3
+    },
+    {
+     "word": "NOT",
+     "onset_s": 16.4
+    },
+    {
+     "word": "FUCKING",
+     "onset_s": 16.62
+    },
+    {
+     "word": "WEEP",
+     "onset_s": 17.06
+    },
+    {
+     "word": "ALL",
+     "onset_s": 17.38
+    },
+    {
+     "word": "WE",
+     "onset_s": 17.62
+    },
+    {
+     "word": "KNOW",
+     "onset_s": 17.76
+    },
+    {
+     "word": "IS",
+     "onset_s": 17.98
+    },
+    {
+     "word": "CRACK",
+     "onset_s": 18.14
+    },
+    {
+     "word": "CARS",
+     "onset_s": 18.34
+    },
+    {
+     "word": "WE",
+     "onset_s": 18.96
+    },
+    {
+     "word": "HAD",
+     "onset_s": 19.18
+    },
+    {
+     "word": "NO",
+     "onset_s": 19.42
+    },
+    {
+     "word": "OG",
+     "onset_s": 19.58
+    },
+    {
+     "word": "I",
+     "onset_s": 20.34
+    },
+    {
+     "word": "WENT",
+     "onset_s": 20.56
+    },
+    {
+     "word": "OUTSIDE",
+     "onset_s": 20.7
+    },
+    {
+     "word": "WITH",
+     "onset_s": 21.04
+    },
+    {
+     "word": "THE",
+     "onset_s": 21.28
+    },
+    {
+     "word": "BARS",
+     "onset_s": 21.48
+    },
+    {
+     "word": "HIT",
+     "onset_s": 21.92
+    },
+    {
+     "word": "A",
+     "onset_s": 22.2
+    },
+    {
+     "word": "CAR",
+     "onset_s": 22.34
+    },
+    {
+     "word": "FOR",
+     "onset_s": 22.54
+    },
+    {
+     "word": "NO",
+     "onset_s": 22.72
+    },
+    {
+     "word": "REASON",
+     "onset_s": 22.88
+    },
+    {
+     "word": "WE",
+     "onset_s": 23.26
+    },
+    {
+     "word": "SMOOTH",
+     "onset_s": 23.4
+    },
+    {
+     "word": "WITH",
+     "onset_s": 23.54
+    },
+    {
+     "word": "IT",
+     "onset_s": 23.9
+    },
+    {
+     "word": "TRUE",
+     "onset_s": 24.09
+    },
+    {
+     "word": "WITH",
+     "onset_s": 24.28
+    },
+    {
+     "word": "IT",
+     "onset_s": 24.64
+    },
+    {
+     "word": "CREEPIN'",
+     "onset_s": 24.8
+    },
+    {
+     "word": "THROUGH",
+     "onset_s": 25.2
+    },
+    {
+     "word": "THE",
+     "onset_s": 25.28
+    },
+    {
+     "word": "NIGHT",
+     "onset_s": 25.48
+    },
+    {
+     "word": "THEM",
+     "onset_s": 25.84
+    },
+    {
+     "word": "NIGGAS",
+     "onset_s": 25.92
+    },
+    {
+     "word": "ROUND",
+     "onset_s": 26.24
+    },
+    {
+     "word": "ME",
+     "onset_s": 26.52
+    },
+    {
+     "word": "I'M",
+     "onset_s": 26.82
+    },
+    {
+     "word": "BLOWIN'",
+     "onset_s": 26.96
+    },
+    {
+     "word": "I",
+     "onset_s": 27.48
+    },
+    {
+     "word": "BUST",
+     "onset_s": 27.7
+    },
+    {
+     "word": "MY",
+     "onset_s": 27.9
+    },
+    {
+     "word": "OWN",
+     "onset_s": 28.08
+    },
+    {
+     "word": "PIPE",
+     "onset_s": 28.3
+    },
+    {
+     "word": "GOT",
+     "onset_s": 28.78
+    },
+    {
+     "word": "THE",
+     "onset_s": 28.92
+    },
+    {
+     "word": "MONEY",
+     "onset_s": 29.1
+    },
+    {
+     "word": "THE",
+     "onset_s": 29.72
+    },
+    {
+     "word": "POWER",
+     "onset_s": 29.88
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 30.44
+    },
+    {
+     "word": "IS",
+     "onset_s": 30.88
+    },
+    {
+     "word": "ALRIGHT",
+     "onset_s": 31.12
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 31.44
+    },
+    {
+     "word": "WE",
+     "onset_s": 31.76
+    },
+    {
+     "word": "PUT",
+     "onset_s": 32.08
+    },
+    {
+     "word": "IN",
+     "onset_s": 32.26
+    },
+    {
+     "word": "WORK",
+     "onset_s": 32.44
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 32.65
+    },
+    {
+     "word": "WE",
+     "onset_s": 32.85
+    },
+    {
+     "word": "PUT",
+     "onset_s": 33.06
+    },
+    {
+     "word": "IN",
+     "onset_s": 33.29
+    },
+    {
+     "word": "WORK",
+     "onset_s": 33.52
+    },
+    {
+     "word": "WE",
+     "onset_s": 33.72
+    },
+    {
+     "word": "GRINDING",
+     "onset_s": 33.92
+    },
+    {
+     "word": "HARD",
+     "onset_s": 34.32
+    },
+    {
+     "word": "AHH",
+     "onset_s": 34.56
+    },
+    {
+     "word": "YEAH",
+     "onset_s": 34.81
+    }
+   ]
+  },
+  {
+   "block_id": "pnw-verse1",
+   "section": "VERSE1",
+   "staging": "STAGING CONTEXT: VERSE 1 of 'Put N Work' -- the grind narrative: working till the sun comes up, hunting racks and love, hand on the gun, and the closing line 'Hund around that drum and we gon' let it dump' sung TWICE back-to-back (the repeat is in the lyric; the two passes still need different heroes). No redlight-motif line exists in this song: redlight false throughout, no motif claims, heroes land plain.",
+   "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+   "sheet_lines": [
+    {
+     "sheet_line": 1,
+     "raw": "You know I'm going hard, I'm working till the sun come up",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 35.26,
+     "out_s": 38.48,
+     "words": [
+      {
+       "word": "YOU",
+       "onset_s": 35.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "KNOW",
+       "onset_s": 35.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 35.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GOING",
+       "onset_s": 35.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HARD",
+       "onset_s": 35.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 36.36,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WORKING",
+       "onset_s": 36.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TILL",
+       "onset_s": 36.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 37.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SUN",
+       "onset_s": 37.2,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "COME",
+       "onset_s": 37.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "UP",
+       "onset_s": 37.74,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "Just tryna get to the racks but this shit that ain't enough 'aint enough'",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 38.48,
+     "out_s": 40.98,
+     "words": [
+      {
+       "word": "JUST",
+       "onset_s": 38.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TRYNA",
+       "onset_s": 38.66,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 38.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TO",
+       "onset_s": 39.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 39.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "RACKS",
+       "onset_s": 39.44,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "BUT",
+       "onset_s": 39.62,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "THIS",
+       "onset_s": 39.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SHIT",
+       "onset_s": 40.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THAT",
+       "onset_s": 40.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AIN'T",
+       "onset_s": 40.27,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "ENOUGH",
+       "onset_s": 40.31,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "'AINT",
+       "onset_s": 40.35,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "ENOUGH'",
+       "onset_s": 40.4,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "And they say hard time makes you tough",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 40.98,
+     "out_s": 43.94,
+     "words": [
+      {
+       "word": "AND",
+       "onset_s": 40.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEY",
+       "onset_s": 41.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SAY",
+       "onset_s": 41.4,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HARD",
+       "onset_s": 41.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TIME",
+       "onset_s": 42.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MAKES",
+       "onset_s": 42.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 42.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TOUGH",
+       "onset_s": 42.92,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "I'm out here looking for some real but I aint finding no love",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 43.94,
+     "out_s": 47.0,
+     "words": [
+      {
+       "word": "I'M",
+       "onset_s": 43.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OUT",
+       "onset_s": 44.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HERE",
+       "onset_s": 44.4,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LOOKING",
+       "onset_s": 44.58,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FOR",
+       "onset_s": 44.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SOME",
+       "onset_s": 45.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REAL",
+       "onset_s": 45.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BUT",
+       "onset_s": 45.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I",
+       "onset_s": 45.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AINT",
+       "onset_s": 45.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FINDING",
+       "onset_s": 46.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 46.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LOVE",
+       "onset_s": 46.52,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 5,
+     "raw": "Ready to kill, I got my hand on the gun",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 47.0,
+     "out_s": 50.0,
+     "words": [
+      {
+       "word": "READY",
+       "onset_s": 47.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TO",
+       "onset_s": 47.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "KILL",
+       "onset_s": 48.18,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I",
+       "onset_s": 48.46,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GOT",
+       "onset_s": 48.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MY",
+       "onset_s": 48.74,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HAND",
+       "onset_s": 48.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ON",
+       "onset_s": 49.18,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 49.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GUN",
+       "onset_s": 49.48,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 6,
+     "raw": "I ain't even gon' say nothing, it's murder 101",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 50.0,
+     "out_s": 52.67,
+     "words": [
+      {
+       "word": "I",
+       "onset_s": 50.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AIN'T",
+       "onset_s": 50.16,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "EVEN",
+       "onset_s": 50.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 50.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SAY",
+       "onset_s": 50.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NOTHING",
+       "onset_s": 51.13,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "IT'S",
+       "onset_s": 51.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MURDER",
+       "onset_s": 51.5,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "101",
+       "onset_s": 51.74,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 7,
+     "raw": "Hund around that drum and we gon' let it dump",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 52.67,
+     "out_s": 55.83,
+     "words": [
+      {
+       "word": "HUND",
+       "onset_s": 52.67,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "AROUND",
+       "onset_s": 53.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THAT",
+       "onset_s": 53.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DRUM",
+       "onset_s": 53.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AND",
+       "onset_s": 54.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 54.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 54.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LET",
+       "onset_s": 54.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 54.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DUMP",
+       "onset_s": 55.14,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 8,
+     "raw": "Hund around that drum and we gon' let it dump",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 55.83,
+     "out_s": 58.56,
+     "words": [
+      {
+       "word": "HUND",
+       "onset_s": 55.83,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "AROUND",
+       "onset_s": 56.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THAT",
+       "onset_s": 56.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DRUM",
+       "onset_s": 56.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AND",
+       "onset_s": 57.16,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 57.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 57.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LET",
+       "onset_s": 57.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 57.86,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DUMP",
+       "onset_s": 58.04,
+       "prov": "ANCHORED"
+      }
+     ]
+    }
+   ],
+   "lyric": "You know I'm going hard, I'm working till the sun come up Just tryna get to the racks but this shit that ain't enough 'aint enough' And they say hard time makes you tough I'm out here looking for some real but I aint finding no love Ready to kill, I got my hand on the gun I ain't even gon' say nothing, it's murder 101 Hund around that drum and we gon' let it dump Hund around that drum and we gon' let it dump",
+   "words": [
+    {
+     "word": "YOU",
+     "onset_s": 35.26
+    },
+    {
+     "word": "KNOW",
+     "onset_s": 35.42
+    },
+    {
+     "word": "I'M",
+     "onset_s": 35.6
+    },
+    {
+     "word": "GOING",
+     "onset_s": 35.82
+    },
+    {
+     "word": "HARD",
+     "onset_s": 35.98
+    },
+    {
+     "word": "I'M",
+     "onset_s": 36.36
+    },
+    {
+     "word": "WORKING",
+     "onset_s": 36.52
+    },
+    {
+     "word": "TILL",
+     "onset_s": 36.88
+    },
+    {
+     "word": "THE",
+     "onset_s": 37.0
+    },
+    {
+     "word": "SUN",
+     "onset_s": 37.2
+    },
+    {
+     "word": "COME",
+     "onset_s": 37.48
+    },
+    {
+     "word": "UP",
+     "onset_s": 37.74
+    },
+    {
+     "word": "JUST",
+     "onset_s": 38.48
+    },
+    {
+     "word": "TRYNA",
+     "onset_s": 38.66
+    },
+    {
+     "word": "GET",
+     "onset_s": 38.96
+    },
+    {
+     "word": "TO",
+     "onset_s": 39.1
+    },
+    {
+     "word": "THE",
+     "onset_s": 39.26
+    },
+    {
+     "word": "RACKS",
+     "onset_s": 39.44
+    },
+    {
+     "word": "BUT",
+     "onset_s": 39.62
+    },
+    {
+     "word": "THIS",
+     "onset_s": 39.8
+    },
+    {
+     "word": "SHIT",
+     "onset_s": 40.0
+    },
+    {
+     "word": "THAT",
+     "onset_s": 40.22
+    },
+    {
+     "word": "AIN'T",
+     "onset_s": 40.27
+    },
+    {
+     "word": "ENOUGH",
+     "onset_s": 40.31
+    },
+    {
+     "word": "'AINT",
+     "onset_s": 40.35
+    },
+    {
+     "word": "ENOUGH'",
+     "onset_s": 40.4
+    },
+    {
+     "word": "AND",
+     "onset_s": 40.98
+    },
+    {
+     "word": "THEY",
+     "onset_s": 41.22
+    },
+    {
+     "word": "SAY",
+     "onset_s": 41.4
+    },
+    {
+     "word": "HARD",
+     "onset_s": 41.72
+    },
+    {
+     "word": "TIME",
+     "onset_s": 42.04
+    },
+    {
+     "word": "MAKES",
+     "onset_s": 42.26
+    },
+    {
+     "word": "YOU",
+     "onset_s": 42.6
+    },
+    {
+     "word": "TOUGH",
+     "onset_s": 42.92
+    },
+    {
+     "word": "I'M",
+     "onset_s": 43.94
+    },
+    {
+     "word": "OUT",
+     "onset_s": 44.22
+    },
+    {
+     "word": "HERE",
+     "onset_s": 44.4
+    },
+    {
+     "word": "LOOKING",
+     "onset_s": 44.58
+    },
+    {
+     "word": "FOR",
+     "onset_s": 44.94
+    },
+    {
+     "word": "SOME",
+     "onset_s": 45.02
+    },
+    {
+     "word": "REAL",
+     "onset_s": 45.26
+    },
+    {
+     "word": "BUT",
+     "onset_s": 45.56
+    },
+    {
+     "word": "I",
+     "onset_s": 45.7
+    },
+    {
+     "word": "AINT",
+     "onset_s": 45.84
+    },
+    {
+     "word": "FINDING",
+     "onset_s": 46.04
+    },
+    {
+     "word": "NO",
+     "onset_s": 46.44
+    },
+    {
+     "word": "LOVE",
+     "onset_s": 46.52
+    },
+    {
+     "word": "READY",
+     "onset_s": 47.0
+    },
+    {
+     "word": "TO",
+     "onset_s": 47.92
+    },
+    {
+     "word": "KILL",
+     "onset_s": 48.18
+    },
+    {
+     "word": "I",
+     "onset_s": 48.46
+    },
+    {
+     "word": "GOT",
+     "onset_s": 48.62
+    },
+    {
+     "word": "MY",
+     "onset_s": 48.74
+    },
+    {
+     "word": "HAND",
+     "onset_s": 48.9
+    },
+    {
+     "word": "ON",
+     "onset_s": 49.18
+    },
+    {
+     "word": "THE",
+     "onset_s": 49.38
+    },
+    {
+     "word": "GUN",
+     "onset_s": 49.48
+    },
+    {
+     "word": "I",
+     "onset_s": 50.0
+    },
+    {
+     "word": "AIN'T",
+     "onset_s": 50.16
+    },
+    {
+     "word": "EVEN",
+     "onset_s": 50.48
+    },
+    {
+     "word": "GON'",
+     "onset_s": 50.7
+    },
+    {
+     "word": "SAY",
+     "onset_s": 50.92
+    },
+    {
+     "word": "NOTHING",
+     "onset_s": 51.13
+    },
+    {
+     "word": "IT'S",
+     "onset_s": 51.34
+    },
+    {
+     "word": "MURDER",
+     "onset_s": 51.5
+    },
+    {
+     "word": "101",
+     "onset_s": 51.74
+    },
+    {
+     "word": "HUND",
+     "onset_s": 52.67
+    },
+    {
+     "word": "AROUND",
+     "onset_s": 53.6
+    },
+    {
+     "word": "THAT",
+     "onset_s": 53.78
+    },
+    {
+     "word": "DRUM",
+     "onset_s": 53.98
+    },
+    {
+     "word": "AND",
+     "onset_s": 54.24
+    },
+    {
+     "word": "WE",
+     "onset_s": 54.38
+    },
+    {
+     "word": "GON'",
+     "onset_s": 54.52
+    },
+    {
+     "word": "LET",
+     "onset_s": 54.8
+    },
+    {
+     "word": "IT",
+     "onset_s": 54.98
+    },
+    {
+     "word": "DUMP",
+     "onset_s": 55.14
+    },
+    {
+     "word": "HUND",
+     "onset_s": 55.83
+    },
+    {
+     "word": "AROUND",
+     "onset_s": 56.52
+    },
+    {
+     "word": "THAT",
+     "onset_s": 56.72
+    },
+    {
+     "word": "DRUM",
+     "onset_s": 56.94
+    },
+    {
+     "word": "AND",
+     "onset_s": 57.16
+    },
+    {
+     "word": "WE",
+     "onset_s": 57.3
+    },
+    {
+     "word": "GON'",
+     "onset_s": 57.42
+    },
+    {
+     "word": "LET",
+     "onset_s": 57.72
+    },
+    {
+     "word": "IT",
+     "onset_s": 57.86
+    },
+    {
+     "word": "DUMP",
+     "onset_s": 58.04
+    }
+   ]
+  },
+  {
+   "block_id": "pnw-bridge",
+   "section": "BRIDGE",
+   "staging": "STAGING CONTEXT: the BRIDGE of 'Put N Work' -- a short four-line pivot: in the lab trying to make a way with rap, spend the bread and make it back, keep it real, play one of mine and take a nap. Quick and tight. No redlight-motif line exists in this song: redlight false throughout, no motif claims, heroes land plain.",
+   "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+   "sheet_lines": [
+    {
+     "sheet_line": 1,
+     "raw": "I'm in the lab, bitch, I'm tryna make a way with rap",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 58.56,
+     "out_s": 61.54,
+     "words": [
+      {
+       "word": "I'M",
+       "onset_s": 58.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 58.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 58.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LAB",
+       "onset_s": 59.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 59.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 59.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TRYNA",
+       "onset_s": 59.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MAKE",
+       "onset_s": 60.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "A",
+       "onset_s": 60.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WAY",
+       "onset_s": 60.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 60.77,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "RAP",
+       "onset_s": 60.98,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "I spend that bread, now I'm gon' make it back",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 61.54,
+     "out_s": 63.96,
+     "words": [
+      {
+       "word": "I",
+       "onset_s": 61.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SPEND",
+       "onset_s": 61.68,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THAT",
+       "onset_s": 61.86,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BREAD",
+       "onset_s": 62.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NOW",
+       "onset_s": 62.36,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 62.46,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 62.61,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "MAKE",
+       "onset_s": 62.76,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 63.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BACK",
+       "onset_s": 63.24,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "Keep it real, ain't no faking that",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 63.96,
+     "out_s": 66.62,
+     "words": [
+      {
+       "word": "KEEP",
+       "onset_s": 63.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 64.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REAL",
+       "onset_s": 65.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AIN'T",
+       "onset_s": 65.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 65.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FAKING",
+       "onset_s": 65.76,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THAT",
+       "onset_s": 66.1,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "Play one of mine, and you gon' take a nap",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 66.62,
+     "out_s": 69.44,
+     "words": [
+      {
+       "word": "PLAY",
+       "onset_s": 66.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ONE",
+       "onset_s": 66.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OF",
+       "onset_s": 67.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MINE",
+       "onset_s": 67.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AND",
+       "onset_s": 67.43,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 67.64,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 67.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TAKE",
+       "onset_s": 67.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "A",
+       "onset_s": 68.18,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NAP",
+       "onset_s": 68.34,
+       "prov": "ANCHORED"
+      }
+     ]
+    }
+   ],
+   "lyric": "I'm in the lab, bitch, I'm tryna make a way with rap I spend that bread, now I'm gon' make it back Keep it real, ain't no faking that Play one of mine, and you gon' take a nap",
+   "words": [
+    {
+     "word": "I'M",
+     "onset_s": 58.56
+    },
+    {
+     "word": "IN",
+     "onset_s": 58.9
+    },
+    {
+     "word": "THE",
+     "onset_s": 58.96
+    },
+    {
+     "word": "LAB",
+     "onset_s": 59.14
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 59.42
+    },
+    {
+     "word": "I'M",
+     "onset_s": 59.72
+    },
+    {
+     "word": "TRYNA",
+     "onset_s": 59.9
+    },
+    {
+     "word": "MAKE",
+     "onset_s": 60.1
+    },
+    {
+     "word": "A",
+     "onset_s": 60.42
+    },
+    {
+     "word": "WAY",
+     "onset_s": 60.56
+    },
+    {
+     "word": "WITH",
+     "onset_s": 60.77
+    },
+    {
+     "word": "RAP",
+     "onset_s": 60.98
+    },
+    {
+     "word": "I",
+     "onset_s": 61.54
+    },
+    {
+     "word": "SPEND",
+     "onset_s": 61.68
+    },
+    {
+     "word": "THAT",
+     "onset_s": 61.86
+    },
+    {
+     "word": "BREAD",
+     "onset_s": 62.1
+    },
+    {
+     "word": "NOW",
+     "onset_s": 62.36
+    },
+    {
+     "word": "I'M",
+     "onset_s": 62.46
+    },
+    {
+     "word": "GON'",
+     "onset_s": 62.61
+    },
+    {
+     "word": "MAKE",
+     "onset_s": 62.76
+    },
+    {
+     "word": "IT",
+     "onset_s": 63.04
+    },
+    {
+     "word": "BACK",
+     "onset_s": 63.24
+    },
+    {
+     "word": "KEEP",
+     "onset_s": 63.96
+    },
+    {
+     "word": "IT",
+     "onset_s": 64.8
+    },
+    {
+     "word": "REAL",
+     "onset_s": 65.08
+    },
+    {
+     "word": "AIN'T",
+     "onset_s": 65.42
+    },
+    {
+     "word": "NO",
+     "onset_s": 65.62
+    },
+    {
+     "word": "FAKING",
+     "onset_s": 65.76
+    },
+    {
+     "word": "THAT",
+     "onset_s": 66.1
+    },
+    {
+     "word": "PLAY",
+     "onset_s": 66.62
+    },
+    {
+     "word": "ONE",
+     "onset_s": 66.78
+    },
+    {
+     "word": "OF",
+     "onset_s": 67.02
+    },
+    {
+     "word": "MINE",
+     "onset_s": 67.22
+    },
+    {
+     "word": "AND",
+     "onset_s": 67.43
+    },
+    {
+     "word": "YOU",
+     "onset_s": 67.64
+    },
+    {
+     "word": "GON'",
+     "onset_s": 67.8
+    },
+    {
+     "word": "TAKE",
+     "onset_s": 67.96
+    },
+    {
+     "word": "A",
+     "onset_s": 68.18
+    },
+    {
+     "word": "NAP",
+     "onset_s": 68.34
+    }
+   ]
+  },
+  {
+   "block_id": "pnw-hook2",
+   "section": "HOOK2",
+   "staging": "STAGING CONTEXT: HOOK 2 of 'Put N Work' -- the opening hook returns word-for-word. This is a FRESH block: heroes and placements start over (hook 1's heroes may be reused here). No redlight-motif line exists in this song: redlight false throughout, no motif claims, heroes land plain.",
+   "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+   "sheet_lines": [
+    {
+     "sheet_line": 1,
+     "raw": "Nigga where I'm from, you can't get no sleep",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 69.44,
+     "out_s": 71.7,
+     "words": [
+      {
+       "word": "NIGGA",
+       "onset_s": 69.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WHERE",
+       "onset_s": 69.74,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 69.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FROM",
+       "onset_s": 70.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 70.46,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAN'T",
+       "onset_s": 70.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 70.92,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 71.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SLEEP",
+       "onset_s": 71.2,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "You cannot get no peace",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 71.7,
+     "out_s": 73.12,
+     "words": [
+      {
+       "word": "YOU",
+       "onset_s": 71.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CANNOT",
+       "onset_s": 71.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 72.2,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 72.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PEACE",
+       "onset_s": 72.66,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "Nigga where I'm from the bay, we do not fucking weep",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 73.12,
+     "out_s": 75.96,
+     "words": [
+      {
+       "word": "NIGGA",
+       "onset_s": 73.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WHERE",
+       "onset_s": 73.4,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 73.58,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FROM",
+       "onset_s": 73.74,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 74.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BAY",
+       "onset_s": 74.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 74.68,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DO",
+       "onset_s": 74.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NOT",
+       "onset_s": 74.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FUCKING",
+       "onset_s": 75.16,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WEEP",
+       "onset_s": 75.48,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "All we know is crack cars, we had no OG",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 75.96,
+     "out_s": 78.98,
+     "words": [
+      {
+       "word": "ALL",
+       "onset_s": 75.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 76.16,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "KNOW",
+       "onset_s": 76.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IS",
+       "onset_s": 76.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CRACK",
+       "onset_s": 76.68,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CARS",
+       "onset_s": 76.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 77.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HAD",
+       "onset_s": 77.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 77.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OG",
+       "onset_s": 78.12,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 5,
+     "raw": "I went outside with the bars, hit a car for no reason",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 78.98,
+     "out_s": 81.82,
+     "words": [
+      {
+       "word": "I",
+       "onset_s": 78.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WENT",
+       "onset_s": 79.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OUTSIDE",
+       "onset_s": 79.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 79.58,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 79.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BARS",
+       "onset_s": 80.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HIT",
+       "onset_s": 80.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "A",
+       "onset_s": 80.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAR",
+       "onset_s": 80.86,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FOR",
+       "onset_s": 81.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 81.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REASON",
+       "onset_s": 81.42,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 6,
+     "raw": "We smooth with it, true with it",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 81.82,
+     "out_s": 83.64,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 81.82,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "SMOOTH",
+       "onset_s": 82.08,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 82.34,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 82.6,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "TRUE",
+       "onset_s": 82.86,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 83.12,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 83.38,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 7,
+     "raw": "Creepin' through the night, them niggas round me",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 83.64,
+     "out_s": 85.71,
+     "words": [
+      {
+       "word": "CREEPIN'",
+       "onset_s": 83.64,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "THROUGH",
+       "onset_s": 83.9,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 84.15,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "NIGHT",
+       "onset_s": 84.41,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "THEM",
+       "onset_s": 84.67,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "NIGGAS",
+       "onset_s": 84.93,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "ROUND",
+       "onset_s": 85.19,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "ME",
+       "onset_s": 85.45,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 8,
+     "raw": "I'm blowin', I bust my own pipe",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 85.71,
+     "out_s": 87.53,
+     "words": [
+      {
+       "word": "I'M",
+       "onset_s": 85.71,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "BLOWIN'",
+       "onset_s": 85.97,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "I",
+       "onset_s": 86.23,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "BUST",
+       "onset_s": 86.49,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "MY",
+       "onset_s": 86.75,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "OWN",
+       "onset_s": 87.01,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "PIPE",
+       "onset_s": 87.27,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 9,
+     "raw": "Got the money, the power, bitch is alright",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 87.53,
+     "out_s": 89.6,
+     "words": [
+      {
+       "word": "GOT",
+       "onset_s": 87.53,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 87.79,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "MONEY",
+       "onset_s": 88.05,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 88.31,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "POWER",
+       "onset_s": 88.56,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 88.82,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "IS",
+       "onset_s": 89.08,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "ALRIGHT",
+       "onset_s": 89.34,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 10,
+     "raw": "Bitch we put in work, bitch we put in work",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 89.6,
+     "out_s": 92.2,
+     "words": [
+      {
+       "word": "BITCH",
+       "onset_s": 89.6,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 89.86,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 90.12,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 90.38,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 90.64,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 90.9,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 91.16,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 91.42,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 91.68,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 91.94,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 11,
+     "raw": "We grinding hard, ahh yeah",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 92.2,
+     "out_s": 93.49,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 92.2,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "GRINDING",
+       "onset_s": 92.46,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "HARD",
+       "onset_s": 92.71,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "AHH",
+       "onset_s": 92.97,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "YEAH",
+       "onset_s": 93.23,
+       "prov": "ESTIMATED"
+      }
+     ]
+    }
+   ],
+   "lyric": "Nigga where I'm from, you can't get no sleep You cannot get no peace Nigga where I'm from the bay, we do not fucking weep All we know is crack cars, we had no OG I went outside with the bars, hit a car for no reason We smooth with it, true with it Creepin' through the night, them niggas round me I'm blowin', I bust my own pipe Got the money, the power, bitch is alright Bitch we put in work, bitch we put in work We grinding hard, ahh yeah",
+   "words": [
+    {
+     "word": "NIGGA",
+     "onset_s": 69.44
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 69.74
+    },
+    {
+     "word": "I'M",
+     "onset_s": 69.88
+    },
+    {
+     "word": "FROM",
+     "onset_s": 70.14
+    },
+    {
+     "word": "YOU",
+     "onset_s": 70.46
+    },
+    {
+     "word": "CAN'T",
+     "onset_s": 70.62
+    },
+    {
+     "word": "GET",
+     "onset_s": 70.92
+    },
+    {
+     "word": "NO",
+     "onset_s": 71.0
+    },
+    {
+     "word": "SLEEP",
+     "onset_s": 71.2
+    },
+    {
+     "word": "YOU",
+     "onset_s": 71.7
+    },
+    {
+     "word": "CANNOT",
+     "onset_s": 71.88
+    },
+    {
+     "word": "GET",
+     "onset_s": 72.2
+    },
+    {
+     "word": "NO",
+     "onset_s": 72.44
+    },
+    {
+     "word": "PEACE",
+     "onset_s": 72.66
+    },
+    {
+     "word": "NIGGA",
+     "onset_s": 73.12
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 73.4
+    },
+    {
+     "word": "I'M",
+     "onset_s": 73.58
+    },
+    {
+     "word": "FROM",
+     "onset_s": 73.74
+    },
+    {
+     "word": "THE",
+     "onset_s": 74.0
+    },
+    {
+     "word": "BAY",
+     "onset_s": 74.12
+    },
+    {
+     "word": "WE",
+     "onset_s": 74.68
+    },
+    {
+     "word": "DO",
+     "onset_s": 74.82
+    },
+    {
+     "word": "NOT",
+     "onset_s": 74.98
+    },
+    {
+     "word": "FUCKING",
+     "onset_s": 75.16
+    },
+    {
+     "word": "WEEP",
+     "onset_s": 75.48
+    },
+    {
+     "word": "ALL",
+     "onset_s": 75.96
+    },
+    {
+     "word": "WE",
+     "onset_s": 76.16
+    },
+    {
+     "word": "KNOW",
+     "onset_s": 76.3
+    },
+    {
+     "word": "IS",
+     "onset_s": 76.52
+    },
+    {
+     "word": "CRACK",
+     "onset_s": 76.68
+    },
+    {
+     "word": "CARS",
+     "onset_s": 76.9
+    },
+    {
+     "word": "WE",
+     "onset_s": 77.6
+    },
+    {
+     "word": "HAD",
+     "onset_s": 77.72
+    },
+    {
+     "word": "NO",
+     "onset_s": 77.94
+    },
+    {
+     "word": "OG",
+     "onset_s": 78.12
+    },
+    {
+     "word": "I",
+     "onset_s": 78.98
+    },
+    {
+     "word": "WENT",
+     "onset_s": 79.12
+    },
+    {
+     "word": "OUTSIDE",
+     "onset_s": 79.24
+    },
+    {
+     "word": "WITH",
+     "onset_s": 79.58
+    },
+    {
+     "word": "THE",
+     "onset_s": 79.82
+    },
+    {
+     "word": "BARS",
+     "onset_s": 80.02
+    },
+    {
+     "word": "HIT",
+     "onset_s": 80.54
+    },
+    {
+     "word": "A",
+     "onset_s": 80.72
+    },
+    {
+     "word": "CAR",
+     "onset_s": 80.86
+    },
+    {
+     "word": "FOR",
+     "onset_s": 81.08
+    },
+    {
+     "word": "NO",
+     "onset_s": 81.26
+    },
+    {
+     "word": "REASON",
+     "onset_s": 81.42
+    },
+    {
+     "word": "WE",
+     "onset_s": 81.82
+    },
+    {
+     "word": "SMOOTH",
+     "onset_s": 82.08
+    },
+    {
+     "word": "WITH",
+     "onset_s": 82.34
+    },
+    {
+     "word": "IT",
+     "onset_s": 82.6
+    },
+    {
+     "word": "TRUE",
+     "onset_s": 82.86
+    },
+    {
+     "word": "WITH",
+     "onset_s": 83.12
+    },
+    {
+     "word": "IT",
+     "onset_s": 83.38
+    },
+    {
+     "word": "CREEPIN'",
+     "onset_s": 83.64
+    },
+    {
+     "word": "THROUGH",
+     "onset_s": 83.9
+    },
+    {
+     "word": "THE",
+     "onset_s": 84.15
+    },
+    {
+     "word": "NIGHT",
+     "onset_s": 84.41
+    },
+    {
+     "word": "THEM",
+     "onset_s": 84.67
+    },
+    {
+     "word": "NIGGAS",
+     "onset_s": 84.93
+    },
+    {
+     "word": "ROUND",
+     "onset_s": 85.19
+    },
+    {
+     "word": "ME",
+     "onset_s": 85.45
+    },
+    {
+     "word": "I'M",
+     "onset_s": 85.71
+    },
+    {
+     "word": "BLOWIN'",
+     "onset_s": 85.97
+    },
+    {
+     "word": "I",
+     "onset_s": 86.23
+    },
+    {
+     "word": "BUST",
+     "onset_s": 86.49
+    },
+    {
+     "word": "MY",
+     "onset_s": 86.75
+    },
+    {
+     "word": "OWN",
+     "onset_s": 87.01
+    },
+    {
+     "word": "PIPE",
+     "onset_s": 87.27
+    },
+    {
+     "word": "GOT",
+     "onset_s": 87.53
+    },
+    {
+     "word": "THE",
+     "onset_s": 87.79
+    },
+    {
+     "word": "MONEY",
+     "onset_s": 88.05
+    },
+    {
+     "word": "THE",
+     "onset_s": 88.31
+    },
+    {
+     "word": "POWER",
+     "onset_s": 88.56
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 88.82
+    },
+    {
+     "word": "IS",
+     "onset_s": 89.08
+    },
+    {
+     "word": "ALRIGHT",
+     "onset_s": 89.34
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 89.6
+    },
+    {
+     "word": "WE",
+     "onset_s": 89.86
+    },
+    {
+     "word": "PUT",
+     "onset_s": 90.12
+    },
+    {
+     "word": "IN",
+     "onset_s": 90.38
+    },
+    {
+     "word": "WORK",
+     "onset_s": 90.64
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 90.9
+    },
+    {
+     "word": "WE",
+     "onset_s": 91.16
+    },
+    {
+     "word": "PUT",
+     "onset_s": 91.42
+    },
+    {
+     "word": "IN",
+     "onset_s": 91.68
+    },
+    {
+     "word": "WORK",
+     "onset_s": 91.94
+    },
+    {
+     "word": "WE",
+     "onset_s": 92.2
+    },
+    {
+     "word": "GRINDING",
+     "onset_s": 92.46
+    },
+    {
+     "word": "HARD",
+     "onset_s": 92.71
+    },
+    {
+     "word": "AHH",
+     "onset_s": 92.97
+    },
+    {
+     "word": "YEAH",
+     "onset_s": 93.23
+    }
+   ]
+  },
+  {
+   "block_id": "pnw-verse2",
+   "section": "VERSE2",
+   "staging": "STAGING CONTEXT: VERSE 2 of 'Put N Work' plus its unsectioned tail passage (the four 'Northwood Drive...' lines after the doubled 'No cap real spill'). The cops line is flight, not a stop -- still no redlight-motif line: redlight false throughout, no motif claims, heroes land plain.",
+   "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+   "sheet_lines": [
+    {
+     "sheet_line": 1,
+     "raw": "Bitch I put in work, okay, never take no days off",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 93.49,
+     "out_s": 96.35,
+     "words": [
+      {
+       "word": "BITCH",
+       "onset_s": 93.49,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "I",
+       "onset_s": 93.75,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 94.01,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 94.27,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 94.53,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "OKAY",
+       "onset_s": 94.79,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "NEVER",
+       "onset_s": 95.05,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "TAKE",
+       "onset_s": 95.31,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 95.57,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "DAYS",
+       "onset_s": 95.83,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "OFF",
+       "onset_s": 96.09,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "I'ma get this cake, okay, I'ma make sure, we gon' ball",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 96.35,
+     "out_s": 99.2,
+     "words": [
+      {
+       "word": "I'MA",
+       "onset_s": 96.35,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 96.61,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "THIS",
+       "onset_s": 96.87,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "CAKE",
+       "onset_s": 97.12,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "OKAY",
+       "onset_s": 97.38,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "I'MA",
+       "onset_s": 97.64,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "MAKE",
+       "onset_s": 97.9,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "SURE",
+       "onset_s": 98.16,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 98.42,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 98.68,
+       "prov": "ESTIMATED"
+      },
+      {
+       "word": "BALL",
+       "onset_s": 98.94,
+       "prov": "ESTIMATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "When we get the package, nigga then we gon' set it off",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 99.2,
+     "out_s": 102.3,
+     "words": [
+      {
+       "word": "WHEN",
+       "onset_s": 99.2,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 99.47,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 99.73,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 100.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PACKAGE",
+       "onset_s": 100.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NIGGA",
+       "onset_s": 100.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEN",
+       "onset_s": 100.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 101.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GON'",
+       "onset_s": 101.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SET",
+       "onset_s": 101.4,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 101.76,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OFF",
+       "onset_s": 102.03,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "When they coming, our way, nigga, then we gonna play it raw",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 102.3,
+     "out_s": 104.87,
+     "words": [
+      {
+       "word": "WHEN",
+       "onset_s": 102.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEY",
+       "onset_s": 102.5,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "COMING",
+       "onset_s": 102.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OUR",
+       "onset_s": 102.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WAY",
+       "onset_s": 103.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NIGGA",
+       "onset_s": 103.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEN",
+       "onset_s": 103.74,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 103.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GONNA",
+       "onset_s": 104.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PLAY",
+       "onset_s": 104.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 104.56,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "RAW",
+       "onset_s": 104.79,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 5,
+     "raw": "I be turnin' for real, nigga, turnt up off these pills",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 104.87,
+     "out_s": 107.14,
+     "words": [
+      {
+       "word": "I",
+       "onset_s": 104.87,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "BE",
+       "onset_s": 104.95,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "TURNIN'",
+       "onset_s": 105.03,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "FOR",
+       "onset_s": 105.1,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "REAL",
+       "onset_s": 105.18,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "NIGGA",
+       "onset_s": 105.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TURNT",
+       "onset_s": 106.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "UP",
+       "onset_s": 106.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OFF",
+       "onset_s": 106.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THESE",
+       "onset_s": 106.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PILLS",
+       "onset_s": 106.72,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 6,
+     "raw": "Give a damn, I got no chill, little bitches I got no feel",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 107.14,
+     "out_s": 109.94,
+     "words": [
+      {
+       "word": "GIVE",
+       "onset_s": 107.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "A",
+       "onset_s": 107.31,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "DAMN",
+       "onset_s": 107.49,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "I",
+       "onset_s": 107.66,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GOT",
+       "onset_s": 107.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 107.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CHILL",
+       "onset_s": 108.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LITTLE",
+       "onset_s": 108.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCHES",
+       "onset_s": 108.68,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I",
+       "onset_s": 109.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GOT",
+       "onset_s": 109.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 109.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FEEL",
+       "onset_s": 109.6,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 7,
+     "raw": "Aye, free lih blast for real, when he get out bitches it drilled",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 109.94,
+     "out_s": 112.88,
+     "words": [
+      {
+       "word": "AYE",
+       "onset_s": 109.94,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "FREE",
+       "onset_s": 110.28,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LIH",
+       "onset_s": 110.5,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "BLAST",
+       "onset_s": 110.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FOR",
+       "onset_s": 110.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REAL",
+       "onset_s": 111.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WHEN",
+       "onset_s": 111.5,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HE",
+       "onset_s": 111.64,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 111.76,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OUT",
+       "onset_s": 112.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCHES",
+       "onset_s": 112.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 112.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DRILLED",
+       "onset_s": 112.58,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 8,
+     "raw": "We be gettin' to that money, no cap real spill",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 112.88,
+     "out_s": 115.84,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 112.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BE",
+       "onset_s": 113.06,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GETTIN'",
+       "onset_s": 113.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TO",
+       "onset_s": 113.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THAT",
+       "onset_s": 113.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MONEY",
+       "onset_s": 113.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 114.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAP",
+       "onset_s": 114.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REAL",
+       "onset_s": 115.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SPILL",
+       "onset_s": 115.32,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 9,
+     "raw": "No cap real spillllllllll",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 115.84,
+     "out_s": 117.36,
+     "words": [
+      {
+       "word": "NO",
+       "onset_s": 115.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAP",
+       "onset_s": 116.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REAL",
+       "onset_s": 116.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SPILLLLLLLLLL",
+       "onset_s": 116.82,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 1,
+     "raw": "Northwood Drive, you come around this bitch",
+     "northwood": true,
+     "provenance": "INTERPOLATED",
+     "in_s": 118.12,
+     "out_s": 121.02,
+     "words": [
+      {
+       "word": "NORTHWOOD",
+       "onset_s": 118.12,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "DRIVE",
+       "onset_s": 118.88,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 119.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "COME",
+       "onset_s": 119.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AROUND",
+       "onset_s": 120.08,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THIS",
+       "onset_s": 120.32,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 120.56,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "You will get your ass shot",
+     "northwood": true,
+     "provenance": "ANCHORED",
+     "in_s": 121.02,
+     "out_s": 122.48,
+     "words": [
+      {
+       "word": "YOU",
+       "onset_s": 121.02,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WILL",
+       "onset_s": 121.13,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 121.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOUR",
+       "onset_s": 121.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ASS",
+       "onset_s": 121.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SHOT",
+       "onset_s": 121.96,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "You look around the way, you might see, yo opps",
+     "northwood": true,
+     "provenance": "ANCHORED",
+     "in_s": 122.48,
+     "out_s": 125.44,
+     "words": [
+      {
+       "word": "YOU",
+       "onset_s": 122.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "LOOK",
+       "onset_s": 122.76,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AROUND",
+       "onset_s": 123.06,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 123.34,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WAY",
+       "onset_s": 123.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 123.81,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "MIGHT",
+       "onset_s": 124.07,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "SEE",
+       "onset_s": 124.32,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YO",
+       "onset_s": 124.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OPPS",
+       "onset_s": 124.91,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "But you see them cops, you better run and hide it, and hop",
+     "northwood": true,
+     "provenance": "INTERPOLATED",
+     "in_s": 125.44,
+     "out_s": 128.06,
+     "words": [
+      {
+       "word": "BUT",
+       "onset_s": 125.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 125.68,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SEE",
+       "onset_s": 125.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEM",
+       "onset_s": 126.16,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "COPS",
+       "onset_s": 126.5,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 126.72,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BETTER",
+       "onset_s": 127.05,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "RUN",
+       "onset_s": 127.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AND",
+       "onset_s": 127.43,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "HIDE",
+       "onset_s": 127.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 127.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AND",
+       "onset_s": 127.9,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "HOP",
+       "onset_s": 127.98,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    }
+   ],
+   "lyric": "Bitch I put in work, okay, never take no days off I'ma get this cake, okay, I'ma make sure, we gon' ball When we get the package, nigga then we gon' set it off When they coming, our way, nigga, then we gonna play it raw I be turnin' for real, nigga, turnt up off these pills Give a damn, I got no chill, little bitches I got no feel Aye, free lih blast for real, when he get out bitches it drilled We be gettin' to that money, no cap real spill No cap real spillllllllll Northwood Drive, you come around this bitch You will get your ass shot You look around the way, you might see, yo opps But you see them cops, you better run and hide it, and hop",
+   "words": [
+    {
+     "word": "BITCH",
+     "onset_s": 93.49
+    },
+    {
+     "word": "I",
+     "onset_s": 93.75
+    },
+    {
+     "word": "PUT",
+     "onset_s": 94.01
+    },
+    {
+     "word": "IN",
+     "onset_s": 94.27
+    },
+    {
+     "word": "WORK",
+     "onset_s": 94.53
+    },
+    {
+     "word": "OKAY",
+     "onset_s": 94.79
+    },
+    {
+     "word": "NEVER",
+     "onset_s": 95.05
+    },
+    {
+     "word": "TAKE",
+     "onset_s": 95.31
+    },
+    {
+     "word": "NO",
+     "onset_s": 95.57
+    },
+    {
+     "word": "DAYS",
+     "onset_s": 95.83
+    },
+    {
+     "word": "OFF",
+     "onset_s": 96.09
+    },
+    {
+     "word": "I'MA",
+     "onset_s": 96.35
+    },
+    {
+     "word": "GET",
+     "onset_s": 96.61
+    },
+    {
+     "word": "THIS",
+     "onset_s": 96.87
+    },
+    {
+     "word": "CAKE",
+     "onset_s": 97.12
+    },
+    {
+     "word": "OKAY",
+     "onset_s": 97.38
+    },
+    {
+     "word": "I'MA",
+     "onset_s": 97.64
+    },
+    {
+     "word": "MAKE",
+     "onset_s": 97.9
+    },
+    {
+     "word": "SURE",
+     "onset_s": 98.16
+    },
+    {
+     "word": "WE",
+     "onset_s": 98.42
+    },
+    {
+     "word": "GON'",
+     "onset_s": 98.68
+    },
+    {
+     "word": "BALL",
+     "onset_s": 98.94
+    },
+    {
+     "word": "WHEN",
+     "onset_s": 99.2
+    },
+    {
+     "word": "WE",
+     "onset_s": 99.47
+    },
+    {
+     "word": "GET",
+     "onset_s": 99.73
+    },
+    {
+     "word": "THE",
+     "onset_s": 100.0
+    },
+    {
+     "word": "PACKAGE",
+     "onset_s": 100.14
+    },
+    {
+     "word": "NIGGA",
+     "onset_s": 100.44
+    },
+    {
+     "word": "THEN",
+     "onset_s": 100.8
+    },
+    {
+     "word": "WE",
+     "onset_s": 101.0
+    },
+    {
+     "word": "GON'",
+     "onset_s": 101.14
+    },
+    {
+     "word": "SET",
+     "onset_s": 101.4
+    },
+    {
+     "word": "IT",
+     "onset_s": 101.76
+    },
+    {
+     "word": "OFF",
+     "onset_s": 102.03
+    },
+    {
+     "word": "WHEN",
+     "onset_s": 102.3
+    },
+    {
+     "word": "THEY",
+     "onset_s": 102.5
+    },
+    {
+     "word": "COMING",
+     "onset_s": 102.62
+    },
+    {
+     "word": "OUR",
+     "onset_s": 102.9
+    },
+    {
+     "word": "WAY",
+     "onset_s": 103.24
+    },
+    {
+     "word": "NIGGA",
+     "onset_s": 103.42
+    },
+    {
+     "word": "THEN",
+     "onset_s": 103.74
+    },
+    {
+     "word": "WE",
+     "onset_s": 103.94
+    },
+    {
+     "word": "GONNA",
+     "onset_s": 104.1
+    },
+    {
+     "word": "PLAY",
+     "onset_s": 104.34
+    },
+    {
+     "word": "IT",
+     "onset_s": 104.56
+    },
+    {
+     "word": "RAW",
+     "onset_s": 104.79
+    },
+    {
+     "word": "I",
+     "onset_s": 104.87
+    },
+    {
+     "word": "BE",
+     "onset_s": 104.95
+    },
+    {
+     "word": "TURNIN'",
+     "onset_s": 105.03
+    },
+    {
+     "word": "FOR",
+     "onset_s": 105.1
+    },
+    {
+     "word": "REAL",
+     "onset_s": 105.18
+    },
+    {
+     "word": "NIGGA",
+     "onset_s": 105.26
+    },
+    {
+     "word": "TURNT",
+     "onset_s": 106.04
+    },
+    {
+     "word": "UP",
+     "onset_s": 106.22
+    },
+    {
+     "word": "OFF",
+     "onset_s": 106.38
+    },
+    {
+     "word": "THESE",
+     "onset_s": 106.54
+    },
+    {
+     "word": "PILLS",
+     "onset_s": 106.72
+    },
+    {
+     "word": "GIVE",
+     "onset_s": 107.14
+    },
+    {
+     "word": "A",
+     "onset_s": 107.31
+    },
+    {
+     "word": "DAMN",
+     "onset_s": 107.49
+    },
+    {
+     "word": "I",
+     "onset_s": 107.66
+    },
+    {
+     "word": "GOT",
+     "onset_s": 107.78
+    },
+    {
+     "word": "NO",
+     "onset_s": 107.94
+    },
+    {
+     "word": "CHILL",
+     "onset_s": 108.12
+    },
+    {
+     "word": "LITTLE",
+     "onset_s": 108.52
+    },
+    {
+     "word": "BITCHES",
+     "onset_s": 108.68
+    },
+    {
+     "word": "I",
+     "onset_s": 109.12
+    },
+    {
+     "word": "GOT",
+     "onset_s": 109.24
+    },
+    {
+     "word": "NO",
+     "onset_s": 109.34
+    },
+    {
+     "word": "FEEL",
+     "onset_s": 109.6
+    },
+    {
+     "word": "AYE",
+     "onset_s": 109.94
+    },
+    {
+     "word": "FREE",
+     "onset_s": 110.28
+    },
+    {
+     "word": "LIH",
+     "onset_s": 110.5
+    },
+    {
+     "word": "BLAST",
+     "onset_s": 110.72
+    },
+    {
+     "word": "FOR",
+     "onset_s": 110.84
+    },
+    {
+     "word": "REAL",
+     "onset_s": 111.02
+    },
+    {
+     "word": "WHEN",
+     "onset_s": 111.5
+    },
+    {
+     "word": "HE",
+     "onset_s": 111.64
+    },
+    {
+     "word": "GET",
+     "onset_s": 111.76
+    },
+    {
+     "word": "OUT",
+     "onset_s": 112.0
+    },
+    {
+     "word": "BITCHES",
+     "onset_s": 112.22
+    },
+    {
+     "word": "IT",
+     "onset_s": 112.42
+    },
+    {
+     "word": "DRILLED",
+     "onset_s": 112.58
+    },
+    {
+     "word": "WE",
+     "onset_s": 112.88
+    },
+    {
+     "word": "BE",
+     "onset_s": 113.06
+    },
+    {
+     "word": "GETTIN'",
+     "onset_s": 113.22
+    },
+    {
+     "word": "TO",
+     "onset_s": 113.56
+    },
+    {
+     "word": "THAT",
+     "onset_s": 113.8
+    },
+    {
+     "word": "MONEY",
+     "onset_s": 113.98
+    },
+    {
+     "word": "NO",
+     "onset_s": 114.38
+    },
+    {
+     "word": "CAP",
+     "onset_s": 114.6
+    },
+    {
+     "word": "REAL",
+     "onset_s": 115.08
+    },
+    {
+     "word": "SPILL",
+     "onset_s": 115.32
+    },
+    {
+     "word": "NO",
+     "onset_s": 115.84
+    },
+    {
+     "word": "CAP",
+     "onset_s": 116.02
+    },
+    {
+     "word": "REAL",
+     "onset_s": 116.54
+    },
+    {
+     "word": "SPILLLLLLLLLL",
+     "onset_s": 116.82
+    },
+    {
+     "word": "NORTHWOOD",
+     "onset_s": 118.12
+    },
+    {
+     "word": "DRIVE",
+     "onset_s": 118.88
+    },
+    {
+     "word": "YOU",
+     "onset_s": 119.6
+    },
+    {
+     "word": "COME",
+     "onset_s": 119.84
+    },
+    {
+     "word": "AROUND",
+     "onset_s": 120.08
+    },
+    {
+     "word": "THIS",
+     "onset_s": 120.32
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 120.56
+    },
+    {
+     "word": "YOU",
+     "onset_s": 121.02
+    },
+    {
+     "word": "WILL",
+     "onset_s": 121.13
+    },
+    {
+     "word": "GET",
+     "onset_s": 121.24
+    },
+    {
+     "word": "YOUR",
+     "onset_s": 121.48
+    },
+    {
+     "word": "ASS",
+     "onset_s": 121.72
+    },
+    {
+     "word": "SHOT",
+     "onset_s": 121.96
+    },
+    {
+     "word": "YOU",
+     "onset_s": 122.48
+    },
+    {
+     "word": "LOOK",
+     "onset_s": 122.76
+    },
+    {
+     "word": "AROUND",
+     "onset_s": 123.06
+    },
+    {
+     "word": "THE",
+     "onset_s": 123.34
+    },
+    {
+     "word": "WAY",
+     "onset_s": 123.56
+    },
+    {
+     "word": "YOU",
+     "onset_s": 123.81
+    },
+    {
+     "word": "MIGHT",
+     "onset_s": 124.07
+    },
+    {
+     "word": "SEE",
+     "onset_s": 124.32
+    },
+    {
+     "word": "YO",
+     "onset_s": 124.6
+    },
+    {
+     "word": "OPPS",
+     "onset_s": 124.91
+    },
+    {
+     "word": "BUT",
+     "onset_s": 125.44
+    },
+    {
+     "word": "YOU",
+     "onset_s": 125.68
+    },
+    {
+     "word": "SEE",
+     "onset_s": 125.82
+    },
+    {
+     "word": "THEM",
+     "onset_s": 126.16
+    },
+    {
+     "word": "COPS",
+     "onset_s": 126.5
+    },
+    {
+     "word": "YOU",
+     "onset_s": 126.72
+    },
+    {
+     "word": "BETTER",
+     "onset_s": 127.05
+    },
+    {
+     "word": "RUN",
+     "onset_s": 127.38
+    },
+    {
+     "word": "AND",
+     "onset_s": 127.43
+    },
+    {
+     "word": "HIDE",
+     "onset_s": 127.48
+    },
+    {
+     "word": "IT",
+     "onset_s": 127.82
+    },
+    {
+     "word": "AND",
+     "onset_s": 127.9
+    },
+    {
+     "word": "HOP",
+     "onset_s": 127.98
+    }
+   ]
+  },
+  {
+   "block_id": "pnw-finalhook",
+   "section": "FINAL_HOOK",
+   "staging": "STAGING CONTEXT: the FINAL HOOK of 'Put N Work' -- the hook a third time, and the last sung content of the song (the vocal ends at about 151.8s; the rest of the file is instrumental outro, nothing to direct). FRESH block: heroes and placements start over. No redlight-motif line exists in this song: redlight false throughout, no motif claims, heroes land plain.",
+   "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+   "sheet_lines": [
+    {
+     "sheet_line": 1,
+     "raw": "Nigga where I'm from, you can't get no sleep",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 128.06,
+     "out_s": 130.1,
+     "words": [
+      {
+       "word": "NIGGA",
+       "onset_s": 128.06,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WHERE",
+       "onset_s": 128.26,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 128.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FROM",
+       "onset_s": 128.66,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "YOU",
+       "onset_s": 129.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAN'T",
+       "onset_s": 129.18,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 129.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 129.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "SLEEP",
+       "onset_s": 129.74,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 2,
+     "raw": "You cannot get no peace",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 130.1,
+     "out_s": 131.58,
+     "words": [
+      {
+       "word": "YOU",
+       "onset_s": 130.1,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CANNOT",
+       "onset_s": 130.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "GET",
+       "onset_s": 130.74,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 130.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PEACE",
+       "onset_s": 131.18,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 3,
+     "raw": "Nigga where I'm from the bay, we do not fucking weep",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 131.58,
+     "out_s": 134.46,
+     "words": [
+      {
+       "word": "NIGGA",
+       "onset_s": 131.58,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WHERE",
+       "onset_s": 131.94,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I'M",
+       "onset_s": 132.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FROM",
+       "onset_s": 132.32,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 132.52,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BAY",
+       "onset_s": 132.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 133.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "DO",
+       "onset_s": 133.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NOT",
+       "onset_s": 133.54,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FUCKING",
+       "onset_s": 133.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WEEP",
+       "onset_s": 134.14,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 4,
+     "raw": "All we know is crack cars, we had no OG",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 134.46,
+     "out_s": 137.03,
+     "words": [
+      {
+       "word": "ALL",
+       "onset_s": 134.46,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 134.7,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "KNOW",
+       "onset_s": 134.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IS",
+       "onset_s": 135.06,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CRACK",
+       "onset_s": 135.22,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CARS",
+       "onset_s": 135.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 136.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HAD",
+       "onset_s": 136.28,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 136.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OG",
+       "onset_s": 136.66,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 5,
+     "raw": "I went outside with the bars, hit a car for no reason",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 137.03,
+     "out_s": 140.13,
+     "words": [
+      {
+       "word": "I",
+       "onset_s": 137.03,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WENT",
+       "onset_s": 137.41,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "OUTSIDE",
+       "onset_s": 137.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 138.12,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 138.38,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BARS",
+       "onset_s": 138.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "HIT",
+       "onset_s": 138.84,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "A",
+       "onset_s": 139.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "CAR",
+       "onset_s": 139.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "FOR",
+       "onset_s": 139.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NO",
+       "onset_s": 139.8,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "REASON",
+       "onset_s": 139.98,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 6,
+     "raw": "We smooth with it, true with it",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 140.13,
+     "out_s": 141.82,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 140.13,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "SMOOTH",
+       "onset_s": 140.29,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 140.44,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 140.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "TRUE",
+       "onset_s": 141.06,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WITH",
+       "onset_s": 141.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IT",
+       "onset_s": 141.7,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 7,
+     "raw": "Creepin' through the night, them niggas round me",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 141.82,
+     "out_s": 143.86,
+     "words": [
+      {
+       "word": "CREEPIN'",
+       "onset_s": 141.82,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THROUGH",
+       "onset_s": 142.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 142.42,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NIGHT",
+       "onset_s": 142.56,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THEM",
+       "onset_s": 142.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "NIGGAS",
+       "onset_s": 142.96,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ROUND",
+       "onset_s": 143.32,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ME",
+       "onset_s": 143.58,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 8,
+     "raw": "I'm blowin', I bust my own pipe",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 143.86,
+     "out_s": 145.66,
+     "words": [
+      {
+       "word": "I'M",
+       "onset_s": 143.86,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BLOWIN'",
+       "onset_s": 144.06,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "I",
+       "onset_s": 144.62,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BUST",
+       "onset_s": 144.78,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MY",
+       "onset_s": 144.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "OWN",
+       "onset_s": 145.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PIPE",
+       "onset_s": 145.38,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 9,
+     "raw": "Got the money, the power, bitch is alright",
+     "northwood": false,
+     "provenance": "ANCHORED",
+     "in_s": 145.66,
+     "out_s": 148.56,
+     "words": [
+      {
+       "word": "GOT",
+       "onset_s": 145.66,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 146.0,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "MONEY",
+       "onset_s": 146.18,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "THE",
+       "onset_s": 146.6,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "POWER",
+       "onset_s": 146.98,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 147.3,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IS",
+       "onset_s": 147.9,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "ALRIGHT",
+       "onset_s": 148.32,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 10,
+     "raw": "Bitch we put in work, bitch we put in work",
+     "northwood": false,
+     "provenance": "INTERPOLATED",
+     "in_s": 148.56,
+     "out_s": 150.81,
+     "words": [
+      {
+       "word": "BITCH",
+       "onset_s": 148.56,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 148.8,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 149.04,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 149.31,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 149.59,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "BITCH",
+       "onset_s": 149.86,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "WE",
+       "onset_s": 150.14,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "PUT",
+       "onset_s": 150.24,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "IN",
+       "onset_s": 150.48,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "WORK",
+       "onset_s": 150.58,
+       "prov": "ANCHORED"
+      }
+     ]
+    },
+    {
+     "sheet_line": 11,
+     "raw": "We grinding hard, ahh yeah",
+     "northwood": false,
+     "provenance": "ESTIMATED",
+     "in_s": 150.81,
+     "out_s": 151.8,
+     "words": [
+      {
+       "word": "WE",
+       "onset_s": 150.81,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "GRINDING",
+       "onset_s": 151.05,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "HARD",
+       "onset_s": 151.28,
+       "prov": "ANCHORED"
+      },
+      {
+       "word": "AHH",
+       "onset_s": 151.45,
+       "prov": "INTERPOLATED"
+      },
+      {
+       "word": "YEAH",
+       "onset_s": 151.63,
+       "prov": "INTERPOLATED"
+      }
+     ]
+    }
+   ],
+   "lyric": "Nigga where I'm from, you can't get no sleep You cannot get no peace Nigga where I'm from the bay, we do not fucking weep All we know is crack cars, we had no OG I went outside with the bars, hit a car for no reason We smooth with it, true with it Creepin' through the night, them niggas round me I'm blowin', I bust my own pipe Got the money, the power, bitch is alright Bitch we put in work, bitch we put in work We grinding hard, ahh yeah",
+   "words": [
+    {
+     "word": "NIGGA",
+     "onset_s": 128.06
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 128.26
+    },
+    {
+     "word": "I'M",
+     "onset_s": 128.44
+    },
+    {
+     "word": "FROM",
+     "onset_s": 128.66
+    },
+    {
+     "word": "YOU",
+     "onset_s": 129.0
+    },
+    {
+     "word": "CAN'T",
+     "onset_s": 129.18
+    },
+    {
+     "word": "GET",
+     "onset_s": 129.44
+    },
+    {
+     "word": "NO",
+     "onset_s": 129.54
+    },
+    {
+     "word": "SLEEP",
+     "onset_s": 129.74
+    },
+    {
+     "word": "YOU",
+     "onset_s": 130.1
+    },
+    {
+     "word": "CANNOT",
+     "onset_s": 130.42
+    },
+    {
+     "word": "GET",
+     "onset_s": 130.74
+    },
+    {
+     "word": "NO",
+     "onset_s": 130.98
+    },
+    {
+     "word": "PEACE",
+     "onset_s": 131.18
+    },
+    {
+     "word": "NIGGA",
+     "onset_s": 131.58
+    },
+    {
+     "word": "WHERE",
+     "onset_s": 131.94
+    },
+    {
+     "word": "I'M",
+     "onset_s": 132.12
+    },
+    {
+     "word": "FROM",
+     "onset_s": 132.32
+    },
+    {
+     "word": "THE",
+     "onset_s": 132.52
+    },
+    {
+     "word": "BAY",
+     "onset_s": 132.7
+    },
+    {
+     "word": "WE",
+     "onset_s": 133.04
+    },
+    {
+     "word": "DO",
+     "onset_s": 133.38
+    },
+    {
+     "word": "NOT",
+     "onset_s": 133.54
+    },
+    {
+     "word": "FUCKING",
+     "onset_s": 133.7
+    },
+    {
+     "word": "WEEP",
+     "onset_s": 134.14
+    },
+    {
+     "word": "ALL",
+     "onset_s": 134.46
+    },
+    {
+     "word": "WE",
+     "onset_s": 134.7
+    },
+    {
+     "word": "KNOW",
+     "onset_s": 134.84
+    },
+    {
+     "word": "IS",
+     "onset_s": 135.06
+    },
+    {
+     "word": "CRACK",
+     "onset_s": 135.22
+    },
+    {
+     "word": "CARS",
+     "onset_s": 135.42
+    },
+    {
+     "word": "WE",
+     "onset_s": 136.04
+    },
+    {
+     "word": "HAD",
+     "onset_s": 136.28
+    },
+    {
+     "word": "NO",
+     "onset_s": 136.48
+    },
+    {
+     "word": "OG",
+     "onset_s": 136.66
+    },
+    {
+     "word": "I",
+     "onset_s": 137.03
+    },
+    {
+     "word": "WENT",
+     "onset_s": 137.41
+    },
+    {
+     "word": "OUTSIDE",
+     "onset_s": 137.78
+    },
+    {
+     "word": "WITH",
+     "onset_s": 138.12
+    },
+    {
+     "word": "THE",
+     "onset_s": 138.38
+    },
+    {
+     "word": "BARS",
+     "onset_s": 138.56
+    },
+    {
+     "word": "HIT",
+     "onset_s": 138.84
+    },
+    {
+     "word": "A",
+     "onset_s": 139.3
+    },
+    {
+     "word": "CAR",
+     "onset_s": 139.42
+    },
+    {
+     "word": "FOR",
+     "onset_s": 139.62
+    },
+    {
+     "word": "NO",
+     "onset_s": 139.8
+    },
+    {
+     "word": "REASON",
+     "onset_s": 139.98
+    },
+    {
+     "word": "WE",
+     "onset_s": 140.13
+    },
+    {
+     "word": "SMOOTH",
+     "onset_s": 140.29
+    },
+    {
+     "word": "WITH",
+     "onset_s": 140.44
+    },
+    {
+     "word": "IT",
+     "onset_s": 140.82
+    },
+    {
+     "word": "TRUE",
+     "onset_s": 141.06
+    },
+    {
+     "word": "WITH",
+     "onset_s": 141.3
+    },
+    {
+     "word": "IT",
+     "onset_s": 141.7
+    },
+    {
+     "word": "CREEPIN'",
+     "onset_s": 141.82
+    },
+    {
+     "word": "THROUGH",
+     "onset_s": 142.14
+    },
+    {
+     "word": "THE",
+     "onset_s": 142.42
+    },
+    {
+     "word": "NIGHT",
+     "onset_s": 142.56
+    },
+    {
+     "word": "THEM",
+     "onset_s": 142.78
+    },
+    {
+     "word": "NIGGAS",
+     "onset_s": 142.96
+    },
+    {
+     "word": "ROUND",
+     "onset_s": 143.32
+    },
+    {
+     "word": "ME",
+     "onset_s": 143.58
+    },
+    {
+     "word": "I'M",
+     "onset_s": 143.86
+    },
+    {
+     "word": "BLOWIN'",
+     "onset_s": 144.06
+    },
+    {
+     "word": "I",
+     "onset_s": 144.62
+    },
+    {
+     "word": "BUST",
+     "onset_s": 144.78
+    },
+    {
+     "word": "MY",
+     "onset_s": 144.98
+    },
+    {
+     "word": "OWN",
+     "onset_s": 145.24
+    },
+    {
+     "word": "PIPE",
+     "onset_s": 145.38
+    },
+    {
+     "word": "GOT",
+     "onset_s": 145.66
+    },
+    {
+     "word": "THE",
+     "onset_s": 146.0
+    },
+    {
+     "word": "MONEY",
+     "onset_s": 146.18
+    },
+    {
+     "word": "THE",
+     "onset_s": 146.6
+    },
+    {
+     "word": "POWER",
+     "onset_s": 146.98
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 147.3
+    },
+    {
+     "word": "IS",
+     "onset_s": 147.9
+    },
+    {
+     "word": "ALRIGHT",
+     "onset_s": 148.32
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 148.56
+    },
+    {
+     "word": "WE",
+     "onset_s": 148.8
+    },
+    {
+     "word": "PUT",
+     "onset_s": 149.04
+    },
+    {
+     "word": "IN",
+     "onset_s": 149.31
+    },
+    {
+     "word": "WORK",
+     "onset_s": 149.59
+    },
+    {
+     "word": "BITCH",
+     "onset_s": 149.86
+    },
+    {
+     "word": "WE",
+     "onset_s": 150.14
+    },
+    {
+     "word": "PUT",
+     "onset_s": 150.24
+    },
+    {
+     "word": "IN",
+     "onset_s": 150.48
+    },
+    {
+     "word": "WORK",
+     "onset_s": 150.58
+    },
+    {
+     "word": "WE",
+     "onset_s": 150.81
+    },
+    {
+     "word": "GRINDING",
+     "onset_s": 151.05
+    },
+    {
+     "word": "HARD",
+     "onset_s": 151.28
+    },
+    {
+     "word": "AHH",
+     "onset_s": 151.45
+    },
+    {
+     "word": "YEAH",
+     "onset_s": 151.63
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,675 @@
+{
+  "block": "pnw-bridge",
+  "track": "PUT N WORK (DRIXX)",
+  "section": "BRIDGE",
+  "source_lyric": "I'm in the lab, bitch, I'm tryna make a way with rap I spend that bread, now I'm gon' make it back Keep it real, ain't no faking that Play one of mine, and you gon' take a nap",
+  "timing_source": "house whisper-large-v3 timing grid on the V3 master (song_grid.json, 473 timed words; 90s head slice + 45s re-sliced tail); words are BO's lyric sheet ONLY -- ASR text was used for timing, never displayed; per-word timing provenance (ANCHORED / INTERPOLATED / ESTIMATED) is recorded line-by-line in PNW-PLAN.md. Sheet absolute times were NOT used: measured drift vs V3 runs +11.2s at HOOK 1 to -31.9s at FINAL HOOK.",
+  "landing_rule": "landing = onset - 2 frames @ 30fps",
+  "model": "muse-wonder-1.0",
+  "generated_ct": "2026-11-04T12:10:31-06:00",
+  "api_routes": [
+    "non-streaming"
+  ],
+  "receipt_request_ids": [
+    "resp_6aeb7516fdb0196f33f3450f"
+  ],
+  "lines": [
+    {
+      "line_id": "pnw-bridge-line1",
+      "display_groups": [
+        {
+          "words": [
+            "I'M",
+            "IN",
+            "THE"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "LAB",
+            "BITCH"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "LAB",
+      "hero_color": {
+        "hero_word": "LAB",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The bridge opens left and lands on LAB as the workplace.",
+      "landings": [
+        {
+          "word": "I'M",
+          "onset_s": 58.56,
+          "landing_s": 58.493,
+          "landing_frame": 1755
+        },
+        {
+          "word": "IN",
+          "onset_s": 58.9,
+          "landing_s": 58.833,
+          "landing_frame": 1765
+        },
+        {
+          "word": "THE",
+          "onset_s": 58.96,
+          "landing_s": 58.893,
+          "landing_frame": 1767
+        },
+        {
+          "word": "LAB",
+          "onset_s": 59.14,
+          "landing_s": 59.073,
+          "landing_frame": 1772
+        },
+        {
+          "word": "BITCH",
+          "onset_s": 59.42,
+          "landing_s": 59.353,
+          "landing_frame": 1781
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line2",
+      "display_groups": [
+        {
+          "words": [
+            "I'M",
+            "TRYNA"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "MAKE",
+            "A",
+            "WAY",
+            "WITH"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "WAY",
+      "hero_color": {
+        "hero_word": "WAY",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and builds to WAY as the path sought.",
+      "landings": [
+        {
+          "word": "I'M",
+          "onset_s": 59.72,
+          "landing_s": 59.653,
+          "landing_frame": 1790
+        },
+        {
+          "word": "TRYNA",
+          "onset_s": 59.9,
+          "landing_s": 59.833,
+          "landing_frame": 1795
+        },
+        {
+          "word": "MAKE",
+          "onset_s": 60.1,
+          "landing_s": 60.033,
+          "landing_frame": 1801
+        },
+        {
+          "word": "A",
+          "onset_s": 60.42,
+          "landing_s": 60.353,
+          "landing_frame": 1811
+        },
+        {
+          "word": "WAY",
+          "onset_s": 60.56,
+          "landing_s": 60.493,
+          "landing_frame": 1815
+        },
+        {
+          "word": "WITH",
+          "onset_s": 60.77,
+          "landing_s": 60.703,
+          "landing_frame": 1821
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line3",
+      "display_groups": [
+        {
+          "words": [
+            "RAP"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "RAP",
+      "hero_color": {
+        "hero_word": "RAP",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "RAP fills the frame as the means to make a way.",
+      "landings": [
+        {
+          "word": "RAP",
+          "onset_s": 60.98,
+          "landing_s": 60.913,
+          "landing_frame": 1827
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line4",
+      "display_groups": [
+        {
+          "words": [
+            "I",
+            "SPEND",
+            "THAT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "BREAD"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "BREAD",
+      "hero_color": {
+        "hero_word": "BREAD",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The spending line returns left and lands on BREAD.",
+      "landings": [
+        {
+          "word": "I",
+          "onset_s": 61.54,
+          "landing_s": 61.473,
+          "landing_frame": 1844
+        },
+        {
+          "word": "SPEND",
+          "onset_s": 61.68,
+          "landing_s": 61.613,
+          "landing_frame": 1848
+        },
+        {
+          "word": "THAT",
+          "onset_s": 61.86,
+          "landing_s": 61.793,
+          "landing_frame": 1854
+        },
+        {
+          "word": "BREAD",
+          "onset_s": 62.1,
+          "landing_s": 62.033,
+          "landing_frame": 1861
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line5",
+      "display_groups": [
+        {
+          "words": [
+            "NOW",
+            "I'M",
+            "GON'"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "MAKE",
+            "IT"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "MAKE",
+      "hero_color": {
+        "hero_word": "MAKE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and builds to MAKE before the return.",
+      "landings": [
+        {
+          "word": "NOW",
+          "onset_s": 62.36,
+          "landing_s": 62.293,
+          "landing_frame": 1869
+        },
+        {
+          "word": "I'M",
+          "onset_s": 62.46,
+          "landing_s": 62.393,
+          "landing_frame": 1872
+        },
+        {
+          "word": "GON'",
+          "onset_s": 62.61,
+          "landing_s": 62.543,
+          "landing_frame": 1876
+        },
+        {
+          "word": "MAKE",
+          "onset_s": 62.76,
+          "landing_s": 62.693,
+          "landing_frame": 1881
+        },
+        {
+          "word": "IT",
+          "onset_s": 63.04,
+          "landing_s": 62.973,
+          "landing_frame": 1889
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line6",
+      "display_groups": [
+        {
+          "words": [
+            "BACK"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "BACK",
+      "hero_color": {
+        "hero_word": "BACK",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "BACK fills the frame as the money returning.",
+      "landings": [
+        {
+          "word": "BACK",
+          "onset_s": 63.24,
+          "landing_s": 63.173,
+          "landing_frame": 1895
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line7",
+      "display_groups": [
+        {
+          "words": [
+            "KEEP",
+            "IT"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "REAL"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "REAL",
+      "hero_color": {
+        "hero_word": "REAL",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The honesty line opens left and lands on REAL.",
+      "landings": [
+        {
+          "word": "KEEP",
+          "onset_s": 63.96,
+          "landing_s": 63.893,
+          "landing_frame": 1917
+        },
+        {
+          "word": "IT",
+          "onset_s": 64.8,
+          "landing_s": 64.733,
+          "landing_frame": 1942
+        },
+        {
+          "word": "REAL",
+          "onset_s": 65.08,
+          "landing_s": 65.013,
+          "landing_frame": 1950
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line8",
+      "display_groups": [
+        {
+          "words": [
+            "AIN'T",
+            "NO"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "FAKING"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "FAKING",
+      "hero_color": {
+        "hero_word": "FAKING",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and lands on FAKING as what is denied.",
+      "landings": [
+        {
+          "word": "AIN'T",
+          "onset_s": 65.42,
+          "landing_s": 65.353,
+          "landing_frame": 1961
+        },
+        {
+          "word": "NO",
+          "onset_s": 65.62,
+          "landing_s": 65.553,
+          "landing_frame": 1967
+        },
+        {
+          "word": "FAKING",
+          "onset_s": 65.76,
+          "landing_s": 65.693,
+          "landing_frame": 1971
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line9",
+      "display_groups": [
+        {
+          "words": [
+            "THAT"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "THAT",
+      "hero_color": {
+        "hero_word": "THAT",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "THAT fills the frame to close the honesty point.",
+      "landings": [
+        {
+          "word": "THAT",
+          "onset_s": 66.1,
+          "landing_s": 66.033,
+          "landing_frame": 1981
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line10",
+      "display_groups": [
+        {
+          "words": [
+            "PLAY",
+            "ONE",
+            "OF"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "MINE"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "left",
+      "hero_word": "MINE",
+      "hero_color": {
+        "hero_word": "MINE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The final line opens left and lands on MINE as the song played.",
+      "landings": [
+        {
+          "word": "PLAY",
+          "onset_s": 66.62,
+          "landing_s": 66.553,
+          "landing_frame": 1997
+        },
+        {
+          "word": "ONE",
+          "onset_s": 66.78,
+          "landing_s": 66.713,
+          "landing_frame": 2001
+        },
+        {
+          "word": "OF",
+          "onset_s": 67.02,
+          "landing_s": 66.953,
+          "landing_frame": 2009
+        },
+        {
+          "word": "MINE",
+          "onset_s": 67.22,
+          "landing_s": 67.153,
+          "landing_frame": 2015
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line11",
+      "display_groups": [
+        {
+          "words": [
+            "AND",
+            "YOU",
+            "GON'"
+          ],
+          "motion": "punch_in"
+        },
+        {
+          "words": [
+            "TAKE",
+            "A"
+          ],
+          "motion": "stack_build"
+        }
+      ],
+      "placement": "right",
+      "hero_word": "TAKE",
+      "hero_color": {
+        "hero_word": "TAKE",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        230,
+        400
+      ],
+      "redlight": false,
+      "reason": "The line shifts right and builds to TAKE before the rest.",
+      "landings": [
+        {
+          "word": "AND",
+          "onset_s": 67.43,
+          "landing_s": 67.363,
+          "landing_frame": 2021
+        },
+        {
+          "word": "YOU",
+          "onset_s": 67.64,
+          "landing_s": 67.573,
+          "landing_frame": 2027
+        },
+        {
+          "word": "GON'",
+          "onset_s": 67.8,
+          "landing_s": 67.733,
+          "landing_frame": 2032
+        },
+        {
+          "word": "TAKE",
+          "onset_s": 67.96,
+          "landing_s": 67.893,
+          "landing_frame": 2037
+        },
+        {
+          "word": "A",
+          "onset_s": 68.18,
+          "landing_s": 68.113,
+          "landing_frame": 2043
+        }
+      ]
+    },
+    {
+      "line_id": "pnw-bridge-line12",
+      "display_groups": [
+        {
+          "words": [
+            "NAP"
+          ],
+          "motion": "full_frame_punch"
+        }
+      ],
+      "placement": "full",
+      "hero_word": "NAP",
+      "hero_color": {
+        "hero_word": "NAP",
+        "hero_fill": "#FF3B1F",
+        "others_fill": "#F2EDE4"
+      },
+      "effects": {
+        "scatter": false,
+        "hero_demoted": false
+      },
+      "size_tiers_px": [
+        1200
+      ],
+      "redlight": false,
+      "reason": "NAP fills the frame to close the bridge.",
+      "landings": [
+        {
+          "word": "NAP",
+          "onset_s": 68.34,
+          "landing_s": 68.273,
+          "landing_frame": 2048
+        }
+      ]
+    }
+  ]
+}

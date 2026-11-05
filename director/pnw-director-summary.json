@@ -1,0 +1,425 @@
+{
+  "sections": [
+    {
+      "block": "pnw-hook1",
+      "section": "HOOK1",
+      "sheet_lines": 11,
+      "display_lines": 30,
+      "heroes": [
+        "FROM",
+        "CAN'T",
+        "SLEEP",
+        "CANNOT",
+        "NO",
+        "PEACE",
+        "WHERE",
+        "FUCKING",
+        "WEEP",
+        "KNOW",
+        "CARS",
+        "OG",
+        "OUTSIDE",
+        "BARS",
+        "REASON",
+        "SMOOTH",
+        "CREEPIN'",
+        "NIGHT",
+        "NIGGAS",
+        "BLOWIN'",
+        "PIPE",
+        "MONEY",
+        "POWER",
+        "ALRIGHT",
+        "PUT",
+        "BITCH",
+        "WORK",
+        "GRINDING",
+        "HARD",
+        "YEAH"
+      ],
+      "scatter_used": false,
+      "calls": 1,
+      "cost_usd": 0.428416,
+      "splits": [],
+      "first_pass_validate_errors": [],
+      "first_pass_wrapper_errors": [],
+      "final_revalidate": [
+        {
+          "unit": "pnw-hook1",
+          "validate_errors": [],
+          "wrapper_errors": []
+        }
+      ],
+      "failure": null,
+      "receipts": [
+        {
+          "ts_ct": "2026-11-04T12:08:15-06:00",
+          "step": "2-director-pnw-hook1",
+          "kind": "wonder_director_call",
+          "model": "muse-wonder-1.0",
+          "request_id": "resp_6aeb748fc0772febad944b6f",
+          "units": 24708,
+          "unit": "tokens",
+          "input_tokens": 4109,
+          "cached_input_tokens": 0,
+          "output_tokens": 20599,
+          "unit_price_usd": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "output": 20.0
+          },
+          "unit_price_basis": "per 1M tokens, Meta developer pricing page 2026-11-01",
+          "cost_usd": 0.428416,
+          "note": "route=non-streaming; attempt=0; target=pnw-hook1"
+        }
+      ]
+    },
+    {
+      "block": "pnw-verse1",
+      "section": "VERSE1",
+      "sheet_lines": 8,
+      "display_lines": 24,
+      "heroes": [
+        "HARD",
+        "WORKING",
+        "UP",
+        "RACKS",
+        "SHIT",
+        "ENOUGH",
+        "AINT",
+        "TIME",
+        "TOUGH",
+        "REAL",
+        "FINDING",
+        "LOVE",
+        "KILL",
+        "HAND",
+        "GUN",
+        "SAY",
+        "MURDER",
+        "101",
+        "HUND",
+        "AROUND",
+        "DRUM",
+        "GON'",
+        "LET",
+        "DUMP"
+      ],
+      "scatter_used": false,
+      "calls": 1,
+      "cost_usd": 0.369704,
+      "splits": [],
+      "first_pass_validate_errors": [],
+      "first_pass_wrapper_errors": [],
+      "final_revalidate": [
+        {
+          "unit": "pnw-verse1",
+          "validate_errors": [],
+          "wrapper_errors": []
+        }
+      ],
+      "failure": null,
+      "receipts": [
+        {
+          "ts_ct": "2026-11-04T12:10:12-06:00",
+          "step": "2-director-pnw-verse1",
+          "kind": "wonder_director_call",
+          "model": "muse-wonder-1.0",
+          "request_id": "resp_6aeb7503c8a278068a4c4bbc",
+          "units": 26382,
+          "unit": "tokens",
+          "input_tokens": 9871,
+          "cached_input_tokens": 0,
+          "output_tokens": 16511,
+          "unit_price_usd": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "output": 20.0
+          },
+          "unit_price_basis": "per 1M tokens, Meta developer pricing page 2026-11-01",
+          "cost_usd": 0.369704,
+          "note": "route=non-streaming; attempt=0; target=pnw-verse1"
+        }
+      ]
+    },
+    {
+      "block": "pnw-bridge",
+      "section": "BRIDGE",
+      "sheet_lines": 4,
+      "display_lines": 12,
+      "heroes": [
+        "LAB",
+        "WAY",
+        "RAP",
+        "BREAD",
+        "MAKE",
+        "BACK",
+        "REAL",
+        "FAKING",
+        "THAT",
+        "MINE",
+        "TAKE",
+        "NAP"
+      ],
+      "scatter_used": false,
+      "calls": 1,
+      "cost_usd": 0.1058,
+      "splits": [],
+      "first_pass_validate_errors": [],
+      "first_pass_wrapper_errors": [],
+      "final_revalidate": [
+        {
+          "unit": "pnw-bridge",
+          "validate_errors": [],
+          "wrapper_errors": []
+        }
+      ],
+      "failure": null,
+      "receipts": [
+        {
+          "ts_ct": "2026-11-04T12:10:31-06:00",
+          "step": "2-director-pnw-bridge",
+          "kind": "wonder_director_call",
+          "model": "muse-wonder-1.0",
+          "request_id": "resp_6aeb7516fdb0196f33f3450f",
+          "units": 12222,
+          "unit": "tokens",
+          "input_tokens": 8665,
+          "cached_input_tokens": 0,
+          "output_tokens": 3557,
+          "unit_price_usd": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "output": 20.0
+          },
+          "unit_price_basis": "per 1M tokens, Meta developer pricing page 2026-11-01",
+          "cost_usd": 0.1058,
+          "note": "route=non-streaming; attempt=0; target=pnw-bridge"
+        }
+      ]
+    },
+    {
+      "block": "pnw-hook2",
+      "section": "HOOK2",
+      "sheet_lines": 11,
+      "display_lines": 27,
+      "heroes": [
+        "FROM",
+        "GET",
+        "SLEEP",
+        "CANNOT",
+        "NO",
+        "PEACE",
+        "BAY",
+        "FUCKING",
+        "WEEP",
+        "KNOW",
+        "CARS",
+        "OG",
+        "OUTSIDE",
+        "CAR",
+        "REASON",
+        "SMOOTH",
+        "CREEPIN'",
+        "NIGHT",
+        "NIGGAS",
+        "BUST",
+        "PIPE",
+        "MONEY",
+        "POWER",
+        "ALRIGHT",
+        "WORK",
+        "HARD",
+        "YEAH"
+      ],
+      "scatter_used": false,
+      "calls": 1,
+      "cost_usd": 0.574932,
+      "splits": [],
+      "first_pass_validate_errors": [],
+      "first_pass_wrapper_errors": [],
+      "final_revalidate": [
+        {
+          "unit": "pnw-hook2",
+          "validate_errors": [],
+          "wrapper_errors": []
+        }
+      ],
+      "failure": null,
+      "receipts": [
+        {
+          "ts_ct": "2026-11-04T12:13:53-06:00",
+          "step": "2-director-pnw-hook2",
+          "kind": "wonder_director_call",
+          "model": "muse-wonder-1.0",
+          "request_id": "resp_6aeb75e18a328343c2b341d5",
+          "units": 33053,
+          "unit": "tokens",
+          "input_tokens": 5383,
+          "cached_input_tokens": 0,
+          "output_tokens": 27670,
+          "unit_price_usd": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "output": 20.0
+          },
+          "unit_price_basis": "per 1M tokens, Meta developer pricing page 2026-11-01",
+          "cost_usd": 0.574932,
+          "note": "route=non-streaming; attempt=0; target=pnw-hook2"
+        }
+      ]
+    },
+    {
+      "block": "pnw-verse2",
+      "section": "VERSE2",
+      "sheet_lines": 13,
+      "display_lines": 33,
+      "heroes": [
+        "WORK",
+        "GET",
+        "CAKE",
+        "SURE",
+        "BALL",
+        "PACKAGE",
+        "SET",
+        "COMING",
+        "WAY",
+        "PLAY",
+        "TURNIN'",
+        "REAL",
+        "PILLS",
+        "DAMN",
+        "CHILL",
+        "BITCHES",
+        "FEEL",
+        "BLAST",
+        "OUT",
+        "DRILLED",
+        "MONEY",
+        "CAP",
+        "NO",
+        "SPILLLLLLLLLL",
+        "DRIVE",
+        "ASS",
+        "SHOT",
+        "LOOK",
+        "SEE",
+        "OPPS",
+        "COPS",
+        "RUN",
+        "HOP"
+      ],
+      "scatter_used": false,
+      "calls": 1,
+      "cost_usd": 0.789628,
+      "splits": [],
+      "first_pass_validate_errors": [],
+      "first_pass_wrapper_errors": [],
+      "final_revalidate": [
+        {
+          "unit": "pnw-verse2",
+          "validate_errors": [],
+          "wrapper_errors": []
+        }
+      ],
+      "failure": null,
+      "receipts": [
+        {
+          "ts_ct": "2026-11-04T12:17:38-06:00",
+          "step": "2-director-pnw-verse2",
+          "kind": "wonder_director_call",
+          "model": "muse-wonder-1.0",
+          "request_id": "resp_6aeb76c22254287dbdfa4785",
+          "units": 47519,
+          "unit": "tokens",
+          "input_tokens": 10047,
+          "cached_input_tokens": 0,
+          "output_tokens": 37472,
+          "unit_price_usd": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "output": 20.0
+          },
+          "unit_price_basis": "per 1M tokens, Meta developer pricing page 2026-11-01",
+          "cost_usd": 0.789628,
+          "note": "route=non-streaming; attempt=0; target=pnw-verse2"
+        }
+      ]
+    },
+    {
+      "block": "pnw-finalhook",
+      "section": "FINAL_HOOK",
+      "sheet_lines": 11,
+      "display_lines": 24,
+      "heroes": [
+        "FROM",
+        "GET",
+        "SLEEP",
+        "PEACE",
+        "WHERE",
+        "BAY",
+        "WEEP",
+        "CRACK",
+        "OG",
+        "OUTSIDE",
+        "CAR",
+        "REASON",
+        "SMOOTH",
+        "CREEPIN'",
+        "NIGHT",
+        "NIGGAS",
+        "BUST",
+        "PIPE",
+        "MONEY",
+        "ALRIGHT",
+        "WORK",
+        "PUT",
+        "GRINDING",
+        "YEAH"
+      ],
+      "scatter_used": false,
+      "calls": 1,
+      "cost_usd": 0.29776,
+      "splits": [],
+      "first_pass_validate_errors": [],
+      "first_pass_wrapper_errors": [],
+      "final_revalidate": [
+        {
+          "unit": "pnw-finalhook",
+          "validate_errors": [],
+          "wrapper_errors": []
+        }
+      ],
+      "failure": null,
+      "receipts": [
+        {
+          "ts_ct": "2026-11-04T12:18:51-06:00",
+          "step": "2-director-pnw-finalhook",
+          "kind": "wonder_director_call",
+          "model": "muse-wonder-1.0",
+          "request_id": "resp_6aeb770ad08e15c63baa47b7",
+          "units": 24780,
+          "unit": "tokens",
+          "input_tokens": 12365,
+          "cached_input_tokens": 0,
+          "output_tokens": 12415,
+          "unit_price_usd": {
+            "input": 4.0,
+            "cached_input": 0.2,
+            "output": 20.0
+          },
+          "unit_price_basis": "per 1M tokens, Meta developer pricing page 2026-11-01",
+          "cost_usd": 0.29776,
+          "note": "route=non-streaming; attempt=0; target=pnw-finalhook"
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "total_cost_usd": 2.56624,
+    "total_calls": 6,
+    "first_pass_validate_reject_count": 0,
+    "first_pass_wrapper_reject_count": 0,
+    "sections_failed": []
+  }
+}

@@ -96,3 +96,6 @@ build's provenance.
 | 2026-11-01 | f127054 | pipeline: context meter + agent-surface audit (event-period, Oct 27) | event |
 | 2026-11-01 | 03822b7 | panel: WKWebView spike source + panel smoke drivers (event-period, Oct 27) | event |
 | 2026-11-01 | ed5fe50 | pipeline: Oct 26 proof harness + sample-108 drivers (pre-event, Oct 26) | pre-event |
+
+## 2026-11-05 — PNW production lane
+- Put N Work (submission film) pipeline: SAM 3.1 mixture spill (gen_spill10), sunrise bloom (gen_sun + composite_sun), director outputs for all sections, full build log in pnw/. Source: video-studio-meta @ 2f8911d.
