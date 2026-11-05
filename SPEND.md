@@ -15,12 +15,12 @@ spent with sam or usin musewonder etc"). Source of truth for per-call detail:
 - **TOTAL: $5.5006** (matches the $5.500609 figure carried in the submission copy)
 
 ## SAM 3.1 — Nov 4 evening SPILL runs (BUILD-LOG receipts; their JSONL was not preserved)
+- Run 1 window-only: **$0.0092** — resp_6aec06de0217dcb04a0a49e3 (BUILD-LOG line 896)
 - Run 2 full clip: 144 frames x $0.20/1k = **$0.0288** — resp_6aec08063eb4ba1653fb4619
-- Run 1 (test): ~$0.011 (frame-priced, approximate)
-- Subtotal: ~$0.04
+- Subtotal: **$0.0380**
 
 ## Event total
-- **~$5.54 of the $150 Meta Model API credit** (receipts-backed $5.5006 + ~$0.04 SAM)
+- **$5.5386 of the $150 Meta Model API credit** (receipts-backed $5.5006 + SAM $0.0380)
 - Separate, per the submission copy: BO's Muse subscription is also part of production cost.
 - Boundary: this ledger covers Meta Model API calls in receipts.log plus the two
   BUILD-LOG SAM runs. Anything billed outside those lanes is not in here.
